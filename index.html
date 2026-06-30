@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Materiales Avanzados — Guia de estudio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css" rel="stylesheet">
+<link href="assets/css/estilo.css" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="index.html" style="text-decoration:none;color:inherit">
+      <span class="brand__mark"><i class="ti ti-diamond"></i></span>
+      <span>
+        <span class="brand__name">Materiales avanzados</span><br>
+        <span class="brand__sub">GUIA DE ESTUDIO &middot; UPM</span>
+      </span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Temas</a>
+      <a href="test.html">Test</a>
+      <a href="tarjetas.html">Tarjetas</a>
+    </nav>
+    <button id="btn-tema" class="icon-btn" aria-label="Cambiar tema claro u oscuro"></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <span class="eyebrow">4&ordm; Ing. Diseno Industrial</span>
+    <h1>Preparate la asignatura, tema a tema.</h1>
+    <p class="lead">Teoria desarrollada a partir de los apuntes, con los puntos que mas se preguntan marcados, y un test tipo examen para autoevaluarte.</p>
+  </div>
+
+  <div class="acciones">
+    <a class="accion" href="test.html">
+      <i class="ti ti-checkbox accion__icon"></i>
+      <span><span class="accion__t">Hacer un test</span><br><span class="accion__s">Preguntas tipo examen con correccion</span></span>
+    </a>
+    <a class="accion" href="tarjetas.html">
+      <i class="ti ti-cards accion__icon"></i>
+      <span><span class="accion__t">Repasar con tarjetas</span><br><span class="accion__s">Pregunta y respuesta para memorizar</span></span>
+    </a>
+  </div>
+
+  <div id="temas" class="grid-temas"></div>
+</main>
+
+<footer><div class="wrap"><span>Materiales Avanzados &middot; guia de estudio</span><span>Hecho para estudiar, no para lucrarse.</span></div></footer>
+
+<script src="assets/js/comun.js"></script>
+<script>
+(async function () {
+  const cont = document.getElementById("temas");
+  let contenido, preguntas;
+  try {
+    [contenido, preguntas] = await Promise.all([
+      cargarJSON("data/contenido.json"),
+      cargarJSON("data/preguntas.json")
+    ]);
+  } catch (e) { avisoDatos(cont); return; }
+
+  const progreso = Store.get("progreso", {});
+
+  cont.innerHTML = contenido.temas.map(t => {
+    const delTema = preguntas.preguntas.filter(p => p.tema === t.id);
+    const acertadas = delTema.filter(p => progreso[p.id]).length;
+    const pct = delTema.length ? Math.round((acertadas / delTema.length) * 100) : 0;
+    const pendiente = t.estado !== "completo";
+    const foot = pendiente
+      ? '<div class="tema-card__foot"><span class="pill-soon">En preparacion</span></div>'
+      : '<div class="tema-card__foot"><div class="bar"><span style="width:' + pct + '%"></span></div><span>' + pct + '%</span></div>';
+    return '' +
+      '<a class="tema-card' + (pendiente ? ' is-pending' : '') + '" href="tema.html?tema=' + t.id + '">' +
+        '<div class="tema-card__top">' +
+          '<i class="ti ' + (t.icono || "ti-box") + ' tema-card__icon"></i>' +
+          '<span class="tema-card__code">T' + t.id + '</span>' +
+        '</div>' +
+        '<p class="tema-card__name">' + t.nombre + '</p>' +
+        '<p class="tema-card__desc">' + t.resumen + '</p>' +
+        foot +
+      '</a>';
+  }).join("");
+})();
+</script>
+</body>
+</html>

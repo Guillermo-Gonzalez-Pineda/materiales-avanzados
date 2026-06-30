@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teoria — Materiales Avanzados</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css" rel="stylesheet">
+<link href="assets/css/estilo.css" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="index.html" style="text-decoration:none;color:inherit">
+      <span class="brand__mark"><i class="ti ti-diamond"></i></span>
+      <span><span class="brand__name">Materiales avanzados</span><br><span class="brand__sub">GUIA DE ESTUDIO &middot; UPM</span></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Temas</a>
+      <a href="test.html">Test</a>
+      <a href="tarjetas.html">Tarjetas</a>
+    </nav>
+    <button id="btn-tema" class="icon-btn" aria-label="Cambiar tema claro u oscuro"></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <a href="index.html" class="eyebrow" style="text-decoration:none"><i class="ti ti-arrow-left" style="vertical-align:-2px"></i> Todos los temas</a>
+    <h1 id="titulo">Teoria</h1>
+    <p class="lead" id="resumen"></p>
+  </div>
+  <div id="cuerpo"></div>
+</main>
+
+<footer><div class="wrap"><span>Materiales Avanzados &middot; guia de estudio</span><span id="foot-link"></span></div></footer>
+
+<script src="assets/js/comun.js"></script>
+<script>
+(async function () {
+  const params = new URLSearchParams(location.search);
+  const idTema = parseInt(params.get("tema") || "1", 10);
+  const cuerpo = document.getElementById("cuerpo");
+
+  let contenido;
+  try { contenido = await cargarJSON("data/contenido.json"); }
+  catch (e) { avisoDatos(cuerpo); return; }
+
+  const tema = contenido.temas.find(t => t.id === idTema) || contenido.temas[0];
+  document.getElementById("titulo").textContent = "Tema " + tema.id + ". " + tema.nombre;
+  document.getElementById("resumen").textContent = tema.resumen;
+  document.title = "Tema " + tema.id + " — " + tema.nombre;
+  document.getElementById("foot-link").innerHTML = '<a href="test.html?tema=' + tema.id + '">Hacer test de este tema</a>';
+
+  if (!tema.secciones || tema.secciones.length === 0) {
+    cuerpo.innerHTML = '<div class="aviso"><p><i class="ti ti-tools" style="font-size:26px;color:var(--ink-3)"></i></p>' +
+      '<p><strong>Este tema esta en preparacion.</strong></p>' +
+      '<p>La teoria del Tema 1 ya esta completa. Iremos anadiendo el resto de temas.</p>' +
+      '<p style="margin-top:14px"><a class="btn" href="tema.html?tema=1">Ir al Tema 1</a></p></div>';
+    return;
+  }
+
+  const toc = tema.secciones.map(s =>
+    '<a href="#' + s.id + '">' + s.titulo + '</a>').join("");
+
+  const secs = tema.secciones.map((s, i) =>
+    '<section class="seccion" id="' + s.id + '">' +
+      '<h3 data-n="' + String(i + 1).padStart(2, "0") + '">' + s.titulo + '</h3>' +
+      '<div class="prose">' + s.html + '</div>' +
+    '</section>').join("");
+
+  cuerpo.innerHTML =
+    '<div class="layout">' +
+      '<aside class="toc"><p class="toc__title">En este tema</p>' + toc + '</aside>' +
+      '<div class="prose">' + secs + '</div>' +
+    '</div>';
+
+  /* Resaltar apartado activo en el indice al hacer scroll */
+  const enlaces = [...document.querySelectorAll(".toc a")];
+  const dianas = tema.secciones.map(s => document.getElementById(s.id));
+  const obs = new IntersectionObserver((entradas) => {
+    entradas.forEach(en => {
+      if (en.isIntersecting) {
+        const id = en.target.id;
+        enlaces.forEach(a => a.classList.toggle("is-active", a.getAttribute("href") === "#" + id));
+      }
+    });
+  }, { rootMargin: "-30% 0px -65% 0px" });
+  dianas.forEach(d => d && obs.observe(d));
+})();
+</script>
+</body>
+</html>

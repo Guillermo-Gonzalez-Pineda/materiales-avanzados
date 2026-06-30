@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarjetas — Materiales Avanzados</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css" rel="stylesheet">
+<link href="assets/css/estilo.css" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="index.html" style="text-decoration:none;color:inherit">
+      <span class="brand__mark"><i class="ti ti-diamond"></i></span>
+      <span><span class="brand__name">Materiales avanzados</span><br><span class="brand__sub">GUIA DE ESTUDIO &middot; UPM</span></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Temas</a>
+      <a href="test.html">Test</a>
+      <a href="tarjetas.html">Tarjetas</a>
+    </nav>
+    <button id="btn-tema" class="icon-btn" aria-label="Cambiar tema claro u oscuro"></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <span class="eyebrow">Repaso activo</span>
+    <h1>Tarjetas de memoria</h1>
+    <p class="lead">Lee la pregunta, intenta responderla de cabeza y pulsa para girar la tarjeta y comprobar.</p>
+  </div>
+
+  <div class="config-row">
+    <div>
+      <label>Temas</label>
+      <div id="chips-tema" class="chips"></div>
+    </div>
+  </div>
+
+  <div id="zona"></div>
+</main>
+
+<footer><div class="wrap"><span>Materiales Avanzados &middot; guia de estudio</span><span></span></div></footer>
+
+<script src="assets/js/comun.js"></script>
+<script>
+(async function () {
+  const $ = s => document.querySelector(s);
+  const zona = $("#zona");
+
+  let datos;
+  try { datos = await cargarJSON("data/preguntas.json"); }
+  catch (e) { avisoDatos(zona); return; }
+
+  const todas = datos.preguntas;
+  const temasConPreg = [...new Set(todas.map(p => p.tema))].sort((a,b)=>a-b);
+  const nombreTema = {}; datos.temas.forEach(t => nombreTema[t.id] = t.nombre);
+  const LET = ["A","B","C","D","E","F"];
+
+  $("#chips-tema").innerHTML = temasConPreg.map((id,i) =>
+    '<span class="chip' + (i===0 ? ' is-on' : '') + '" data-tema="' + id + '">T' + id + ' &middot; ' + nombreTema[id] + '</span>').join("");
+
+  let mazo = [], pos = 0;
+
+  function reconstruir(){
+    const sel = [...document.querySelectorAll("#chips-tema .chip.is-on")].map(c => +c.dataset.tema);
+    mazo = barajar(todas.filter(p => sel.includes(p.tema)));
+    pos = 0; render();
+  }
+
+  $("#chips-tema").addEventListener("click", e => {
+    if (!e.target.classList.contains("chip")) return;
+    e.target.classList.toggle("is-on");
+    if (![...document.querySelectorAll("#chips-tema .chip.is-on")].length) e.target.classList.add("is-on");
+    reconstruir();
+  });
+
+  function render(){
+    if (!mazo.length){ zona.innerHTML = '<div class="aviso">No hay tarjetas para esa seleccion.</div>'; return; }
+    const p = mazo[pos];
+    zona.innerHTML =
+      '<div class="q-meta"><span>' + p.id + '</span><span class="badge badge--' + p.dificultad + '">' + p.dificultad + '</span>' +
+        '<span class="q-progress">Tarjeta ' + (pos+1) + ' / ' + mazo.length + '</span></div>' +
+      '<div class="flashcard" id="fc">' +
+        '<div class="flashcard__inner">' +
+          '<div class="flashcard__face"><p class="flashcard__q">' + p.enunciado + '</p><span class="flashcard__hint">Pulsa para ver la respuesta</span></div>' +
+          '<div class="flashcard__face flashcard__face--back"><div class="flashcard__a">' +
+            '<p style="font-family:var(--font-display);font-weight:500;font-size:18px;margin:0 0 8px">' + LET[p.respuesta] + '. ' + p.opciones[p.respuesta] + '</p>' +
+            '<p style="color:var(--ink-2);font-size:14.5px;margin:0">' + p.explicacion + '</p>' +
+          '</div><span class="flashcard__hint">Pulsa para volver</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="test-foot">' +
+        '<button class="btn" id="prev"><i class="ti ti-arrow-left"></i> Anterior</button>' +
+        '<span class="spacer"></span>' +
+        '<button class="btn" id="shuffle"><i class="ti ti-arrows-shuffle"></i> Barajar</button>' +
+        '<button class="btn btn--primary" id="next">Siguiente <i class="ti ti-arrow-right"></i></button>' +
+      '</div>';
+
+    $("#fc").addEventListener("click", () => $("#fc").classList.toggle("is-flipped"));
+    $("#prev").addEventListener("click", () => { pos = (pos - 1 + mazo.length) % mazo.length; render(); });
+    $("#next").addEventListener("click", () => { pos = (pos + 1) % mazo.length; render(); });
+    $("#shuffle").addEventListener("click", () => { mazo = barajar(mazo); pos = 0; render(); });
+  }
+
+  reconstruir();
+})();
+</script>
+</body>
+</html>

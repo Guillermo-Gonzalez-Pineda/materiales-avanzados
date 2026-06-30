@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test — Materiales Avanzados</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css" rel="stylesheet">
+<link href="assets/css/estilo.css" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="index.html" style="text-decoration:none;color:inherit">
+      <span class="brand__mark"><i class="ti ti-diamond"></i></span>
+      <span><span class="brand__name">Materiales avanzados</span><br><span class="brand__sub">GUIA DE ESTUDIO &middot; UPM</span></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Temas</a>
+      <a href="test.html">Test</a>
+      <a href="tarjetas.html">Tarjetas</a>
+    </nav>
+    <button id="btn-tema" class="icon-btn" aria-label="Cambiar tema claro u oscuro"></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <span class="eyebrow">Autoevaluacion</span>
+    <h1>Test tipo examen</h1>
+    <p class="lead">Elige tema y dificultad. Cada pregunta se corrige al instante y te explica el porque.</p>
+  </div>
+
+  <!-- Configuracion -->
+  <section id="config" class="panel">
+    <div class="config-row">
+      <div>
+        <label>Temas</label>
+        <div id="chips-tema" class="chips"></div>
+      </div>
+      <div>
+        <label>Dificultad</label>
+        <div id="chips-dif" class="chips">
+          <span class="chip is-on" data-dif="facil">Facil</span>
+          <span class="chip is-on" data-dif="media">Media</span>
+          <span class="chip is-on" data-dif="dificil">Dificil</span>
+        </div>
+      </div>
+    </div>
+    <div class="test-foot">
+      <span id="conteo" class="brand__sub" style="font-family:var(--font-mono);color:var(--ink-3)"></span>
+      <span class="spacer"></span>
+      <button id="empezar" class="btn btn--primary"><i class="ti ti-player-play"></i> Empezar test</button>
+    </div>
+  </section>
+
+  <!-- Quiz -->
+  <section id="quiz" class="panel hidden">
+    <div class="q-meta">
+      <span id="q-id"></span>
+      <span id="q-badge" class="badge"></span>
+      <span id="q-prog" class="q-progress"></span>
+    </div>
+    <p id="q-text" class="q-text"></p>
+    <div id="q-opts" class="opciones"></div>
+    <div id="q-explica" class="explica hidden"></div>
+    <div class="test-foot">
+      <span id="marcador" class="brand__sub" style="font-family:var(--font-mono);color:var(--ink-3)"></span>
+      <span class="spacer"></span>
+      <button id="siguiente" class="btn btn--primary hidden">Siguiente <i class="ti ti-arrow-right"></i></button>
+    </div>
+  </section>
+
+  <!-- Resultado -->
+  <section id="resultado" class="panel hidden">
+    <div class="result">
+      <div id="r-score" class="result__score"></div>
+      <div class="result__bar"><span id="r-bar"></span></div>
+      <p id="r-msg" class="result__msg"></p>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <button id="r-repetir" class="btn btn--primary"><i class="ti ti-refresh"></i> Repetir</button>
+        <a class="btn" href="test.html"><i class="ti ti-adjustments"></i> Nuevo test</a>
+        <a class="btn" href="index.html"><i class="ti ti-home"></i> Temas</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>Materiales Avanzados &middot; guia de estudio</span><span></span></div></footer>
+
+<script src="assets/js/comun.js"></script>
+<script>
+(async function () {
+  const $ = s => document.querySelector(s);
+  const elConfig = $("#config"), elQuiz = $("#quiz"), elRes = $("#resultado");
+
+  let datos;
+  try { datos = await cargarJSON("data/preguntas.json"); }
+  catch (e) { avisoDatos(elConfig); return; }
+
+  const todas = datos.preguntas;
+  const temasConPreg = [...new Set(todas.map(p => p.tema))].sort((a,b)=>a-b);
+  const nombreTema = {};
+  datos.temas.forEach(t => nombreTema[t.id] = t.nombre);
+
+  /* Chips de tema */
+  const preTema = parseInt(new URLSearchParams(location.search).get("tema") || "", 10);
+  $("#chips-tema").innerHTML = temasConPreg.map(id =>
+    '<span class="chip' + ((isNaN(preTema) ? id===temasConPreg[0] : id===preTema) ? ' is-on' : '') +
+    '" data-tema="' + id + '">T' + id + ' &middot; ' + nombreTema[id] + '</span>').join("");
+
+  function toggleChip(e){ if (e.target.classList.contains("chip")){ e.target.classList.toggle("is-on"); actualizarConteo(); } }
+  $("#chips-tema").addEventListener("click", toggleChip);
+  $("#chips-dif").addEventListener("click", toggleChip);
+
+  const seleccion = () => ({
+    temas: [...document.querySelectorAll("#chips-tema .chip.is-on")].map(c => +c.dataset.tema),
+    difs:  [...document.querySelectorAll("#chips-dif .chip.is-on")].map(c => c.dataset.dif)
+  });
+  const filtrar = () => { const s = seleccion();
+    return todas.filter(p => s.temas.includes(p.tema) && s.difs.includes(p.dificultad)); };
+
+  function actualizarConteo(){
+    const n = filtrar().length;
+    $("#conteo").textContent = n + (n === 1 ? " pregunta disponible" : " preguntas disponibles");
+    $("#empezar").disabled = n === 0;
+  }
+  actualizarConteo();
+
+  /* Estado del quiz */
+  let cola = [], idx = 0, aciertos = 0;
+  const progreso = Store.get("progreso", {});
+
+  $("#empezar").addEventListener("click", () => {
+    cola = barajar(filtrar());
+    if (!cola.length) return;
+    idx = 0; aciertos = 0;
+    elConfig.classList.add("hidden"); elRes.classList.add("hidden"); elQuiz.classList.remove("hidden");
+    pintar();
+  });
+
+  const LET = ["A","B","C","D","E","F"];
+
+  function pintar(){
+    const p = cola[idx];
+    $("#q-id").textContent = p.id;
+    $("#q-badge").textContent = p.dificultad;
+    $("#q-badge").className = "badge badge--" + p.dificultad;
+    $("#q-prog").textContent = "Pregunta " + (idx+1) + " / " + cola.length;
+    $("#q-text").textContent = p.enunciado;
+    $("#marcador").textContent = "Aciertos: " + aciertos + " / " + idx;
+    const exp = $("#q-explica"); exp.classList.add("hidden"); exp.innerHTML = "";
+    $("#siguiente").classList.add("hidden");
+    $("#siguiente").textContent = (idx === cola.length - 1) ? "Ver resultado" : "Siguiente";
+
+    $("#q-opts").innerHTML = p.opciones.map((op, i) =>
+      '<button class="opcion" data-i="' + i + '">' +
+        '<span class="opcion__key">' + LET[i] + '</span>' +
+        '<span class="opcion__txt">' + op + '</span>' +
+        '<span class="opcion__mark"></span>' +
+      '</button>').join("");
+
+    [...$("#q-opts").children].forEach(b => b.addEventListener("click", () => responder(+b.dataset.i)));
+  }
+
+  function responder(elegida){
+    const p = cola[idx];
+    const botones = [...$("#q-opts").children];
+    botones.forEach(b => b.disabled = true);
+
+    const correcta = p.respuesta;
+    if (elegida === correcta){
+      aciertos++;
+      progreso[p.id] = true;
+      Store.set("progreso", progreso);
+    }
+    botones[correcta].classList.add("is-correct");
+    botones[correcta].querySelector(".opcion__mark").innerHTML = '<i class="ti ti-check"></i>';
+    if (elegida !== correcta){
+      botones[elegida].classList.add("is-wrong");
+      botones[elegida].querySelector(".opcion__mark").innerHTML = '<i class="ti ti-x"></i>';
+    }
+
+    const exp = $("#q-explica");
+    exp.innerHTML = '<b>Por que.</b> ' + p.explicacion +
+      (p.fuente ? '<span class="fuente">Fuente: ' + p.fuente + '</span>' : '');
+    exp.classList.remove("hidden");
+    $("#marcador").textContent = "Aciertos: " + aciertos + " / " + (idx+1);
+    $("#siguiente").classList.remove("hidden");
+  }
+
+  $("#siguiente").addEventListener("click", () => {
+    if (idx < cola.length - 1){ idx++; pintar(); window.scrollTo({top:0,behavior:"smooth"}); }
+    else { mostrarResultado(); }
+  });
+
+  function mostrarResultado(){
+    elQuiz.classList.add("hidden"); elRes.classList.remove("hidden");
+    const total = cola.length;
+    const pct = Math.round((aciertos/total)*100);
+    $("#r-score").textContent = aciertos + " / " + total;
+    $("#r-bar").style.width = pct + "%";
+    let msg;
+    if (pct >= 85) msg = "Excelente, te lo sabes. Repasa solo lo que falle.";
+    else if (pct >= 60) msg = "Vas bien. Vuelve a la teoria de lo que fallaste y repite.";
+    else msg = "Aun flojea. Repasa la teoria del tema con calma y vuelve a intentarlo.";
+    $("#r-msg").textContent = msg + "  (" + pct + "% de aciertos)";
+  }
+
+  $("#r-repetir").addEventListener("click", () => {
+    idx = 0; aciertos = 0; cola = barajar(cola);
+    elRes.classList.add("hidden"); elQuiz.classList.remove("hidden"); pintar();
+    window.scrollTo({top:0,behavior:"smooth"});
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+{
+  "asignatura": "Materiales Avanzados",
+  "version": "0.1.0",
+  "nota": "Banco de preguntas tipo test. Para anadir mas, copia un objeto del array 'preguntas' y respeta los campos. 'respuesta' es el indice (base 0) de la opcion correcta. 'dificultad': facil | media | dificil.",
+  "temas": [
+    { "id": 1, "nombre": "Materiales metalicos", "rango_preguntas": "1-12" },
+    { "id": 2, "nombre": "Materiales polimericos avanzados", "rango_preguntas": "13-28" },
+    { "id": 3, "nombre": "Adhesivos", "rango_preguntas": "29-48" },
+    { "id": 4, "nombre": "Materiales compuestos", "rango_preguntas": "49-66" },
+    { "id": 5, "nombre": "Biomateriales", "rango_preguntas": "67-78" },
+    { "id": 6, "nombre": "Nanomateriales", "rango_preguntas": "79-100" },
+    { "id": 7, "nombre": "Materiales inteligentes", "rango_preguntas": "101-114" }
+  ],
+  "preguntas": [
+    {
+      "id": "T1-Q01",
+      "tema": 1,
+      "subtema": "Clasificacion de los metales avanzados",
+      "dificultad": "facil",
+      "enunciado": "Dentro de la clasificacion de los metales avanzados, cual de los siguientes NO es una aleacion ferrea?",
+      "opciones": [
+        "Acero de Alta Resistencia (HS)",
+        "Acero Martensitico (MS)",
+        "Acero de Fase Dual (DP)",
+        "Laton"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las aleaciones ferreas tienen el hierro como metal principal e incluyen los aceros HS, MS, DP y TRIP. El laton es una aleacion de cobre (Cu + Zn), por lo que pertenece a las aleaciones NO ferreas.",
+      "fuente": "Tema 1 - Clasificacion / Pregunta examen 1"
+    },
+    {
+      "id": "T1-Q02",
+      "tema": 1,
+      "subtema": "Aleaciones no ferreas",
+      "dificultad": "media",
+      "enunciado": "Indica cual de las siguientes aleaciones NO es una aleacion de cobre.",
+      "opciones": [
+        "Alpaca (Cu + Zn + Ni)",
+        "Cuproniquel (Cu + Ni)",
+        "Laton (Cu + Zn)",
+        "Magal (Mg + Al)"
+      ],
+      "respuesta": 3,
+      "explicacion": "Alpaca, cuproniquel y laton son aleaciones de cobre. El Magal es una aleacion de magnesio y aluminio, sin cobre en su composicion.",
+      "fuente": "Tema 1 - Cobre / Pregunta examen 6"
+    },
+    {
+      "id": "T1-Q03",
+      "tema": 1,
+      "subtema": "Metalurgia del hierro",
+      "dificultad": "dificil",
+      "enunciado": "Que es un elemento gammageno?",
+      "opciones": [
+        "Un elemento que amplia el dominio de estabilidad de la variedad alotropica gamma (austenita) del hierro",
+        "Un elemento que reduce el punto de fusion del hierro",
+        "Un elemento que estabiliza la fase alfa (ferrita) del hierro",
+        "Un elemento que provoca la corrosion del hierro"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un elemento de aleacion es gammageno cuando amplia el dominio de estabilidad de la variedad alotropica gamma del hierro (la austenita). Lo contrario es un elemento alfageno, que estabiliza la ferrita.",
+      "fuente": "Tema 1 / Pregunta examen 7"
+    },
+    {
+      "id": "T1-Q04",
+      "tema": 1,
+      "subtema": "Aluminio - reciclaje",
+      "dificultad": "facil",
+      "enunciado": "Que ahorro energetico supone reciclar aluminio frente a producir aluminio primario?",
+      "opciones": [
+        "Aproximadamente un 5%",
+        "Aproximadamente un 57%",
+        "Aproximadamente un 95%",
+        "No supone ahorro de energia"
+      ],
+      "respuesta": 2,
+      "explicacion": "Reciclar aluminio supone un ahorro energetico del 95%, ya que refundirlo solo requiere el 5% de la energia necesaria para producir aluminio primario. Es 100% reciclable sin perder propiedades.",
+      "fuente": "Tema 1 - Aluminio / Pregunta examen 2"
+    },
+    {
+      "id": "T1-Q05",
+      "tema": 1,
+      "subtema": "Aluminio - inconvenientes",
+      "dificultad": "media",
+      "enunciado": "Cual es el principal inconveniente del aluminio segun los apuntes?",
+      "opciones": [
+        "Es muy pesado comparado con el acero",
+        "La energia requerida en su primera obtencion (a partir de la bauxita) es altisima",
+        "No se puede reciclar",
+        "Tiene muy mala resistencia a la corrosion"
+      ],
+      "respuesta": 1,
+      "explicacion": "Aunque reciclarlo gasta poca energia, la energia empleada en la PRIMERA fabricacion del aluminio es altisima. Ademas, no se recicla un alto porcentaje del producido (en Espana, alrededor del 57% de los envases).",
+      "fuente": "Tema 1 - Aluminio / Pregunta examen 2"
+    },
+    {
+      "id": "T1-Q06",
+      "tema": 1,
+      "subtema": "Aluminio - obtencion",
+      "dificultad": "facil",
+      "enunciado": "De que mineral se obtiene principalmente el aluminio?",
+      "opciones": [
+        "De la cromita",
+        "De la bauxita",
+        "Del corindon",
+        "De la hidroxiapatita"
+      ],
+      "respuesta": 1,
+      "explicacion": "El aluminio proviene de la bauxita, uno de los minerales mas abundantes. De la bauxita se obtiene la alumina y, a partir de esta, mediante electrolisis, el aluminio puro.",
+      "fuente": "Tema 1 - Aluminio / Charla Hydro"
+    },
+    {
+      "id": "T1-Q07",
+      "tema": 1,
+      "subtema": "Titanio - dimorfismo",
+      "dificultad": "dificil",
+      "enunciado": "El titanio presenta dimorfismo. Que estructura tiene a temperatura ambiente y en que se transforma por encima de 882 C?",
+      "opciones": [
+        "Cubica centrada en el cuerpo (fase beta) que pasa a hexagonal compacta (fase alfa)",
+        "Hexagonal compacta (fase alfa) que pasa a cubica centrada en el cuerpo (fase beta)",
+        "Cubica centrada en las caras (fase gamma) que pasa a hexagonal (fase alfa)",
+        "Amorfa que pasa a cristalina"
+      ],
+      "respuesta": 1,
+      "explicacion": "A temperatura ambiente el titanio tiene estructura hexagonal compacta (hcp), llamada fase alfa. Por encima de 882 C pasa a cubica centrada en el cuerpo (bcc), la fase beta.",
+      "fuente": "Tema 1 - Titanio"
+    },
+    {
+      "id": "T1-Q08",
+      "tema": 1,
+      "subtema": "Titanio - aleaciones",
+      "dificultad": "media",
+      "enunciado": "Cual es la aleacion de titanio mas utilizada a nivel industrial?",
+      "opciones": [
+        "Ti6Al4V",
+        "CoCrMo",
+        "Nitinol",
+        "Alpaca"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Ti6Al4V es la aleacion de titanio mas utilizada a nivel industrial. Se emplea donde se requiere alta relacion resistencia-peso y altas temperaturas (tornilleria, piezas forjadas, aeroespacial).",
+      "fuente": "Tema 1 - Titanio"
+    },
+    {
+      "id": "T1-Q09",
+      "tema": 1,
+      "subtema": "Titanio - tratamiento termico",
+      "dificultad": "dificil",
+      "enunciado": "Que tratamiento termoquimico del titanio crea una capa de revestimiento lisa y homogenea que aumenta notablemente la dureza superficial y aporta un color amarillo?",
+      "opciones": [
+        "El temple",
+        "La nitruracion",
+        "El anodizado",
+        "El galvanizado"
+      ],
+      "respuesta": 1,
+      "explicacion": "La nitruracion del titanio puro y del Ti6Al4V produce una capa lisa y homogenea que incrementa fuertemente la dureza superficial y aporta color (el nitruro es amarillo). Solo se aplica en la zona que va a estar en contacto (por ejemplo, la punta de una broca).",
+      "fuente": "Tema 1 - Titanio / Nitruracion"
+    },
+    {
+      "id": "T1-Q10",
+      "tema": 1,
+      "subtema": "Aplicaciones - bicicletas",
+      "dificultad": "facil",
+      "enunciado": "Segun los apuntes, de que material se fabrican las bicicletas de competicion?",
+      "opciones": [
+        "De titanio puro",
+        "De fibra de carbono",
+        "De acero comun",
+        "De magnesio"
+      ],
+      "respuesta": 1,
+      "explicacion": "El material ideal seria el titanio, pero es muy caro. Por eso las bicis de competicion se hacen de fibra de carbono, y las mas corrientes de acero.",
+      "fuente": "Tema 1 - Titanio / Pregunta examen 4"
+    },
+    {
+      "id": "T1-Q11",
+      "tema": 1,
+      "subtema": "Magnesio",
+      "dificultad": "media",
+      "enunciado": "Cual es una caracteristica destacada del Allite Super Magnesium segun los apuntes?",
+      "opciones": [
+        "Se quema con facilidad a baja temperatura",
+        "No se quema y solo se funde a temperaturas muy altas, con buenas propiedades de dureza, fatiga y desgaste",
+        "Es el metal mas pesado de la asignatura",
+        "Es un buen conductor por ser una aleacion de cobre"
+      ],
+      "respuesta": 1,
+      "explicacion": "El Allite Super Magnesium destaca por sus buenas propiedades de dureza, aislamiento, fatiga y desgaste, y porque no se quema y se funde solo a temperaturas muy altas.",
+      "fuente": "Tema 1 - Magnesio / Pregunta examen 5"
+    },
+    {
+      "id": "T1-Q12",
+      "tema": 1,
+      "subtema": "Aceros - intersticial libre (IF)",
+      "dificultad": "dificil",
+      "enunciado": "Que caracteriza a un acero intersticial libre (IF)?",
+      "opciones": [
+        "Tiene gran cantidad de atomos intersticiales que endurecen la red",
+        "No tiene atomos de soluto intersticiales que deformen la red; matriz ferritica (BCC), lo que mejora ductilidad, soldabilidad y resistencia a la corrosion",
+        "Es un acero totalmente austenitico con 20% de manganeso",
+        "Es un acero martensitico de muy alta dureza"
+      ],
+      "respuesta": 1,
+      "explicacion": "En un acero intersticial libre (IF) no hay atomos de soluto intersticiales que deformen la red de hierro. Tiene matriz de ferrita cubica centrada en el cuerpo (BCC); al no fragilizar las uniones, mejora ductilidad, soldabilidad y resistencia a la corrosion. Se usa en automocion y aplicaciones de alta precision.",
+      "fuente": "Tema 1 / Pregunta examen 8"
+    },
+    {
+      "id": "T1-Q13",
+      "tema": 1,
+      "subtema": "Aceros - TWIP",
+      "dificultad": "dificil",
+      "enunciado": "Cual de estas afirmaciones describe correctamente a un acero TWIP?",
+      "opciones": [
+        "Es un acero de bajo coste con estructura ferrita + perlita para baja carga",
+        "Es un acero de 2a generacion con alto contenido de manganeso (~20%), totalmente austenitico a temperatura ambiente, que se deforma por maclado",
+        "Es un acero inoxidable martensitico de alta dureza",
+        "Es un acero endurecido al horno (BH)"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los aceros TWIP son de segunda generacion, con alto contenido de manganeso (en torno al 20%) y totalmente austeniticos a temperatura ambiente. Combinan alta resistencia y ductilidad porque se deforman por maclado sin fracturarse; muy usados en automocion.",
+      "fuente": "Tema 1 / Pregunta examen 9"
+    },
+    {
+      "id": "T1-Q14",
+      "tema": 1,
+      "subtema": "Aceros - convencionales vs 2a generacion",
+      "dificultad": "media",
+      "enunciado": "Cual es la estructura basica de los aceros de SEGUNDA generacion (multifasicos)?",
+      "opciones": [
+        "Ferrita + perlita",
+        "Solo austenita",
+        "Ferrita + martensita + bainita + austenita retenida",
+        "Solo martensita"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los aceros convencionales tienen estructura basica ferrita + perlita (resistencia y ductilidad moderadas). Los de segunda generacion son multifasicos: ferrita + martensita + bainita + austenita retenida, con alta resistencia y ductilidad y mayor rendimiento.",
+      "fuente": "Tema 1 / Pregunta examen 11"
+    },
+    {
+      "id": "T1-Q15",
+      "tema": 1,
+      "subtema": "Aluminio - forjadas vs fundidas",
+      "dificultad": "media",
+      "enunciado": "Que caracteriza a las aleaciones de aluminio FUNDIDAS frente a las forjadas?",
+      "opciones": [
+        "Se trabajan mecanicamente y tienen estructura uniforme",
+        "Se moldean en estado liquido y son ideales para geometrias complejas (p. ej. carcasas de motor)",
+        "Solo se usan en la industria aeroespacial para piezas estructurales",
+        "Tienen siempre mayor resistencia a traccion que las forjadas"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las aleaciones forjadas se trabajan mecanicamente (estructura uniforme; piezas estructurales aeroespaciales y de automocion). Las fundidas se moldean en estado liquido, ideales para geometrias complejas como carcasas de motor.",
+      "fuente": "Tema 1 - Aluminio / Pregunta examen 12"
+    },
+    {
+      "id": "T1-Q16",
+      "tema": 1,
+      "subtema": "Aluminio - series",
+      "dificultad": "dificil",
+      "enunciado": "En la clasificacion de aluminios forjados, que elemento de aleacion caracteriza a la serie 2XXX (muy usada en aeronautica)?",
+      "opciones": [
+        "Manganeso",
+        "Magnesio",
+        "Cobre",
+        "Zinc"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las series del aluminio forjado se nombran por su aleante principal: 1 puro, 2 cobre (aeronautica), 3 manganeso, 4 silicio, 5 magnesio, 6 Mg y silicio, 7 zinc, 8 otros.",
+      "fuente": "Tema 1 - Aluminio / Series"
+    },
+    {
+      "id": "T1-Q17",
+      "tema": 1,
+      "subtema": "Aluminio - aleacion 6063",
+      "dificultad": "media",
+      "enunciado": "Cual es la aleacion de aluminio 'por excelencia' para perfiles arquitectonicos, con excelentes caracteristicas para ser anodizada?",
+      "opciones": [
+        "6063",
+        "6061",
+        "6101",
+        "2024"
+      ],
+      "respuesta": 0,
+      "explicacion": "La 6063 tiene resistencia mecanica moderada, se suelda y anodiza muy bien y resiste la corrosion: es la aleacion por excelencia para perfiles arquitectonicos. La 6061 prioriza resistencia mecanica y conductividad (cuadros de bici); la 6101 se usa en perfiles estructurales y sector electrico.",
+      "fuente": "Tema 1 - Aluminio / Aleaciones"
+    },
+    {
+      "id": "T1-Q18",
+      "tema": 1,
+      "subtema": "Zinc - galvanizado",
+      "dificultad": "media",
+      "enunciado": "Cuando el zinc protege al acero galvanizado de la corrosion, como actua?",
+      "opciones": [
+        "Como anodo de sacrificio, corroyendose el antes que el acero",
+        "Como aislante electrico que impide el paso de corriente",
+        "Como catalizador que acelera la corrosion del acero",
+        "Como lubricante entre las piezas"
+      ],
+      "respuesta": 0,
+      "explicacion": "El galvanizado del acero (cerca del 50% del consumo de zinc) protege incluso cuando se agrieta el recubrimiento, porque el zinc actua como anodo de sacrificio: se corroe antes que el acero.",
+      "fuente": "Tema 1 - Zinc"
+    },
+    {
+      "id": "T1-Q19",
+      "tema": 1,
+      "subtema": "Cromo",
+      "dificultad": "dificil",
+      "enunciado": "Que gema se obtiene cuando, en el corindon (alfa-Al2O3), se sustituyen algunos iones de aluminio por iones de cromo?",
+      "opciones": [
+        "El zafiro",
+        "El rubi",
+        "La esmeralda",
+        "El diamante"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cromo se usa sobre todo en metalurgia para aportar resistencia a la corrosion y acabado brillante. Cuando en el corindon (alfa-Al2O3) se sustituyen iones de aluminio por iones de cromo se obtiene el rubi, empleado por ejemplo en laseres.",
+      "fuente": "Tema 1 - Cromo"
+    },
+    {
+      "id": "T1-Q20",
+      "tema": 1,
+      "subtema": "Aluminio vs plomo - actualidad",
+      "dificultad": "facil",
+      "enunciado": "Segun los apuntes, que cuesta mas actualmente?",
+      "opciones": [
+        "El aluminio, como ha sido siempre",
+        "El plomo, por primera vez, porque su extraccion es cada vez mas cara",
+        "Ambos cuestan exactamente lo mismo",
+        "El plomo, porque es mas ligero que el aluminio"
+      ],
+      "respuesta": 1,
+      "explicacion": "Normalmente el aluminio costaba mas, pero actualmente el plomo es mas caro que el aluminio (es la primera vez que ocurre), porque la extraccion de plomo es cada vez mas costosa y ciertos materiales en zonas de conflicto se encarecen mucho.",
+      "fuente": "Tema 1 - Aluminio / Pregunta examen 3"
+    }
+  ]
+}
