@@ -52,11 +52,94 @@
         }
       ]
     },
-    { "id": 2, "nombre": "Materiales polimericos avanzados", "icono": "ti-polymer", "resumen": "Nomex, PTFE (teflon), PEEK, POM y otros polimeros tecnicos.", "estado": "pendiente", "secciones": [] },
-    { "id": 3, "nombre": "Adhesivos", "icono": "ti-droplet", "resumen": "Teorias de la adhesion, tipos de uniones y pretratamiento superficial.", "estado": "pendiente", "secciones": [] },
-    { "id": 4, "nombre": "Materiales compuestos", "icono": "ti-layers-subtract", "resumen": "Refuerzos y matrices; fibras de vidrio, carbono y aramida.", "estado": "pendiente", "secciones": [] },
-    { "id": 5, "nombre": "Biomateriales", "icono": "ti-heartbeat", "resumen": "Biomateriales metalicos, ceramicos y polimericos.", "estado": "pendiente", "secciones": [] },
-    { "id": 6, "nombre": "Nanomateriales", "icono": "ti-atom-2", "resumen": "Carbono, grafeno, nanotubos, fullerenos y nanotubos de boro.", "estado": "pendiente", "secciones": [] },
-    { "id": 7, "nombre": "Materiales inteligentes", "icono": "ti-bulb", "resumen": "Impresion 4D, estimulos y polimeros autorreparables.", "estado": "pendiente", "secciones": [] }
+    {
+      "id": 2,
+      "nombre": "Materiales polimericos avanzados",
+      "icono": "ti-polymer",
+      "resumen": "Nomex, PTFE (teflon), PEEK, POM y otros polimeros tecnicos.",
+      "estado": "completo",
+      "secciones": [
+        {
+          "id": "aramidas",
+          "titulo": "Fibras de aramida: el Nomex",
+          "html": "<p>El <strong>Nomex</strong> es una fibra sintetica de la familia de las <strong>aramidas</strong>. Destaca por ser resistente al calor, al fuego y a los productos quimicos, con alta resistencia mecanica y durabilidad.</p><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>Aplicaciones tipicas: ropa de proteccion (bomberos) y deportes de motor (trajes de piloto).</p></div><h4>Por que los guantes de los pilotos no son de Nomex</h4><p>Porque es un material grueso y duro: en los guantes restaria sensibilidad y los pilotos <strong>perderian precision en los mandos</strong>.</p>"
+        },
+        {
+          "id": "ptfe",
+          "titulo": "PTFE (teflon): origen y toxicidad",
+          "html": "<h4>Como se descubrio</h4><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>Fue un <strong>descubrimiento accidental</strong>: Plunkett buscaba un gas refrigerante y, al almacenar tetrafluoroetileno en cilindros, descubrio que el gas se habia <strong>polimerizado</strong>, formando un material blanco y ceroso.</p></div><h4>Es toxico?</h4><p>Siempre ha habido debate. El problema no es el teflon en si, sino el <strong>PFOA</strong> (presente en el adhesivo entre el teflon y la sarten), que se prohibio porque a altas temperaturas resultaba cancerigeno (categoria B2) y podia desprender gases toxicos.</p>"
+        },
+        {
+          "id": "peek",
+          "titulo": "PEEK",
+          "html": "<p>El <strong>PEEK</strong> es un polimero tecnico de altas prestaciones. Estas son sus aplicaciones principales:</p><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><ul><li>Implantes ortopedicos o dentales.</li><li>Componentes internos en aeronaves (asientos o puertas).</li><li>Industria automotriz: cojinetes o engranajes.</li><li>Industria electronica: conectores y carcasas de circuitos integrados.</li><li>Herramientas quirurgicas, como endoscopios.</li></ul></div>"
+        },
+        {
+          "id": "pom-engranajes",
+          "titulo": "POM y polimeros para engranajes",
+          "html": "<h4>Por que el POM para engranajes</h4><p>El <strong>POM</strong> es el material polimerico de referencia para engranajes porque es <strong>autolubricado</strong>, con gran resistencia y dureza y <strong>alta estabilidad dimensional</strong>, lo que permite bajas tolerancias y, por tanto, alta precision.</p><h4>Cinco ventajas del POM</h4><ul><li>Gran resistencia, rigidez y tenacidad para soportar altas cargas.</li><li>Bajo coeficiente de friccion y alta resistencia al desgaste (autolubricante).</li><li>Propiedades mecanicas estables en un amplio rango de temperaturas.</li><li>Alta estabilidad dimensional para piezas mecanicas de precision.</li><li>Alta resistencia a sustancias quimicas.</li></ul><h4>Polimeros que se pueden emplear para engranajes</h4><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>POM, PEEK, PC, PA y UHMWPE.</p></div>"
+        },
+        {
+          "id": "medicas",
+          "titulo": "Aplicaciones medicas de los polimeros avanzados",
+          "html": "<table class=\"tabla\"><thead><tr><th>Polimero</th><th>Aplicacion medica</th></tr></thead><tbody><tr><td>PTFE</td><td>Creacion de tejidos artificiales y vasos sanguineos</td></tr><tr><td>PTFE</td><td>Aislante, separador y retenedor del espacio interproximal en odontologia</td></tr><tr><td>Nylon</td><td>Cateteres</td></tr><tr><td>PEEK</td><td>Implante para la estabilizacion de la columna dorsal y lumbar</td></tr><tr><td>PTFE</td><td>Sustitucion de cateteres que antes eran de PVC</td></tr></tbody></table>"
+        },
+        {
+          "id": "hormigon",
+          "titulo": "Hormigon polimerico",
+          "html": "<p>El <strong>hormigon polimerico</strong> reemplaza el cemento por <strong>resina polimerica</strong>, mejorando su resistencia a la compresion y a la traccion, siendo mas ligero y <strong>sin necesidad de armadura metalica</strong>.</p><ul><li>Resistente a la abrasion y a los productos quimicos.</li><li>Se usa en drenaje, pavimentacion y refuerzo de estructuras.</li><li>Inconveniente: es mas caro que el hormigon convencional.</li></ul>"
+        },
+        {
+          "id": "espumas",
+          "titulo": "Espumas polimericas",
+          "html": "<p>Son polimeros que tienen una gran cantidad de <strong>burbujas de gas</strong> en su estructura. Destacan por su gran aislamiento termico y acustico y su amortiguacion. Se usan en construccion (aislantes) y en automocion (asientos y rellenos).</p><h4>Principales espumas polimericas</h4><table class=\"tabla\"><thead><tr><th>Espuma de</th><th>Sigla</th></tr></thead><tbody><tr><td>Polietileno reticulado</td><td>XL-PE</td></tr><tr><td>Poliuretano flexible</td><td>PU</td></tr><tr><td>Poliestireno</td><td>EPS y XPS</td></tr><tr><td>Polivinilo</td><td>PVC</td></tr></tbody></table>"
+        },
+        {
+          "id": "otros",
+          "titulo": "Otros polimeros y conceptos clave",
+          "html": "<h4>Precursor de la fibra de carbono</h4><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>El precursor de la fibra de carbono es el <strong>PAN</strong> (poliacrilonitrilo).</p></div><h4>Polimeros en el sector de los juguetes</h4><ul><li><strong>PLA</strong>: juguetes por impresion 3D.</li><li><strong>TPE</strong>: piezas suaves y flexibles.</li><li><strong>PP renovable</strong>: proyecto Mattel x SABIC.</li><li><strong>PHB</strong>: proyecto biotoy.</li></ul><h4>Membranas polimericas</h4><p>Las membranas son estructuras que permiten la <strong>transferencia selectiva de masa</strong>. Las nuevas membranas de poliamidas y polibenzimidazoles tienen alta permeabilidad y son utiles para <strong>separar dioxido de carbono y metano</strong>.</p><h4>Materiales polimericos metalicos</h4><p>Son polimeros con <strong>propiedades similares a las de los metales</strong>: duraderos y faciles de procesar. Se usan en automocion (componentes ligeros y resistentes), medicina (protesis de PEEK) y aeroespacial (relacion resistencia-peso).</p>"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Adhesivos",
+      "icono": "ti-droplet",
+      "resumen": "Teorias de la adhesion, tipos de uniones y pretratamiento superficial.",
+      "estado": "pendiente",
+      "secciones": []
+    },
+    {
+      "id": 4,
+      "nombre": "Materiales compuestos",
+      "icono": "ti-layers-subtract",
+      "resumen": "Refuerzos y matrices; fibras de vidrio, carbono y aramida.",
+      "estado": "pendiente",
+      "secciones": []
+    },
+    {
+      "id": 5,
+      "nombre": "Biomateriales",
+      "icono": "ti-heartbeat",
+      "resumen": "Biomateriales metalicos, ceramicos y polimericos.",
+      "estado": "pendiente",
+      "secciones": []
+    },
+    {
+      "id": 6,
+      "nombre": "Nanomateriales",
+      "icono": "ti-atom-2",
+      "resumen": "Carbono, grafeno, nanotubos, fullerenos y nanotubos de boro.",
+      "estado": "pendiente",
+      "secciones": []
+    },
+    {
+      "id": 7,
+      "nombre": "Materiales inteligentes",
+      "icono": "ti-bulb",
+      "resumen": "Impresion 4D, estimulos y polimeros autorreparables.",
+      "estado": "pendiente",
+      "secciones": []
+    }
   ]
 }

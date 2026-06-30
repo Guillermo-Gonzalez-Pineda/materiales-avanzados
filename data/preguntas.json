@@ -3,13 +3,41 @@
   "version": "0.1.0",
   "nota": "Banco de preguntas tipo test. Para anadir mas, copia un objeto del array 'preguntas' y respeta los campos. 'respuesta' es el indice (base 0) de la opcion correcta. 'dificultad': facil | media | dificil.",
   "temas": [
-    { "id": 1, "nombre": "Materiales metalicos", "rango_preguntas": "1-12" },
-    { "id": 2, "nombre": "Materiales polimericos avanzados", "rango_preguntas": "13-28" },
-    { "id": 3, "nombre": "Adhesivos", "rango_preguntas": "29-48" },
-    { "id": 4, "nombre": "Materiales compuestos", "rango_preguntas": "49-66" },
-    { "id": 5, "nombre": "Biomateriales", "rango_preguntas": "67-78" },
-    { "id": 6, "nombre": "Nanomateriales", "rango_preguntas": "79-100" },
-    { "id": 7, "nombre": "Materiales inteligentes", "rango_preguntas": "101-114" }
+    {
+      "id": 1,
+      "nombre": "Materiales metalicos",
+      "rango_preguntas": "1-12"
+    },
+    {
+      "id": 2,
+      "nombre": "Materiales polimericos avanzados",
+      "rango_preguntas": "13-28"
+    },
+    {
+      "id": 3,
+      "nombre": "Adhesivos",
+      "rango_preguntas": "29-48"
+    },
+    {
+      "id": 4,
+      "nombre": "Materiales compuestos",
+      "rango_preguntas": "49-66"
+    },
+    {
+      "id": 5,
+      "nombre": "Biomateriales",
+      "rango_preguntas": "67-78"
+    },
+    {
+      "id": 6,
+      "nombre": "Nanomateriales",
+      "rango_preguntas": "79-100"
+    },
+    {
+      "id": 7,
+      "nombre": "Materiales inteligentes",
+      "rango_preguntas": "101-114"
+    }
   ],
   "preguntas": [
     {
@@ -331,6 +359,310 @@
       "respuesta": 1,
       "explicacion": "Normalmente el aluminio costaba mas, pero actualmente el plomo es mas caro que el aluminio (es la primera vez que ocurre), porque la extraccion de plomo es cada vez mas costosa y ciertos materiales en zonas de conflicto se encarecen mucho.",
       "fuente": "Tema 1 - Aluminio / Pregunta examen 3"
+    },
+    {
+      "id": "T2-Q01",
+      "tema": 2,
+      "subtema": "Aramidas (Nomex)",
+      "dificultad": "facil",
+      "enunciado": "A que familia de polimeros pertenece el Nomex?",
+      "opciones": [
+        "Las aramidas",
+        "Los poliesteres",
+        "Las poliolefinas",
+        "Las siliconas"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Nomex es una fibra sintetica de la familia de las aramidas, resistente al calor, al fuego y a productos quimicos, con alta resistencia mecanica y durabilidad.",
+      "fuente": "Tema 2 - Nomex / Pregunta examen 13"
+    },
+    {
+      "id": "T2-Q02",
+      "tema": 2,
+      "subtema": "Aramidas (Nomex)",
+      "dificultad": "facil",
+      "enunciado": "Cual es una aplicacion tipica del Nomex?",
+      "opciones": [
+        "Ropa de proteccion (bomberos) y trajes de piloto",
+        "Lentes de contacto",
+        "Engranajes de precision",
+        "Espumas de aislamiento"
+      ],
+      "respuesta": 0,
+      "explicacion": "Por su resistencia al calor y al fuego, el Nomex se usa en ropa de proteccion (bomberos) y en deportes de motor (trajes de piloto).",
+      "fuente": "Tema 2 - Nomex / Pregunta examen 13"
+    },
+    {
+      "id": "T2-Q03",
+      "tema": 2,
+      "subtema": "Aramidas (Nomex)",
+      "dificultad": "media",
+      "enunciado": "Por que los guantes de los pilotos de carreras no se hacen de Nomex?",
+      "opciones": [
+        "Porque es grueso y duro, y perderian precision en los mandos",
+        "Porque no resiste el calor",
+        "Porque es demasiado caro",
+        "Porque se derrite a baja temperatura"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Nomex es un material grueso y duro; en los guantes restaria sensibilidad y los pilotos perderian precision en los mandos.",
+      "fuente": "Tema 2 / Pregunta examen 17"
+    },
+    {
+      "id": "T2-Q04",
+      "tema": 2,
+      "subtema": "PTFE (teflon)",
+      "dificultad": "media",
+      "enunciado": "Como se descubrio el PTFE (teflon)?",
+      "opciones": [
+        "Plunkett lo descubrio por accidente: el tetrafluoroetileno almacenado se habia polimerizado",
+        "Se diseno expresamente como recubrimiento antiadherente",
+        "Surgio como subproducto del nylon",
+        "Lo desarrollo la NASA para los trajes espaciales"
+      ],
+      "respuesta": 0,
+      "explicacion": "Plunkett buscaba un gas refrigerante; al almacenar tetrafluoroetileno en cilindros descubrio que se habia polimerizado, formando un material blanco y ceroso (descubrimiento accidental).",
+      "fuente": "Tema 2 - PTFE / Pregunta examen 14"
+    },
+    {
+      "id": "T2-Q05",
+      "tema": 2,
+      "subtema": "PTFE (teflon)",
+      "dificultad": "dificil",
+      "enunciado": "Que sustancia asociada a las sartenes de teflon se prohibio por considerarse cancerigena?",
+      "opciones": [
+        "El PFOA",
+        "El PAN",
+        "El PVC",
+        "El PEEK"
+      ],
+      "respuesta": 0,
+      "explicacion": "El debate sobre la toxicidad del teflon se centra en el PFOA (presente en el adhesivo entre el teflon y la sarten), que se prohibio por ser cancerigeno (B2) y poder desprender gases toxicos a altas temperaturas.",
+      "fuente": "Tema 2 - PTFE / Pregunta examen 15"
+    },
+    {
+      "id": "T2-Q06",
+      "tema": 2,
+      "subtema": "Precursores",
+      "dificultad": "facil",
+      "enunciado": "Cual es el precursor de la fibra de carbono?",
+      "opciones": [
+        "El PAN (poliacrilonitrilo)",
+        "El PTFE",
+        "El POM",
+        "El PEEK"
+      ],
+      "respuesta": 0,
+      "explicacion": "El precursor mas habitual de la fibra de carbono es el PAN (poliacrilonitrilo).",
+      "fuente": "Tema 2 / Pregunta examen 16"
+    },
+    {
+      "id": "T2-Q07",
+      "tema": 2,
+      "subtema": "POM y engranajes",
+      "dificultad": "media",
+      "enunciado": "Que polimero es idoneo para fabricar engranajes y por que?",
+      "opciones": [
+        "El POM, por ser autolubricado y tener gran estabilidad dimensional y resistencia",
+        "El PVC, por ser barato",
+        "El Nomex, por resistir el calor",
+        "El PLA, por imprimirse en 3D"
+      ],
+      "respuesta": 0,
+      "explicacion": "El POM se usa en engranajes porque es autolubricado, con gran resistencia y dureza y alta estabilidad dimensional, lo que permite bajas tolerancias y, por tanto, alta precision.",
+      "fuente": "Tema 2 - POM / Pregunta examen 18"
+    },
+    {
+      "id": "T2-Q08",
+      "tema": 2,
+      "subtema": "POM y engranajes",
+      "dificultad": "media",
+      "enunciado": "Cual de estas es una ventaja del POM?",
+      "opciones": [
+        "Bajo coeficiente de friccion y alta resistencia al desgaste (autolubricante)",
+        "Alta conductividad electrica",
+        "Transparencia optica total",
+        "Biodegradabilidad rapida"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre las ventajas del POM estan su bajo coeficiente de friccion y alta resistencia al desgaste (es autolubricante), su rigidez y tenacidad, la estabilidad de sus propiedades en un amplio rango de temperaturas, su estabilidad dimensional y su resistencia quimica.",
+      "fuente": "Tema 2 - POM / Pregunta examen 21"
+    },
+    {
+      "id": "T2-Q09",
+      "tema": 2,
+      "subtema": "POM y engranajes",
+      "dificultad": "dificil",
+      "enunciado": "Cual de los siguientes NO figura entre los polimeros citados para fabricar engranajes?",
+      "opciones": [
+        "Nomex",
+        "POM",
+        "PEEK",
+        "UHMWPE"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los polimeros citados para engranajes son POM, PEEK, PC, PA y UHMWPE. El Nomex es una fibra de aramida para proteccion termica, no un material de engranajes.",
+      "fuente": "Tema 2 / Pregunta examen 20"
+    },
+    {
+      "id": "T2-Q10",
+      "tema": 2,
+      "subtema": "PEEK",
+      "dificultad": "media",
+      "enunciado": "Cual es una aplicacion del PEEK?",
+      "opciones": [
+        "Implantes ortopedicos o dentales",
+        "Espumas de aislamiento acustico",
+        "Membranas para separar gases",
+        "Recubrimiento antiadherente de sartenes"
+      ],
+      "respuesta": 0,
+      "explicacion": "El PEEK se emplea en implantes ortopedicos o dentales, componentes internos de aeronaves, cojinetes y engranajes, conectores y carcasas electronicas, y herramientas quirurgicas como endoscopios.",
+      "fuente": "Tema 2 - PEEK / Pregunta examen 26"
+    },
+    {
+      "id": "T2-Q11",
+      "tema": 2,
+      "subtema": "Aplicaciones medicas",
+      "dificultad": "media",
+      "enunciado": "En medicina, para que se utiliza el PEEK?",
+      "opciones": [
+        "Como implante para la estabilizacion de la columna dorsal y lumbar",
+        "Para fabricar cateteres flexibles",
+        "Para crear vasos sanguineos artificiales",
+        "Como relleno de asientos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre las aplicaciones medicas de los polimeros avanzados, el PEEK se usa como implante para la estabilizacion de la columna dorsal y lumbar.",
+      "fuente": "Tema 2 - Aplicaciones medicas / Pregunta examen 19"
+    },
+    {
+      "id": "T2-Q12",
+      "tema": 2,
+      "subtema": "Aplicaciones medicas",
+      "dificultad": "media",
+      "enunciado": "Que polimero se emplea para crear tejidos artificiales y vasos sanguineos?",
+      "opciones": [
+        "El PTFE",
+        "El POM",
+        "El PLA",
+        "El Nomex"
+      ],
+      "respuesta": 0,
+      "explicacion": "El PTFE se usa en medicina para la creacion de tejidos artificiales y vasos sanguineos, en odontologia y en la sustitucion de cateteres que antes eran de PVC.",
+      "fuente": "Tema 2 - Aplicaciones medicas / Pregunta examen 19"
+    },
+    {
+      "id": "T2-Q13",
+      "tema": 2,
+      "subtema": "Aplicaciones medicas",
+      "dificultad": "facil",
+      "enunciado": "Que polimero se cita para fabricar cateteres?",
+      "opciones": [
+        "El Nylon",
+        "El PEEK",
+        "El POM",
+        "El XL-PE"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre las aplicaciones medicas, el Nylon se cita para cateteres.",
+      "fuente": "Tema 2 - Aplicaciones medicas / Pregunta examen 19"
+    },
+    {
+      "id": "T2-Q14",
+      "tema": 2,
+      "subtema": "Hormigon polimerico",
+      "dificultad": "media",
+      "enunciado": "Que caracteriza al hormigon polimerico?",
+      "opciones": [
+        "Reemplaza el cemento por resina polimerica; es mas ligero y no necesita armadura metalica",
+        "Es mas barato que el hormigon convencional",
+        "Solo sirve para piezas decorativas",
+        "No resiste productos quimicos"
+      ],
+      "respuesta": 0,
+      "explicacion": "El hormigon polimerico reemplaza el cemento por resina polimerica, mejorando la resistencia a compresion y traccion; es mas ligero y no necesita armadura metalica, y resiste la abrasion y los productos quimicos. Su inconveniente es que es mas caro que el hormigon.",
+      "fuente": "Tema 2 - Hormigon polimerico / Pregunta examen 22"
+    },
+    {
+      "id": "T2-Q15",
+      "tema": 2,
+      "subtema": "Espumas polimericas",
+      "dificultad": "facil",
+      "enunciado": "Que son las espumas polimericas?",
+      "opciones": [
+        "Polimeros con gran cantidad de burbujas de gas en su estructura",
+        "Polimeros conductores de la electricidad",
+        "Fibras de refuerzo para hormigon",
+        "Recubrimientos antiadherentes"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las espumas polimericas son polimeros con gran cantidad de burbujas de gas; destacan por su aislamiento termico y acustico y su amortiguacion. Se usan en construccion (aislantes) y automocion (asientos y rellenos).",
+      "fuente": "Tema 2 - Espumas / Pregunta examen 23"
+    },
+    {
+      "id": "T2-Q16",
+      "tema": 2,
+      "subtema": "Espumas polimericas",
+      "dificultad": "dificil",
+      "enunciado": "Cual de los siguientes NO es una de las principales espumas polimericas?",
+      "opciones": [
+        "El policarbonato (PC)",
+        "El poliuretano flexible (PU)",
+        "El poliestireno (EPS y XPS)",
+        "El polietileno reticulado (XL-PE)"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las principales espumas polimericas son las de polietileno reticulado (XL-PE), poliuretano flexible (PU), poliestireno (EPS y XPS) y polivinilo (PVC). El policarbonato no figura entre ellas.",
+      "fuente": "Tema 2 - Espumas / Pregunta examen 24"
+    },
+    {
+      "id": "T2-Q17",
+      "tema": 2,
+      "subtema": "Membranas polimericas",
+      "dificultad": "dificil",
+      "enunciado": "Para que son utiles las nuevas membranas de poliamidas y polibenzimidazoles?",
+      "opciones": [
+        "Para separar dioxido de carbono y metano por su alta permeabilidad",
+        "Para conducir electricidad",
+        "Para fabricar engranajes",
+        "Como relleno de asientos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las membranas permiten la transferencia selectiva de masa. Las nuevas membranas de poliamidas y polibenzimidazoles tienen alta permeabilidad y son utiles para separar dioxido de carbono y metano.",
+      "fuente": "Tema 2 - Membranas / Pregunta examen 27"
+    },
+    {
+      "id": "T2-Q18",
+      "tema": 2,
+      "subtema": "Polimeros metalicos",
+      "dificultad": "media",
+      "enunciado": "Que son los materiales polimericos metalicos?",
+      "opciones": [
+        "Polimeros con propiedades similares a los metales, duraderos y faciles de procesar",
+        "Metales recubiertos de pintura",
+        "Espumas metalicas",
+        "Aleaciones de aluminio y magnesio"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los polimeros metalicos tienen propiedades similares a los metales; son duraderos y faciles de procesar y se usan en automocion (componentes ligeros y resistentes), medicina (protesis de PEEK) y aeroespacial (relacion resistencia-peso).",
+      "fuente": "Tema 2 - Polimeros metalicos / Pregunta examen 28"
+    },
+    {
+      "id": "T2-Q19",
+      "tema": 2,
+      "subtema": "Polimeros en juguetes",
+      "dificultad": "media",
+      "enunciado": "Que polimero se emplea en el sector de los juguetes para impresion 3D?",
+      "opciones": [
+        "El PLA",
+        "El UHMWPE",
+        "El PFOA",
+        "El Nomex"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre los polimeros avanzados en juguetes, el PLA se usa para impresion 3D; el TPE para piezas suaves y flexibles; el PP renovable (Mattel x SABIC); y el PHB (proyecto biotoy).",
+      "fuente": "Tema 2 - Juguetes / Pregunta examen 25"
     }
   ]
 }
