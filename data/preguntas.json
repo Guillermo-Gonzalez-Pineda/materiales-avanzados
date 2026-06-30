@@ -47,12 +47,12 @@
       "dificultad": "facil",
       "enunciado": "Dentro de la clasificacion de los metales avanzados, cual de los siguientes NO es una aleacion ferrea?",
       "opciones": [
+        "Laton",
         "Acero de Alta Resistencia (HS)",
         "Acero Martensitico (MS)",
-        "Acero de Fase Dual (DP)",
-        "Laton"
+        "Acero de Fase Dual (DP)"
       ],
-      "respuesta": 3,
+      "respuesta": 0,
       "explicacion": "Las aleaciones ferreas tienen el hierro como metal principal e incluyen los aceros HS, MS, DP y TRIP. El laton es una aleacion de cobre (Cu + Zn), por lo que pertenece a las aleaciones NO ferreas.",
       "fuente": "Tema 1 - Clasificacion / Pregunta examen 1"
     },
@@ -63,12 +63,12 @@
       "dificultad": "media",
       "enunciado": "Indica cual de las siguientes aleaciones NO es una aleacion de cobre.",
       "opciones": [
+        "Magal (Mg + Al)",
         "Alpaca (Cu + Zn + Ni)",
         "Cuproniquel (Cu + Ni)",
-        "Laton (Cu + Zn)",
-        "Magal (Mg + Al)"
+        "Laton (Cu + Zn)"
       ],
-      "respuesta": 3,
+      "respuesta": 0,
       "explicacion": "Alpaca, cuproniquel y laton son aleaciones de cobre. El Magal es una aleacion de magnesio y aluminio, sin cobre en su composicion.",
       "fuente": "Tema 1 - Cobre / Pregunta examen 6"
     },
@@ -79,12 +79,12 @@
       "dificultad": "dificil",
       "enunciado": "Que es un elemento gammageno?",
       "opciones": [
-        "Un elemento que amplia el dominio de estabilidad de la variedad alotropica gamma (austenita) del hierro",
         "Un elemento que reduce el punto de fusion del hierro",
         "Un elemento que estabiliza la fase alfa (ferrita) del hierro",
+        "Un elemento que amplia el dominio de estabilidad de la variedad alotropica gamma (austenita) del hierro",
         "Un elemento que provoca la corrosion del hierro"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Un elemento de aleacion es gammageno cuando amplia el dominio de estabilidad de la variedad alotropica gamma del hierro (la austenita). Lo contrario es un elemento alfageno, que estabiliza la ferrita.",
       "fuente": "Tema 1 / Pregunta examen 7"
     },
@@ -95,10 +95,10 @@
       "dificultad": "facil",
       "enunciado": "Que ahorro energetico supone reciclar aluminio frente a producir aluminio primario?",
       "opciones": [
+        "No supone ahorro de energia",
         "Aproximadamente un 5%",
-        "Aproximadamente un 57%",
         "Aproximadamente un 95%",
-        "No supone ahorro de energia"
+        "Aproximadamente un 57%"
       ],
       "respuesta": 2,
       "explicacion": "Reciclar aluminio supone un ahorro energetico del 95%, ya que refundirlo solo requiere el 5% de la energia necesaria para producir aluminio primario. Es 100% reciclable sin perder propiedades.",
@@ -111,10 +111,10 @@
       "dificultad": "media",
       "enunciado": "Cual es el principal inconveniente del aluminio segun los apuntes?",
       "opciones": [
-        "Es muy pesado comparado con el acero",
+        "Tiene muy mala resistencia a la corrosion",
         "La energia requerida en su primera obtencion (a partir de la bauxita) es altisima",
         "No se puede reciclar",
-        "Tiene muy mala resistencia a la corrosion"
+        "Es muy pesado comparado con el acero"
       ],
       "respuesta": 1,
       "explicacion": "Aunque reciclarlo gasta poca energia, la energia empleada en la PRIMERA fabricacion del aluminio es altisima. Ademas, no se recicla un alto porcentaje del producido (en Espana, alrededor del 57% de los envases).",
@@ -127,12 +127,12 @@
       "dificultad": "facil",
       "enunciado": "De que mineral se obtiene principalmente el aluminio?",
       "opciones": [
-        "De la cromita",
         "De la bauxita",
         "Del corindon",
-        "De la hidroxiapatita"
+        "De la hidroxiapatita",
+        "De la cromita"
       ],
-      "respuesta": 1,
+      "respuesta": 0,
       "explicacion": "El aluminio proviene de la bauxita, uno de los minerales mas abundantes. De la bauxita se obtiene la alumina y, a partir de esta, mediante electrolisis, el aluminio puro.",
       "fuente": "Tema 1 - Aluminio / Charla Hydro"
     },
@@ -143,12 +143,12 @@
       "dificultad": "dificil",
       "enunciado": "El titanio presenta dimorfismo. Que estructura tiene a temperatura ambiente y en que se transforma por encima de 882 C?",
       "opciones": [
-        "Cubica centrada en el cuerpo (fase beta) que pasa a hexagonal compacta (fase alfa)",
         "Hexagonal compacta (fase alfa) que pasa a cubica centrada en el cuerpo (fase beta)",
         "Cubica centrada en las caras (fase gamma) que pasa a hexagonal (fase alfa)",
-        "Amorfa que pasa a cristalina"
+        "Amorfa que pasa a cristalina",
+        "Cubica centrada en el cuerpo (fase beta) que pasa a hexagonal compacta (fase alfa)"
       ],
-      "respuesta": 1,
+      "respuesta": 0,
       "explicacion": "A temperatura ambiente el titanio tiene estructura hexagonal compacta (hcp), llamada fase alfa. Por encima de 882 C pasa a cubica centrada en el cuerpo (bcc), la fase beta.",
       "fuente": "Tema 1 - Titanio"
     },
@@ -160,8 +160,8 @@
       "enunciado": "Cual es la aleacion de titanio mas utilizada a nivel industrial?",
       "opciones": [
         "Ti6Al4V",
-        "CoCrMo",
         "Nitinol",
+        "CoCrMo",
         "Alpaca"
       ],
       "respuesta": 0,
@@ -176,11 +176,11 @@
       "enunciado": "Que tratamiento termoquimico del titanio crea una capa de revestimiento lisa y homogenea que aumenta notablemente la dureza superficial y aporta un color amarillo?",
       "opciones": [
         "El temple",
-        "La nitruracion",
         "El anodizado",
-        "El galvanizado"
+        "El galvanizado",
+        "La nitruracion"
       ],
-      "respuesta": 1,
+      "respuesta": 3,
       "explicacion": "La nitruracion del titanio puro y del Ti6Al4V produce una capa lisa y homogenea que incrementa fuertemente la dureza superficial y aporta color (el nitruro es amarillo). Solo se aplica en la zona que va a estar en contacto (por ejemplo, la punta de una broca).",
       "fuente": "Tema 1 - Titanio / Nitruracion"
     },
@@ -191,12 +191,12 @@
       "dificultad": "facil",
       "enunciado": "Segun los apuntes, de que material se fabrican las bicicletas de competicion?",
       "opciones": [
+        "De acero comun",
         "De titanio puro",
         "De fibra de carbono",
-        "De acero comun",
         "De magnesio"
       ],
-      "respuesta": 1,
+      "respuesta": 2,
       "explicacion": "El material ideal seria el titanio, pero es muy caro. Por eso las bicis de competicion se hacen de fibra de carbono, y las mas corrientes de acero.",
       "fuente": "Tema 1 - Titanio / Pregunta examen 4"
     },
@@ -208,11 +208,11 @@
       "enunciado": "Cual es una caracteristica destacada del Allite Super Magnesium segun los apuntes?",
       "opciones": [
         "Se quema con facilidad a baja temperatura",
+        "Es un buen conductor por ser una aleacion de cobre",
         "No se quema y solo se funde a temperaturas muy altas, con buenas propiedades de dureza, fatiga y desgaste",
-        "Es el metal mas pesado de la asignatura",
-        "Es un buen conductor por ser una aleacion de cobre"
+        "Es el metal mas pesado de la asignatura"
       ],
-      "respuesta": 1,
+      "respuesta": 2,
       "explicacion": "El Allite Super Magnesium destaca por sus buenas propiedades de dureza, aislamiento, fatiga y desgaste, y porque no se quema y se funde solo a temperaturas muy altas.",
       "fuente": "Tema 1 - Magnesio / Pregunta examen 5"
     },
@@ -255,8 +255,8 @@
       "dificultad": "media",
       "enunciado": "Cual es la estructura basica de los aceros de SEGUNDA generacion (multifasicos)?",
       "opciones": [
-        "Ferrita + perlita",
         "Solo austenita",
+        "Ferrita + perlita",
         "Ferrita + martensita + bainita + austenita retenida",
         "Solo martensita"
       ],
@@ -271,12 +271,12 @@
       "dificultad": "media",
       "enunciado": "Que caracteriza a las aleaciones de aluminio FUNDIDAS frente a las forjadas?",
       "opciones": [
-        "Se trabajan mecanicamente y tienen estructura uniforme",
-        "Se moldean en estado liquido y son ideales para geometrias complejas (p. ej. carcasas de motor)",
         "Solo se usan en la industria aeroespacial para piezas estructurales",
-        "Tienen siempre mayor resistencia a traccion que las forjadas"
+        "Se trabajan mecanicamente y tienen estructura uniforme",
+        "Tienen siempre mayor resistencia a traccion que las forjadas",
+        "Se moldean en estado liquido y son ideales para geometrias complejas (p. ej. carcasas de motor)"
       ],
-      "respuesta": 1,
+      "respuesta": 3,
       "explicacion": "Las aleaciones forjadas se trabajan mecanicamente (estructura uniforme; piezas estructurales aeroespaciales y de automocion). Las fundidas se moldean en estado liquido, ideales para geometrias complejas como carcasas de motor.",
       "fuente": "Tema 1 - Aluminio / Pregunta examen 12"
     },
@@ -287,12 +287,12 @@
       "dificultad": "dificil",
       "enunciado": "En la clasificacion de aluminios forjados, que elemento de aleacion caracteriza a la serie 2XXX (muy usada en aeronautica)?",
       "opciones": [
+        "Cobre",
         "Manganeso",
         "Magnesio",
-        "Cobre",
         "Zinc"
       ],
-      "respuesta": 2,
+      "respuesta": 0,
       "explicacion": "Las series del aluminio forjado se nombran por su aleante principal: 1 puro, 2 cobre (aeronautica), 3 manganeso, 4 silicio, 5 magnesio, 6 Mg y silicio, 7 zinc, 8 otros.",
       "fuente": "Tema 1 - Aluminio / Series"
     },
@@ -303,12 +303,12 @@
       "dificultad": "media",
       "enunciado": "Cual es la aleacion de aluminio 'por excelencia' para perfiles arquitectonicos, con excelentes caracteristicas para ser anodizada?",
       "opciones": [
-        "6063",
         "6061",
         "6101",
-        "2024"
+        "2024",
+        "6063"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "La 6063 tiene resistencia mecanica moderada, se suelda y anodiza muy bien y resiste la corrosion: es la aleacion por excelencia para perfiles arquitectonicos. La 6061 prioriza resistencia mecanica y conductividad (cuadros de bici); la 6101 se usa en perfiles estructurales y sector electrico.",
       "fuente": "Tema 1 - Aluminio / Aleaciones"
     },
@@ -320,9 +320,9 @@
       "enunciado": "Cuando el zinc protege al acero galvanizado de la corrosion, como actua?",
       "opciones": [
         "Como anodo de sacrificio, corroyendose el antes que el acero",
-        "Como aislante electrico que impide el paso de corriente",
+        "Como lubricante entre las piezas",
         "Como catalizador que acelera la corrosion del acero",
-        "Como lubricante entre las piezas"
+        "Como aislante electrico que impide el paso de corriente"
       ],
       "respuesta": 0,
       "explicacion": "El galvanizado del acero (cerca del 50% del consumo de zinc) protege incluso cuando se agrieta el recubrimiento, porque el zinc actua como anodo de sacrificio: se corroe antes que el acero.",
@@ -335,12 +335,12 @@
       "dificultad": "dificil",
       "enunciado": "Que gema se obtiene cuando, en el corindon (alfa-Al2O3), se sustituyen algunos iones de aluminio por iones de cromo?",
       "opciones": [
+        "El diamante",
         "El zafiro",
         "El rubi",
-        "La esmeralda",
-        "El diamante"
+        "La esmeralda"
       ],
-      "respuesta": 1,
+      "respuesta": 2,
       "explicacion": "El cromo se usa sobre todo en metalurgia para aportar resistencia a la corrosion y acabado brillante. Cuando en el corindon (alfa-Al2O3) se sustituyen iones de aluminio por iones de cromo se obtiene el rubi, empleado por ejemplo en laseres.",
       "fuente": "Tema 1 - Cromo"
     },
@@ -351,10 +351,10 @@
       "dificultad": "facil",
       "enunciado": "Segun los apuntes, que cuesta mas actualmente?",
       "opciones": [
-        "El aluminio, como ha sido siempre",
+        "El plomo, porque es mas ligero que el aluminio",
         "El plomo, por primera vez, porque su extraccion es cada vez mas cara",
-        "Ambos cuestan exactamente lo mismo",
-        "El plomo, porque es mas ligero que el aluminio"
+        "El aluminio, como ha sido siempre",
+        "Ambos cuestan exactamente lo mismo"
       ],
       "respuesta": 1,
       "explicacion": "Normalmente el aluminio costaba mas, pero actualmente el plomo es mas caro que el aluminio (es la primera vez que ocurre), porque la extraccion de plomo es cada vez mas costosa y ciertos materiales en zonas de conflicto se encarecen mucho.",
@@ -367,12 +367,12 @@
       "dificultad": "facil",
       "enunciado": "A que familia de polimeros pertenece el Nomex?",
       "opciones": [
-        "Las aramidas",
         "Los poliesteres",
+        "Las aramidas",
         "Las poliolefinas",
         "Las siliconas"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El Nomex es una fibra sintetica de la familia de las aramidas, resistente al calor, al fuego y a productos quimicos, con alta resistencia mecanica y durabilidad.",
       "fuente": "Tema 2 - Nomex / Pregunta examen 13"
     },
@@ -384,8 +384,8 @@
       "enunciado": "Cual es una aplicacion tipica del Nomex?",
       "opciones": [
         "Ropa de proteccion (bomberos) y trajes de piloto",
-        "Lentes de contacto",
         "Engranajes de precision",
+        "Lentes de contacto",
         "Espumas de aislamiento"
       ],
       "respuesta": 0,
@@ -399,12 +399,12 @@
       "dificultad": "media",
       "enunciado": "Por que los guantes de los pilotos de carreras no se hacen de Nomex?",
       "opciones": [
+        "Porque es demasiado caro",
         "Porque es grueso y duro, y perderian precision en los mandos",
         "Porque no resiste el calor",
-        "Porque es demasiado caro",
         "Porque se derrite a baja temperatura"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El Nomex es un material grueso y duro; en los guantes restaria sensibilidad y los pilotos perderian precision en los mandos.",
       "fuente": "Tema 2 / Pregunta examen 17"
     },
@@ -415,12 +415,12 @@
       "dificultad": "media",
       "enunciado": "Como se descubrio el PTFE (teflon)?",
       "opciones": [
-        "Plunkett lo descubrio por accidente: el tetrafluoroetileno almacenado se habia polimerizado",
         "Se diseno expresamente como recubrimiento antiadherente",
         "Surgio como subproducto del nylon",
-        "Lo desarrollo la NASA para los trajes espaciales"
+        "Lo desarrollo la NASA para los trajes espaciales",
+        "Plunkett lo descubrio por accidente: el tetrafluoroetileno almacenado se habia polimerizado"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Plunkett buscaba un gas refrigerante; al almacenar tetrafluoroetileno en cilindros descubrio que se habia polimerizado, formando un material blanco y ceroso (descubrimiento accidental).",
       "fuente": "Tema 2 - PTFE / Pregunta examen 14"
     },
@@ -431,12 +431,12 @@
       "dificultad": "dificil",
       "enunciado": "Que sustancia asociada a las sartenes de teflon se prohibio por considerarse cancerigena?",
       "opciones": [
-        "El PFOA",
-        "El PAN",
         "El PVC",
+        "El PAN",
+        "El PFOA",
         "El PEEK"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El debate sobre la toxicidad del teflon se centra en el PFOA (presente en el adhesivo entre el teflon y la sarten), que se prohibio por ser cancerigeno (B2) y poder desprender gases toxicos a altas temperaturas.",
       "fuente": "Tema 2 - PTFE / Pregunta examen 15"
     },
@@ -448,9 +448,9 @@
       "enunciado": "Cual es el precursor de la fibra de carbono?",
       "opciones": [
         "El PAN (poliacrilonitrilo)",
-        "El PTFE",
+        "El PEEK",
         "El POM",
-        "El PEEK"
+        "El PTFE"
       ],
       "respuesta": 0,
       "explicacion": "El precursor mas habitual de la fibra de carbono es el PAN (poliacrilonitrilo).",
@@ -463,12 +463,12 @@
       "dificultad": "media",
       "enunciado": "Que polimero es idoneo para fabricar engranajes y por que?",
       "opciones": [
-        "El POM, por ser autolubricado y tener gran estabilidad dimensional y resistencia",
-        "El PVC, por ser barato",
         "El Nomex, por resistir el calor",
-        "El PLA, por imprimirse en 3D"
+        "El POM, por ser autolubricado y tener gran estabilidad dimensional y resistencia",
+        "El PLA, por imprimirse en 3D",
+        "El PVC, por ser barato"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El POM se usa en engranajes porque es autolubricado, con gran resistencia y dureza y alta estabilidad dimensional, lo que permite bajas tolerancias y, por tanto, alta precision.",
       "fuente": "Tema 2 - POM / Pregunta examen 18"
     },
@@ -496,9 +496,9 @@
       "enunciado": "Cual de los siguientes NO figura entre los polimeros citados para fabricar engranajes?",
       "opciones": [
         "Nomex",
+        "UHMWPE",
         "POM",
-        "PEEK",
-        "UHMWPE"
+        "PEEK"
       ],
       "respuesta": 0,
       "explicacion": "Los polimeros citados para engranajes son POM, PEEK, PC, PA y UHMWPE. El Nomex es una fibra de aramida para proteccion termica, no un material de engranajes.",
@@ -512,9 +512,9 @@
       "enunciado": "Cual es una aplicacion del PEEK?",
       "opciones": [
         "Implantes ortopedicos o dentales",
-        "Espumas de aislamiento acustico",
+        "Recubrimiento antiadherente de sartenes",
         "Membranas para separar gases",
-        "Recubrimiento antiadherente de sartenes"
+        "Espumas de aislamiento acustico"
       ],
       "respuesta": 0,
       "explicacion": "El PEEK se emplea en implantes ortopedicos o dentales, componentes internos de aeronaves, cojinetes y engranajes, conectores y carcasas electronicas, y herramientas quirurgicas como endoscopios.",
@@ -527,12 +527,12 @@
       "dificultad": "media",
       "enunciado": "En medicina, para que se utiliza el PEEK?",
       "opciones": [
-        "Como implante para la estabilizacion de la columna dorsal y lumbar",
+        "Como relleno de asientos",
         "Para fabricar cateteres flexibles",
-        "Para crear vasos sanguineos artificiales",
-        "Como relleno de asientos"
+        "Como implante para la estabilizacion de la columna dorsal y lumbar",
+        "Para crear vasos sanguineos artificiales"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Entre las aplicaciones medicas de los polimeros avanzados, el PEEK se usa como implante para la estabilizacion de la columna dorsal y lumbar.",
       "fuente": "Tema 2 - Aplicaciones medicas / Pregunta examen 19"
     },
@@ -543,12 +543,12 @@
       "dificultad": "media",
       "enunciado": "Que polimero se emplea para crear tejidos artificiales y vasos sanguineos?",
       "opciones": [
-        "El PTFE",
-        "El POM",
         "El PLA",
-        "El Nomex"
+        "El PTFE",
+        "El Nomex",
+        "El POM"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El PTFE se usa en medicina para la creacion de tejidos artificiales y vasos sanguineos, en odontologia y en la sustitucion de cateteres que antes eran de PVC.",
       "fuente": "Tema 2 - Aplicaciones medicas / Pregunta examen 19"
     },
@@ -559,12 +559,12 @@
       "dificultad": "facil",
       "enunciado": "Que polimero se cita para fabricar cateteres?",
       "opciones": [
-        "El Nylon",
-        "El PEEK",
         "El POM",
+        "El PEEK",
+        "El Nylon",
         "El XL-PE"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Entre las aplicaciones medicas, el Nylon se cita para cateteres.",
       "fuente": "Tema 2 - Aplicaciones medicas / Pregunta examen 19"
     },
@@ -575,12 +575,12 @@
       "dificultad": "media",
       "enunciado": "Que caracteriza al hormigon polimerico?",
       "opciones": [
-        "Reemplaza el cemento por resina polimerica; es mas ligero y no necesita armadura metalica",
-        "Es mas barato que el hormigon convencional",
+        "No resiste productos quimicos",
         "Solo sirve para piezas decorativas",
-        "No resiste productos quimicos"
+        "Es mas barato que el hormigon convencional",
+        "Reemplaza el cemento por resina polimerica; es mas ligero y no necesita armadura metalica"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "El hormigon polimerico reemplaza el cemento por resina polimerica, mejorando la resistencia a compresion y traccion; es mas ligero y no necesita armadura metalica, y resiste la abrasion y los productos quimicos. Su inconveniente es que es mas caro que el hormigon.",
       "fuente": "Tema 2 - Hormigon polimerico / Pregunta examen 22"
     },
@@ -591,12 +591,12 @@
       "dificultad": "facil",
       "enunciado": "Que son las espumas polimericas?",
       "opciones": [
-        "Polimeros con gran cantidad de burbujas de gas en su estructura",
-        "Polimeros conductores de la electricidad",
         "Fibras de refuerzo para hormigon",
-        "Recubrimientos antiadherentes"
+        "Polimeros con gran cantidad de burbujas de gas en su estructura",
+        "Recubrimientos antiadherentes",
+        "Polimeros conductores de la electricidad"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Las espumas polimericas son polimeros con gran cantidad de burbujas de gas; destacan por su aislamiento termico y acustico y su amortiguacion. Se usan en construccion (aislantes) y automocion (asientos y rellenos).",
       "fuente": "Tema 2 - Espumas / Pregunta examen 23"
     },
@@ -607,12 +607,12 @@
       "dificultad": "dificil",
       "enunciado": "Cual de los siguientes NO es una de las principales espumas polimericas?",
       "opciones": [
-        "El policarbonato (PC)",
-        "El poliuretano flexible (PU)",
+        "El polietileno reticulado (XL-PE)",
         "El poliestireno (EPS y XPS)",
-        "El polietileno reticulado (XL-PE)"
+        "El policarbonato (PC)",
+        "El poliuretano flexible (PU)"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Las principales espumas polimericas son las de polietileno reticulado (XL-PE), poliuretano flexible (PU), poliestireno (EPS y XPS) y polivinilo (PVC). El policarbonato no figura entre ellas.",
       "fuente": "Tema 2 - Espumas / Pregunta examen 24"
     },
@@ -623,12 +623,12 @@
       "dificultad": "dificil",
       "enunciado": "Para que son utiles las nuevas membranas de poliamidas y polibenzimidazoles?",
       "opciones": [
-        "Para separar dioxido de carbono y metano por su alta permeabilidad",
-        "Para conducir electricidad",
         "Para fabricar engranajes",
+        "Para conducir electricidad",
+        "Para separar dioxido de carbono y metano por su alta permeabilidad",
         "Como relleno de asientos"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Las membranas permiten la transferencia selectiva de masa. Las nuevas membranas de poliamidas y polibenzimidazoles tienen alta permeabilidad y son utiles para separar dioxido de carbono y metano.",
       "fuente": "Tema 2 - Membranas / Pregunta examen 27"
     },
@@ -639,12 +639,12 @@
       "dificultad": "media",
       "enunciado": "Que son los materiales polimericos metalicos?",
       "opciones": [
-        "Polimeros con propiedades similares a los metales, duraderos y faciles de procesar",
         "Metales recubiertos de pintura",
-        "Espumas metalicas",
-        "Aleaciones de aluminio y magnesio"
+        "Aleaciones de aluminio y magnesio",
+        "Polimeros con propiedades similares a los metales, duraderos y faciles de procesar",
+        "Espumas metalicas"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Los polimeros metalicos tienen propiedades similares a los metales; son duraderos y faciles de procesar y se usan en automocion (componentes ligeros y resistentes), medicina (protesis de PEEK) y aeroespacial (relacion resistencia-peso).",
       "fuente": "Tema 2 - Polimeros metalicos / Pregunta examen 28"
     },
@@ -655,12 +655,12 @@
       "dificultad": "media",
       "enunciado": "Que polimero se emplea en el sector de los juguetes para impresion 3D?",
       "opciones": [
-        "El PLA",
-        "El UHMWPE",
         "El PFOA",
-        "El Nomex"
+        "El Nomex",
+        "El UHMWPE",
+        "El PLA"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Entre los polimeros avanzados en juguetes, el PLA se usa para impresion 3D; el TPE para piezas suaves y flexibles; el PP renovable (Mattel x SABIC); y el PHB (proyecto biotoy).",
       "fuente": "Tema 2 - Juguetes / Pregunta examen 25"
     },
@@ -671,12 +671,12 @@
       "dificultad": "dificil",
       "enunciado": "Cual de las teorias de la adhesion corresponde a un fenomeno quimico?",
       "opciones": [
-        "La adsorcion termodinamica (mojado superficial)",
         "El modelo de adhesion mecanica",
+        "La adsorcion termodinamica (mojado superficial)",
         "La teoria de la difusion",
         "La teoria electrica"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Las teorias por fenomenos fisicos son la mecanica, la difusion y la electrica. La adsorcion termodinamica (mojado superficial), basada en angulo de contacto, tension superficial y fuerzas de Van der Waals, es el fenomeno quimico.",
       "fuente": "Tema 3 / Pregunta examen 31"
     },
@@ -687,12 +687,12 @@
       "dificultad": "media",
       "enunciado": "Que teoria de la adhesion, la mas aceptada, relaciona la rugosidad del sustrato con el anclaje del adhesivo?",
       "opciones": [
-        "El modelo de adhesion mecanica",
         "La teoria electrica",
+        "La adsorcion termodinamica",
         "La teoria de la difusion",
-        "La adsorcion termodinamica"
+        "El modelo de adhesion mecanica"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "El modelo de adhesion mecanica relaciona la rugosidad con la adhesion: el adhesivo rellena los valles y crea anclajes. Es la teoria mas aceptada, aunque no explica la adhesion en superficies lisas.",
       "fuente": "Tema 3 / Teorias de la adhesion"
     },
@@ -703,12 +703,12 @@
       "dificultad": "media",
       "enunciado": "Que teoria de la adhesion compara la union con un condensador y es la menos aceptada?",
       "opciones": [
-        "La teoria electrica",
         "El modelo mecanico",
-        "La teoria de la difusion",
-        "La adsorcion termodinamica"
+        "La teoria electrica",
+        "La adsorcion termodinamica",
+        "La teoria de la difusion"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "La teoria electrica asemeja la adhesion a un condensador, donde cargas de signo opuesto se atraen. Es la teoria menos acertada y aceptada.",
       "fuente": "Tema 3 / Teorias de la adhesion"
     },
@@ -719,12 +719,12 @@
       "dificultad": "dificil",
       "enunciado": "Por que el PTFE (teflon) es un mal sustrato para las uniones adhesivas?",
       "opciones": [
-        "Por su baja mojabilidad: su energia superficial es menor que la tension superficial del adhesivo",
-        "Porque se disuelve con los adhesivos",
         "Porque conduce la electricidad",
-        "Porque es demasiado rugoso"
+        "Porque es demasiado rugoso",
+        "Por su baja mojabilidad: su energia superficial es menor que la tension superficial del adhesivo",
+        "Porque se disuelve con los adhesivos"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El PTFE tiene baja mojabilidad porque su energia superficial es menor que la tension superficial del adhesivo, por lo que este no llega a mojar la superficie.",
       "fuente": "Tema 3 / Pregunta examen 32"
     },
@@ -736,9 +736,9 @@
       "enunciado": "Cual es el adhesivo mas potente segun resistencia a traccion?",
       "opciones": [
         "Los adhesivos epoxi",
-        "Las siliconas",
         "Los cianoacrilatos",
-        "Los anaerobicos"
+        "Los anaerobicos",
+        "Las siliconas"
       ],
       "respuesta": 0,
       "explicacion": "Los adhesivos epoxi son los mas potentes en cuanto a resistencia a traccion.",
@@ -751,12 +751,12 @@
       "dificultad": "facil",
       "enunciado": "Cual se considera el adhesivo mas fuerte del mundo (3 g sostuvieron 17,5 toneladas)?",
       "opciones": [
-        "El adhesivo DELO",
+        "La silicona",
         "Un epoxi comun",
-        "El cianoacrilato",
-        "La silicona"
+        "El adhesivo DELO",
+        "El cianoacrilato"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El adhesivo DELO levanto una carga de 17,5 toneladas durante 1 hora usando solo 3 g de adhesivo.",
       "fuente": "Tema 3 / Pregunta examen 29"
     },
@@ -768,8 +768,8 @@
       "enunciado": "Que animal posee el adhesivo natural mas potente del mundo?",
       "opciones": [
         "Los percebes",
-        "La arana",
         "El mejillon",
+        "La arana",
         "La lapa"
       ],
       "respuesta": 0,
@@ -783,12 +783,12 @@
       "dificultad": "media",
       "enunciado": "Que familia de adhesivos se usa para fijar roscas?",
       "opciones": [
-        "Los anaerobicos, que curan en ausencia de aire",
-        "Las siliconas",
         "Los epoxi",
-        "Los cianoacrilatos"
+        "Las siliconas",
+        "Los cianoacrilatos",
+        "Los anaerobicos, que curan en ausencia de aire"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Los adhesivos anaerobicos se usan para fijar roscas: al roscarse curan en ausencia de aire y quedan fijos y rigidos.",
       "fuente": "Tema 3 / Pregunta examen 38"
     },
@@ -799,12 +799,12 @@
       "dificultad": "media",
       "enunciado": "Por que el superglue (cianoacrilato) no se queda pegado dentro de su propio bote?",
       "opciones": [
-        "Porque necesita aire (humedad) para curar y dentro del bote no lo tiene",
-        "Porque el bote esta recubierto de teflon",
         "Porque esta congelado",
-        "Porque es un adhesivo bicomponente"
+        "Porque necesita aire (humedad) para curar y dentro del bote no lo tiene",
+        "Porque es un adhesivo bicomponente",
+        "Porque el bote esta recubierto de teflon"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El cianoacrilato necesita aire (humedad) para polimerizar y curar; dentro del bote cerrado no dispone de el. Si se pegan los dedos, se separan con acetona.",
       "fuente": "Tema 3 / Pregunta examen 37"
     },
@@ -816,8 +816,8 @@
       "enunciado": "Si se te pegan los dedos con superglue, que se aplica para separarlos?",
       "opciones": [
         "Acetona",
-        "Agua caliente",
         "Alcohol",
+        "Agua caliente",
         "Aceite"
       ],
       "respuesta": 0,
@@ -831,12 +831,12 @@
       "dificultad": "media",
       "enunciado": "Que adhesivo es ideal para pegar las lunas de los automoviles?",
       "opciones": [
-        "El poliuretano flexible",
-        "La silicona de bano",
         "El cianoacrilato",
-        "Un epoxi rigido"
+        "Un epoxi rigido",
+        "El poliuretano flexible",
+        "La silicona de bano"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El adhesivo de poliuretano flexible es ideal para las lunas de automovil por su durabilidad, flexibilidad y resistencia a vibraciones, tensiones, humedad y clima.",
       "fuente": "Tema 3 / Pregunta examen 43"
     },
@@ -847,12 +847,12 @@
       "dificultad": "dificil",
       "enunciado": "Que tipo de rotura es la mas deseable en una union adhesiva?",
       "opciones": [
-        "El fallo cohesivo, porque el adhesivo trabaja en las mejores condiciones",
-        "El fallo adhesivo en la interfase",
+        "El despegue por pelado",
         "La rotura del sustrato",
-        "El despegue por pelado"
+        "El fallo cohesivo, porque el adhesivo trabaja en las mejores condiciones",
+        "El fallo adhesivo en la interfase"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "La rotura mas deseable es el fallo cohesivo (el adhesivo rompe por su interior), porque indica que el adhesivo esta trabajando en las mejores condiciones.",
       "fuente": "Tema 3 / Pregunta examen 40"
     },
@@ -863,12 +863,12 @@
       "dificultad": "dificil",
       "enunciado": "En la prueba del post-it, que solicitacion aguanto mas la union?",
       "opciones": [
-        "La cizalla",
-        "El pelado",
         "La traccion pura",
-        "La compresion"
+        "La cizalla",
+        "La compresion",
+        "El pelado"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Se probaron cizalla y pelado, y la union duro mas a cizalla.",
       "fuente": "Tema 3 / Pregunta examen 39"
     },
@@ -879,12 +879,12 @@
       "dificultad": "facil",
       "enunciado": "Que adhesivo se usa en el hogar para sellar juntas e impedir el paso del agua?",
       "opciones": [
-        "Las siliconas",
         "Los epoxi",
-        "Los anaerobicos",
-        "El PAN"
+        "El PAN",
+        "Las siliconas",
+        "Los anaerobicos"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Las siliconas se usan en las juntas del bano para sellar e impedir que penetre el agua.",
       "fuente": "Tema 3 / Pregunta examen 36"
     },
@@ -895,12 +895,12 @@
       "dificultad": "dificil",
       "enunciado": "El curado quimico de un adhesivo puede producirse por...",
       "opciones": [
-        "Poliadicion o policondensacion",
-        "Evaporacion o congelacion",
         "Anodizado o granallado",
-        "Cizalla o pelado"
+        "Poliadicion o policondensacion",
+        "Cizalla o pelado",
+        "Evaporacion o congelacion"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Segun el curado, los adhesivos pueden ser de curado fisico o quimico; el quimico se produce por poliadicion o por policondensacion.",
       "fuente": "Tema 3 / Pregunta examen 42"
     },
@@ -927,12 +927,12 @@
       "dificultad": "facil",
       "enunciado": "Que es un material compuesto?",
       "opciones": [
-        "La union de dos o mas materiales para lograr propiedades que no se obtienen por separado",
-        "Una aleacion metalica de dos metales",
+        "Un metal recubierto de pintura",
         "Un material polifasico obtenido por tratamiento termico",
-        "Un metal recubierto de pintura"
+        "Una aleacion metalica de dos metales",
+        "La union de dos o mas materiales para lograr propiedades que no se obtienen por separado"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Un material compuesto se forma por la union de dos o mas materiales para conseguir una combinacion de propiedades imposible de obtener por separado.",
       "fuente": "Tema 4 / Pregunta examen 49"
     },
@@ -943,12 +943,12 @@
       "dificultad": "media",
       "enunciado": "Cual es el papel del refuerzo en un material compuesto?",
       "opciones": [
-        "Es la fase dispersa cuya geometria define las propiedades mecanicas",
+        "Es un recubrimiento superficial",
         "Es la fase continua que da cohesion",
         "Es la encargada de las propiedades quimicas",
-        "Es un recubrimiento superficial"
+        "Es la fase dispersa cuya geometria define las propiedades mecanicas"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "El refuerzo es la fase de caracter disperso; su geometria es fundamental para definir las propiedades mecanicas del compuesto.",
       "fuente": "Tema 4 / Pregunta examen 50"
     },
@@ -960,9 +960,9 @@
       "enunciado": "Que funcion cumple la matriz en un material compuesto?",
       "opciones": [
         "Es la fase continua: da cohesion, protege y transmite los esfuerzos al refuerzo",
-        "Es la fase dispersa que aporta la resistencia",
         "Solo aporta color al material",
-        "Evita que el material conduzca la electricidad"
+        "Evita que el material conduzca la electricidad",
+        "Es la fase dispersa que aporta la resistencia"
       ],
       "respuesta": 0,
       "explicacion": "La matriz tiene caracter continuo y es responsable de las propiedades fisicas y quimicas; transmite los esfuerzos al refuerzo, lo protege y da cohesion.",
@@ -975,12 +975,12 @@
       "dificultad": "facil",
       "enunciado": "Cual es el precursor mas habitual de la fibra de carbono?",
       "opciones": [
-        "El PAN",
         "El PVC",
         "El SiC",
-        "El Kevlar"
+        "El Kevlar",
+        "El PAN"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "El precursor mas habitual de la fibra de carbono es el PAN (poliacrilonitrilo).",
       "fuente": "Tema 4 / Pregunta examen 52"
     },
@@ -993,8 +993,8 @@
       "opciones": [
         "Estabilizacion, carbonizacion y grafitizacion",
         "Carbonizacion, estabilizacion y grafitizacion",
-        "Grafitizacion, carbonizacion y estabilizacion",
-        "Estabilizacion, grafitizacion y carbonizacion"
+        "Estabilizacion, grafitizacion y carbonizacion",
+        "Grafitizacion, carbonizacion y estabilizacion"
       ],
       "respuesta": 0,
       "explicacion": "Las fases de fabricacion de la fibra de carbono son, en orden: estabilizacion, carbonizacion y grafitizacion.",
@@ -1007,12 +1007,12 @@
       "dificultad": "dificil",
       "enunciado": "Cual es la fibra mas resistente a traccion?",
       "opciones": [
-        "El Zylon (polimero PBO)",
         "La fibra de vidrio",
+        "La fibra de carbono",
         "El Kevlar",
-        "La fibra de carbono"
+        "El Zylon (polimero PBO)"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "La fibra mas resistente a traccion es el Zylon, hecho del polimero PBO. Se uso en Formula 1 en el cable que sujeta la rueda en caso de accidente.",
       "fuente": "Tema 4 / Pregunta examen 54"
     },
@@ -1023,12 +1023,12 @@
       "dificultad": "media",
       "enunciado": "Cual es el material mas utilizado para fabricar whiskers?",
       "opciones": [
-        "El carburo de silicio (SiC)",
-        "El wolframio",
         "La fibra de vidrio",
+        "El wolframio",
+        "El carburo de silicio (SiC)",
         "El Kevlar"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El material mas utilizado para los whiskers es el carburo de silicio (SiC).",
       "fuente": "Tema 4 / Pregunta examen 56"
     },
@@ -1039,12 +1039,12 @@
       "dificultad": "dificil",
       "enunciado": "Que es el peel-ply?",
       "opciones": [
-        "Un tejido pelable sobre el que no se adhiere la resina, para dejar un acabado rugoso apto para adhesivos",
-        "Una resina termoestable de alta resistencia",
         "Un metodo de reciclaje de fibra de carbono",
+        "Una resina termoestable de alta resistencia",
+        "Un tejido pelable sobre el que no se adhiere la resina, para dejar un acabado rugoso apto para adhesivos",
         "Un tipo de whisker"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El peel-ply es un tejido pelable sintetico muy resistente sobre el que no se adhiere la resina; se usa para conseguir un acabado superficial rugoso, ideal para un posterior adhesivo.",
       "fuente": "Tema 4 / Pregunta examen 58"
     },
@@ -1055,12 +1055,12 @@
       "dificultad": "dificil",
       "enunciado": "En que consiste el moldeo por compresion de laminas preimpregnadas (SMC)?",
       "opciones": [
-        "El tejido se vende impregnado con resina que, al calentarse, actua como adhesivo",
-        "Se inyecta resina liquida en un molde cerrado",
+        "Se aplica resina a mano sobre el molde",
         "Se enrolla el filamento sobre un mandril",
-        "Se aplica resina a mano sobre el molde"
+        "El tejido se vende impregnado con resina que, al calentarse, actua como adhesivo",
+        "Se inyecta resina liquida en un molde cerrado"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "En el SMC (sheet molding compound) el tejido se vende impregnado con la resina; al calentarse, esta actua como adhesivo. Es mas caro pero mas practico a grandes niveles industriales.",
       "fuente": "Tema 4 / Pregunta examen 60"
     },
@@ -1087,12 +1087,12 @@
       "dificultad": "media",
       "enunciado": "Cual es una aplicacion curiosa de los materiales compuestos citada en los apuntes?",
       "opciones": [
-        "Un hidrogel de Kevlar y alcohol polivinilico que imita el cartilago humano",
-        "Una bateria de grafeno flexible",
         "Un recubrimiento antiadherente para sartenes",
-        "Una espuma aislante para edificios"
+        "Una espuma aislante para edificios",
+        "Una bateria de grafeno flexible",
+        "Un hidrogel de Kevlar y alcohol polivinilico que imita el cartilago humano"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Una aplicacion curiosa es un hidrogel a base de Kevlar y alcohol polivinilico que imita el cartilago humano.",
       "fuente": "Tema 4 / Pregunta examen 62"
     },
@@ -1103,12 +1103,12 @@
       "dificultad": "dificil",
       "enunciado": "La fibra Innegra es...",
       "opciones": [
-        "Polipropileno, de tipo polimerico",
-        "Fibra de vidrio, de tipo ceramico",
         "Aramida, de tipo polimerico",
-        "Fibra de carbono, de tipo ceramico"
+        "Fibra de carbono, de tipo ceramico",
+        "Polipropileno, de tipo polimerico",
+        "Fibra de vidrio, de tipo ceramico"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "La Innegra es polipropileno y se clasifica como fibra polimerica. La fibra de vidrio y la de carbono son ceramicas; el Kevlar es una aramida polimerica.",
       "fuente": "Tema 4 / Pregunta examen 53"
     },
@@ -1119,12 +1119,12 @@
       "dificultad": "facil",
       "enunciado": "Segun los apuntes, es el hormigon un material compuesto?",
       "opciones": [
-        "Hay debate sobre ello",
         "Si, sin ninguna duda",
+        "Hay debate sobre ello",
         "No, nunca se considera asi",
         "Solo si lleva fibra de carbono"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Sobre si el hormigon es un material compuesto, los apuntes indican que hay debate.",
       "fuente": "Tema 4 / Pregunta examen 57"
     },
@@ -1135,12 +1135,12 @@
       "dificultad": "media",
       "enunciado": "Con que material compuesto se fabrican habitualmente los kayaks?",
       "opciones": [
+        "Con whiskers de SiC",
         "Con Kevlar",
-        "Con fibra de carbono",
         "Con fibra de vidrio",
-        "Con whiskers de SiC"
+        "Con fibra de carbono"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Entre las aplicaciones deportivas, los kayaks se fabrican con Kevlar.",
       "fuente": "Tema 4 / Pregunta examen 64"
     },
@@ -1152,9 +1152,9 @@
       "enunciado": "Como es el material compuesto de matriz ceramica C/SiC?",
       "opciones": [
         "Duro y resistente al calor y al desgaste, pero fragil",
-        "Blando y muy ductil",
+        "Transparente y ligero",
         "Buen conductor electrico y flexible",
-        "Transparente y ligero"
+        "Blando y muy ductil"
       ],
       "respuesta": 0,
       "explicacion": "El C/SiC tiene matriz de carburo de silicio: es duro y resistente al calor y al desgaste, pero fragil. Se usa en frenos, discos de embrague, escudos termicos y componentes de motores y turbinas.",
@@ -1167,12 +1167,12 @@
       "dificultad": "media",
       "enunciado": "Cual de estos es un metodo de fabricacion propio de las matrices termoplasticas?",
       "opciones": [
+        "El moldeo por proyeccion simultanea",
         "La inyeccion",
         "El bobinado de filamentos",
-        "El moldeo por contacto a mano",
-        "El moldeo por proyeccion simultanea"
+        "El moldeo por contacto a mano"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Las matrices termoplasticas se fabrican por extrusion, inyeccion y compresion. El bobinado de filamentos, el contacto a mano y la proyeccion simultanea son metodos de las termoestables.",
       "fuente": "Tema 4 / Pregunta examen 59"
     },
@@ -1184,9 +1184,9 @@
       "enunciado": "Que base metalica corresponde a los aceros inoxidables como biomaterial?",
       "opciones": [
         "Base Fe",
-        "Base Ti",
+        "Base Au",
         "Base Co",
-        "Base Au"
+        "Base Ti"
       ],
       "respuesta": 0,
       "explicacion": "Los biomateriales metalicos se clasifican en base Fe (aceros inoxidables), base Ti (Ti6Al4V), base Co (CoCrMo) y otras bases (nitinol, oro, amalgama).",
@@ -1200,8 +1200,8 @@
       "enunciado": "Que contenido de carbono tiene un acero inoxidable martensitico?",
       "opciones": [
         "Entre 0,1 y 1,2 %",
-        "Menor o igual a 0,08 %",
         "Exactamente 2 %",
+        "Menor o igual a 0,08 %",
         "Mas del 5 %"
       ],
       "respuesta": 0,
@@ -1215,12 +1215,12 @@
       "dificultad": "media",
       "enunciado": "Cual es la composicion del Ti6Al4V (norma F136), el biomaterial de titanio mas usado?",
       "opciones": [
-        "90% titanio, 6% aluminio y 4% vanadio",
-        "60% titanio, 30% aluminio y 10% vanadio",
         "80% titanio y 20% aluminio",
-        "50% titanio, 25% aluminio y 25% vanadio"
+        "50% titanio, 25% aluminio y 25% vanadio",
+        "60% titanio, 30% aluminio y 10% vanadio",
+        "90% titanio, 6% aluminio y 4% vanadio"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "El biomaterial de titanio mas utilizado es el Ti6Al4V (F136): 90% titanio (Ti), 6% aluminio (Al) y 4% vanadio (V).",
       "fuente": "Tema 5 / Pregunta examen 68"
     },
@@ -1232,9 +1232,9 @@
       "enunciado": "De que material se hacen los stents coronarios y por que?",
       "opciones": [
         "De nitinol, por su memoria de forma",
-        "De oro, por su inercia quimica",
         "De alumina, por su dureza",
-        "De PHEMA, por su elasticidad"
+        "De PHEMA, por su elasticidad",
+        "De oro, por su inercia quimica"
       ],
       "respuesta": 0,
       "explicacion": "Los stents coronarios se hacen de nitinol: ademas de ser un biomaterial, se usan por su memoria de forma.",
@@ -1247,12 +1247,12 @@
       "dificultad": "media",
       "enunciado": "Cual es la composicion de la amalgama usada para rellenar caries?",
       "opciones": [
-        "50% Hg, 35% Ag y 15% Sn",
-        "90% Hg y 10% Ag",
+        "100% mercurio",
         "50% Ag, 35% Sn y 15% Hg",
-        "100% mercurio"
+        "90% Hg y 10% Ag",
+        "50% Hg, 35% Ag y 15% Sn"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "La amalgama empleada para rellenar caries tiene 50% de mercurio (Hg), 35% de plata (Ag) y 15% de estano (Sn).",
       "fuente": "Tema 5 / Pregunta examen 71"
     },
@@ -1263,12 +1263,12 @@
       "dificultad": "media",
       "enunciado": "Cual es una aplicacion de la alumina como biomaterial?",
       "opciones": [
-        "Protesis de cabeza de femur, tornillos y placas de hueso, coronas y puentes",
         "Lentes de contacto",
-        "Stents coronarios",
-        "Cemento oseo"
+        "Cemento oseo",
+        "Protesis de cabeza de femur, tornillos y placas de hueso, coronas y puentes",
+        "Stents coronarios"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "La alumina, ceramica fuerte, se usa en protesis de cabeza de femur, tornillos y placas de hueso, coronas y puentes.",
       "fuente": "Tema 5 / Pregunta examen 72"
     },
@@ -1279,12 +1279,12 @@
       "dificultad": "media",
       "enunciado": "Para que se utiliza la hidroxiapatita como biomaterial?",
       "opciones": [
-        "Recubrimientos porosos y relleno de hueso",
-        "Stents coronarios",
+        "Recubrimiento de nervios",
         "Lentes de contacto",
-        "Recubrimiento de nervios"
+        "Stents coronarios",
+        "Recubrimientos porosos y relleno de hueso"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "La hidroxiapatita, ceramica reabsorbible, se usa en recubrimientos porosos y relleno de hueso.",
       "fuente": "Tema 5 / Pregunta examen 73"
     },
@@ -1295,12 +1295,12 @@
       "dificultad": "dificil",
       "enunciado": "Que es el bioglass?",
       "opciones": [
-        "Un material bioactivo que interactua con los tejidos y promueve la regeneracion osea",
-        "Un acero inoxidable de alta resistencia",
         "Un hidrogel para lentes de contacto",
-        "Un polimero biodegradable"
+        "Un polimero biodegradable",
+        "Un material bioactivo que interactua con los tejidos y promueve la regeneracion osea",
+        "Un acero inoxidable de alta resistencia"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El bioglass es un material bioactivo conocido por interactuar con los tejidos biologicos y promover la regeneracion osea. Su composicion es 25% Na2O, 24% CaO, 6% MgO-P2O5 y 45% SiO2.",
       "fuente": "Tema 5 / Pregunta examen 74"
     },
@@ -1311,12 +1311,12 @@
       "dificultad": "facil",
       "enunciado": "De que material estan hechas las lentes de contacto y por que?",
       "opciones": [
-        "De hidrogeles como el PHEMA, por su hidrofilicidad, tacto suave y elasticidad",
+        "De PTFE, por su antiadherencia",
         "De alumina, por su dureza",
         "De nitinol, por su memoria de forma",
-        "De PTFE, por su antiadherencia"
+        "De hidrogeles como el PHEMA, por su hidrofilicidad, tacto suave y elasticidad"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Las lentes de contacto se hacen de hidrogeles como el PHEMA, por su gran hidrofilicidad, tacto suave y consistencia elastica.",
       "fuente": "Tema 5 / Pregunta examen 76"
     },
@@ -1327,12 +1327,12 @@
       "dificultad": "media",
       "enunciado": "Que polimero biodegradable es el hermano del PLA?",
       "opciones": [
-        "El PGA (acido poliglicolico)",
         "El PVC",
-        "El PET",
-        "El PHEMA"
+        "El PHEMA",
+        "El PGA (acido poliglicolico)",
+        "El PET"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "El polimero biodegradable hermano del PLA (acido polilactico) es el PGA (acido poliglicolico).",
       "fuente": "Tema 5 / Pregunta examen 77"
     },
@@ -1345,8 +1345,8 @@
       "opciones": [
         "Odontologia, medicamentos contra celulas cancerigenas y radioterapia",
         "Stents coronarios",
-        "Lentes de contacto",
-        "Cemento oseo"
+        "Cemento oseo",
+        "Lentes de contacto"
       ],
       "respuesta": 0,
       "explicacion": "Las aleaciones de oro se aplican en odontologia, en medicamentos contra celulas cancerigenas y en radioterapia.",
@@ -1361,8 +1361,8 @@
       "opciones": [
         "Recubrimiento de nervios para evitar conexiones no deseadas",
         "Relleno de caries",
-        "Fabricacion de stents",
-        "Cemento oseo"
+        "Cemento oseo",
+        "Fabricacion de stents"
       ],
       "respuesta": 0,
       "explicacion": "Como biomaterial, el PTFE se usa para recubrir nervios y evitar la conexion no deseada.",
@@ -1375,12 +1375,12 @@
       "dificultad": "dificil",
       "enunciado": "Cual de estos biomateriales ceramicos es reabsorbible?",
       "opciones": [
-        "La hidroxiapatita",
-        "La alumina",
         "La circona",
-        "El carbon pirolitico"
+        "La hidroxiapatita",
+        "El carbon pirolitico",
+        "La alumina"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Los ceramicos fuertes (inertes) son alumina, circona, carbon pirolitico y porcelana. Entre los reabsorbibles esta la hidroxiapatita (tambien el coral y el fosfato tricalcico).",
       "fuente": "Tema 5 / Clasificacion / Pregunta examen 67"
     },
@@ -1391,12 +1391,12 @@
       "dificultad": "media",
       "enunciado": "Dentro de los biomateriales polimericos, que es un ejemplo de bioestable rigido?",
       "opciones": [
-        "El PET",
+        "El poliuretano",
         "El PLA",
         "El PGA",
-        "El poliuretano"
+        "El PET"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Los polimericos bioestables rigidos son PET, PTFE, UHMWPE y PVC. El PLA y el PGA son biodegradables, y el poliuretano es un elastomero.",
       "fuente": "Tema 5 / Clasificacion"
     },
@@ -1407,12 +1407,12 @@
       "dificultad": "media",
       "enunciado": "Que aleacion corresponde a los biomateriales metalicos de base cobalto?",
       "opciones": [
-        "CoCrMo",
-        "Ti6Al4V",
         "Nitinol",
-        "Acero inoxidable"
+        "CoCrMo",
+        "Acero inoxidable",
+        "Ti6Al4V"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Entre los biomateriales metalicos, la base cobalto corresponde al CoCrMo, empleado en protesis.",
       "fuente": "Tema 5 / Clasificacion / Pregunta examen 67"
     },
@@ -1423,12 +1423,12 @@
       "dificultad": "facil",
       "enunciado": "Cual de estas es una de las ultimas tendencias en el uso de biomateriales?",
       "opciones": [
-        "Las bioimpresoras 3D",
         "La nitruracion del titanio",
         "El galvanizado del acero",
-        "La fabricacion de latones"
+        "La fabricacion de latones",
+        "Las bioimpresoras 3D"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Entre las ultimas tendencias estan las bioimpresoras 3D, el ojo artificial con retina 3D, filamentos biodegradables a partir de algas, la lengua biomimetica impresa en 3D y los exoesqueletos de codigo abierto.",
       "fuente": "Tema 5 / Pregunta examen 78"
     },
@@ -1439,12 +1439,12 @@
       "dificultad": "facil",
       "enunciado": "Cuando se considera que un material es un nanomaterial?",
       "opciones": [
-        "Cuando al menos una de sus dimensiones es menor de 100 nm",
-        "Cuando pesa menos de 100 g",
         "Cuando es transparente",
-        "Cuando es un metal puro"
+        "Cuando al menos una de sus dimensiones es menor de 100 nm",
+        "Cuando es un metal puro",
+        "Cuando pesa menos de 100 g"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Un nanomaterial es aquel en el que al menos una de sus dimensiones es menor de 100 nm (la nanoescala va de 1 a 100 nm).",
       "fuente": "Tema 6 / Nanomateriales"
     },
@@ -1455,12 +1455,12 @@
       "dificultad": "dificil",
       "enunciado": "A que hibridacion del carbono corresponden el grafeno, el grafito, el fullereno y los nanotubos?",
       "opciones": [
-        "sp2",
         "sp",
+        "sp2",
         "sp3",
         "sp3d"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Las formas alotropicas cristalinas del carbono por hibridacion son: sp (carbino), sp2 (grafeno, grafito, fullereno y nanotubos de carbono) y sp3 (diamante).",
       "fuente": "Tema 6 / Pregunta examen 79"
     },
@@ -1471,12 +1471,12 @@
       "dificultad": "facil",
       "enunciado": "Que es el grafeno?",
       "opciones": [
+        "Una forma del diamante",
         "Una lamina de grafito de un solo atomo de espesor; el primer material bidimensional creado por el hombre",
         "Un tubo de carbono de varias capas",
-        "Una forma del diamante",
         "Un oxido metalico"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El grafeno es una lamina de grafito de un solo atomo de espesor y es el primer material bidimensional creado por el hombre.",
       "fuente": "Tema 6 / Pregunta examen 81"
     },
@@ -1487,12 +1487,12 @@
       "dificultad": "dificil",
       "enunciado": "Cual de los siguientes es un metodo ascendente (bottom-up) de obtencion del grafeno?",
       "opciones": [
-        "La CVD (deposicion en fase de vapor)",
-        "La exfoliacion micromecanica",
         "La exfoliacion en fase liquida",
-        "La union anodica"
+        "La union anodica",
+        "La exfoliacion micromecanica",
+        "La CVD (deposicion en fase de vapor)"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Los metodos descendentes son exfoliacion micromecanica, exfoliacion en fase liquida, union anodica y fotoexfoliacion. La CVD, junto con la descomposicion termica, el crecimiento molecular, la precipitacion de metales y el crecimiento epitaxial, es un metodo ascendente.",
       "fuente": "Tema 6 / Pregunta examen 82"
     },
@@ -1503,12 +1503,12 @@
       "dificultad": "media",
       "enunciado": "Cual de estas es una propiedad del grafeno?",
       "opciones": [
-        "Es impermeable, inerte quimicamente y biocompatible",
-        "Es un buen aislante termico",
         "Es muy pesado",
-        "Se oxida con facilidad"
+        "Se oxida con facilidad",
+        "Es un buen aislante termico",
+        "Es impermeable, inerte quimicamente y biocompatible"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "El grafeno es extremadamente ligero, muy resistente, flexible, casi transparente pero denso, superconductor, impermeable, inerte quimicamente, no contaminante y biocompatible.",
       "fuente": "Tema 6 / Pregunta examen 83"
     },
@@ -1519,12 +1519,12 @@
       "dificultad": "media",
       "enunciado": "Que es el grafeno imperfecto?",
       "opciones": [
+        "Grafeno sin ningun defecto",
         "El oxido de grafeno, con defectos que alteran sus propiedades y son utiles para sensores o baterias",
         "Un grafeno de doble capa",
-        "Grafeno sin ningun defecto",
         "Un nanotubo de carbono"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El grafeno imperfecto es el oxido de grafeno: presenta defectos que alteran sus propiedades fisicas y electronicas, lo que puede ser beneficioso para sensores, baterias o materiales compuestos.",
       "fuente": "Tema 6 / Pregunta examen 84"
     },
@@ -1535,12 +1535,12 @@
       "dificultad": "media",
       "enunciado": "Que fuerzas mantienen unidas las capas del grafito y permiten que se deslicen entre si?",
       "opciones": [
-        "Las fuerzas de Van der Waals",
-        "Enlaces covalentes",
         "Enlaces ionicos",
-        "Enlaces metalicos"
+        "Enlaces covalentes",
+        "Enlaces metalicos",
+        "Las fuerzas de Van der Waals"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "En el grafito, las capas de atomos (unidos por enlaces covalentes dentro de cada capa) se mantienen unidas por fuerzas de Van der Waals, mas debiles, lo que permite que se deslicen entre si.",
       "fuente": "Tema 6 / Pregunta examen 80"
     },
@@ -1552,9 +1552,9 @@
       "enunciado": "Que son los nanotubos de carbono?",
       "opciones": [
         "Estructuras cilindricas de atomos de carbono en una red hexagonal",
+        "Cristales de diamante",
         "Laminas planas de un solo atomo",
-        "Esferas de carbono cerradas",
-        "Cristales de diamante"
+        "Esferas de carbono cerradas"
       ],
       "respuesta": 0,
       "explicacion": "Los nanotubos de carbono son estructuras cilindricas formadas por atomos de carbono organizados en una o varias capas, dispuestos en una red hexagonal.",
@@ -1567,12 +1567,12 @@
       "dificultad": "media",
       "enunciado": "Cual de estos es un metodo de obtencion de los nanotubos de carbono?",
       "opciones": [
+        "La union anodica",
         "El arco de descarga",
         "La exfoliacion micromecanica",
-        "La union anodica",
         "La grafitizacion"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Los nanotubos de carbono se obtienen por arco de descarga, ablacion laser y CVD (deposicion en fase de vapor).",
       "fuente": "Tema 6 / Pregunta examen 87"
     },
@@ -1584,8 +1584,8 @@
       "enunciado": "Que destaca del nitruro de boro en nanotecnologia?",
       "opciones": [
         "Es un aislante prometedor con estructura bidimensional parecida al grafeno",
-        "Es el mejor conductor electrico conocido",
         "Es un metal ferromagnetico",
+        "Es el mejor conductor electrico conocido",
         "Es un fullereno de gran tamano"
       ],
       "respuesta": 0,
@@ -1599,12 +1599,12 @@
       "dificultad": "media",
       "enunciado": "Que es el fullereno?",
       "opciones": [
+        "Un oxido de grafeno",
         "Una forma alotropica del carbono de estructura cerrada, con hexagonos y pentagonos",
         "Una lamina plana de carbono",
-        "Un oxido de grafeno",
         "Un nanotubo de boro"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "El fullereno es una forma alotropica del carbono con estructura molecular cerrada, formada por atomos dispuestos en hexagonos y pentagonos; se le conoce como la molecula mas bella.",
       "fuente": "Tema 6 / Pregunta examen 89"
     },
@@ -1615,12 +1615,12 @@
       "dificultad": "dificil",
       "enunciado": "Que ocurre con el fullereno C60 al anadirle potasio?",
       "opciones": [
-        "Se vuelve conductor, pero con demasiado potasio vuelve a ser aislante",
         "Se vuelve siempre aislante",
+        "Se convierte en grafeno",
         "Pierde su forma de balon de futbol",
-        "Se convierte en grafeno"
+        "Se vuelve conductor, pero con demasiado potasio vuelve a ser aislante"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "El C60 no conduce la electricidad en estado natural; al anadir impurezas como el potasio se vuelve conductor, pero si la cantidad de potasio es demasiado elevada vuelve a ser aislante.",
       "fuente": "Tema 6 / Pregunta examen 90"
     },
@@ -1632,9 +1632,9 @@
       "enunciado": "Que son los ferrofluidos?",
       "opciones": [
         "Particulas ferromagneticas suspendidas en un fluido portador, recubiertas de un surfactante",
+        "Nanotubos disueltos en agua",
         "Metales liquidos a temperatura ambiente",
-        "Laminas de grafeno en suspension",
-        "Nanotubos disueltos en agua"
+        "Laminas de grafeno en suspension"
       ],
       "respuesta": 0,
       "explicacion": "Los ferrofluidos se componen de particulas ferromagneticas suspendidas en un fluido portador (solvente organico o agua); las nanoparticulas se recubren de un surfactante, que actua sobre la tension superficial.",
@@ -1647,12 +1647,12 @@
       "dificultad": "media",
       "enunciado": "Que son los nanosensores?",
       "opciones": [
-        "Dispositivos que usan nanoparticulas, nanotubos o nanocables para detectar y transmitir informacion a nivel nanoscopico",
         "Sensores de gran tamano para naves espaciales",
         "Motores que convierten energia en movimiento",
-        "Superficies autolimpiantes"
+        "Superficies autolimpiantes",
+        "Dispositivos que usan nanoparticulas, nanotubos o nanocables para detectar y transmitir informacion a nivel nanoscopico"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Los nanosensores usan nanoparticulas, nanotubos o nanocables para detectar y transmitir informacion a nivel nanoscopico; se aplican en el estudio de la angiogenesis y en el diagnostico y tratamiento del cancer.",
       "fuente": "Tema 6 / Pregunta examen 95"
     },
@@ -1664,9 +1664,9 @@
       "enunciado": "Que es el material SLIP (Slippery Liquid-Infused Porous Surfaces)?",
       "opciones": [
         "Una superficie porosa impregnada de un fluido lubricante que repele liquidos, aceites y bacterias",
-        "Un nanotubo de carbono multicapa",
+        "Un acero inoxidable nanoestructurado",
         "Un tipo de fullereno",
-        "Un acero inoxidable nanoestructurado"
+        "Un nanotubo de carbono multicapa"
       ],
       "respuesta": 0,
       "explicacion": "El material SLIP es una superficie sintetica porosa impregnada con un fluido lubricante que repele liquidos, aceites y bacterias. Esta inspirado en la planta Nepenthes, es autolimpiante y se usa en arquitectura y dispositivos medicos.",
@@ -1679,12 +1679,12 @@
       "dificultad": "facil",
       "enunciado": "Cual es un uso del grafeno en el sector de la energia?",
       "opciones": [
-        "Baterias recargables, paneles solares y supercondensadores",
+        "Lentes de contacto",
         "Fabricacion de hormigon",
-        "Relleno de caries",
-        "Lentes de contacto"
+        "Baterias recargables, paneles solares y supercondensadores",
+        "Relleno de caries"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "En el sector de la energia, el grafeno se usa en baterias recargables, paneles solares y supercondensadores.",
       "fuente": "Tema 6 / Pregunta examen 99"
     },
@@ -1695,12 +1695,12 @@
       "dificultad": "facil",
       "enunciado": "Que es la impresion 4D?",
       "opciones": [
-        "Una tecnica que permite obtener estructuras capaces de cambiar de color, forma o funcion con el tiempo ante un estimulo",
         "Una impresion 3D mas rapida",
         "Una impresion en cuatro colores",
-        "Una tecnica para imprimir metales"
+        "Una tecnica para imprimir metales",
+        "Una tecnica que permite obtener estructuras capaces de cambiar de color, forma o funcion con el tiempo ante un estimulo"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "La impresion 4D es una tecnica de fabricacion digital que permite obtener estructuras capaces de cambiar su color, forma o funcion con el tiempo, en respuesta a un estimulo.",
       "fuente": "Tema 7 / Pregunta examen 101"
     },
@@ -1711,12 +1711,12 @@
       "dificultad": "facil",
       "enunciado": "Cual es la cuarta dimension en la impresion 4D?",
       "opciones": [
-        "El tiempo",
         "La temperatura",
+        "El color",
         "La masa",
-        "El color"
+        "El tiempo"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "La cuarta dimension que da nombre a la impresion 4D es el tiempo.",
       "fuente": "Tema 7 / Pregunta examen 102"
     },
@@ -1727,12 +1727,12 @@
       "dificultad": "media",
       "enunciado": "Cual de estos es uno de los factores necesarios para dominar la impresion 4D?",
       "opciones": [
-        "Los materiales inteligentes",
-        "La nitruracion",
         "El galvanizado",
-        "La fibra de vidrio"
+        "Los materiales inteligentes",
+        "La fibra de vidrio",
+        "La nitruracion"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Los factores necesarios para dominar la impresion 4D son: materiales inteligentes, impresion 3D, estimulos desencadenantes y mecanismos de interaccion.",
       "fuente": "Tema 7 / Pregunta examen 103"
     },
@@ -1743,12 +1743,12 @@
       "dificultad": "dificil",
       "enunciado": "La tecnica FDM (modelado por deposicion fundida) se basa en materiales...",
       "opciones": [
+        "Gaseosos",
         "Solidos",
         "Liquidos",
-        "En polvo",
-        "Gaseosos"
+        "En polvo"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Por su base, las tecnicas se agrupan en: solidos (FDM), liquidos (SLA, DLP, DIW, InkJet) y polvo (SLS, SLM). El FDM es la tecnica basada en solidos.",
       "fuente": "Tema 7 / Pregunta examen 105"
     },
@@ -1759,12 +1759,12 @@
       "dificultad": "dificil",
       "enunciado": "A que corresponde la tecnica SLA?",
       "opciones": [
-        "A la estereolitografia (base liquidos)",
-        "Al sinterizado selectivo por laser",
         "Al modelado por deposicion fundida",
-        "Al direct ink writing"
+        "Al direct ink writing",
+        "A la estereolitografia (base liquidos)",
+        "Al sinterizado selectivo por laser"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "La SLA es la estereolitografia, una tecnica basada en liquidos. El SLS es el sinterizado selectivo por laser (polvo), el FDM el modelado por deposicion fundida (solidos) y el DIW el direct ink writing (liquidos).",
       "fuente": "Tema 7 / Pregunta examen 105"
     },
@@ -1775,12 +1775,12 @@
       "dificultad": "media",
       "enunciado": "Dentro de la clasificacion de los estimulos, la glucosa y las enzimas son estimulos...",
       "opciones": [
-        "Biologicos",
         "Fisicos",
+        "Biologicos",
         "Quimicos",
         "Mecanicos"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Los estimulos se clasifican en fisicos (temperatura, campo electrico, campo magnetico, luz, presion), quimicos (humedad, pH) y biologicos (glucosa, enzimas).",
       "fuente": "Tema 7 / Pregunta examen 107"
     },
@@ -1791,12 +1791,12 @@
       "dificultad": "media",
       "enunciado": "Que limitacion hay que tener en cuenta para usar el estimulo de campo magnetico?",
       "opciones": [
-        "Que el material tiene que ser magnetico",
-        "Que el material tiene que ser transparente",
+        "Que el material tiene que ser biodegradable",
         "Que el material tiene que conducir la electricidad",
-        "Que el material tiene que ser biodegradable"
+        "Que el material tiene que ser magnetico",
+        "Que el material tiene que ser transparente"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Para poder responder al estimulo de campo magnetico, el material tiene que ser magnetico.",
       "fuente": "Tema 7 / Pregunta examen 108"
     },
@@ -1807,12 +1807,12 @@
       "dificultad": "media",
       "enunciado": "Que caracteriza a los materiales con memoria de forma?",
       "opciones": [
-        "Estan en un estado metaestable y se transforman ante un estimulo, cambiando sus propiedades fisicoquimicas",
-        "Son siempre rigidos e inalterables",
         "No reaccionan a ningun estimulo",
-        "Solo cambian de color"
+        "Estan en un estado metaestable y se transforman ante un estimulo, cambiando sus propiedades fisicoquimicas",
+        "Solo cambian de color",
+        "Son siempre rigidos e inalterables"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "Los materiales con memoria de forma se transforman con el tiempo por su reaccion a un estimulo externo (cambio en sus propiedades fisicoquimicas); estan en un estado metaestable, pasando de un estado temporal a uno estable o de equilibrio.",
       "fuente": "Tema 7 / Pregunta examen 111"
     },
@@ -1825,8 +1825,8 @@
       "opciones": [
         "Programacion de la configuracion temporal, y actuacion y recuperacion",
         "Estabilizacion, carbonizacion y grafitizacion",
-        "Eleccion, diseno y preparacion",
-        "Calentamiento y enfriamiento"
+        "Calentamiento y enfriamiento",
+        "Eleccion, diseno y preparacion"
       ],
       "respuesta": 0,
       "explicacion": "El efecto de memoria de forma tiene dos etapas: 1) programacion de la configuracion temporal y 2) actuacion y recuperacion.",
@@ -1839,12 +1839,12 @@
       "dificultad": "media",
       "enunciado": "Que son los metamateriales?",
       "opciones": [
-        "Materiales artificiales con propiedades no presentes normalmente, usados incluso para crear invisibilidad",
-        "Materiales naturales muy abundantes",
+        "Aleaciones de aluminio",
         "Polimeros biodegradables",
-        "Aleaciones de aluminio"
+        "Materiales naturales muy abundantes",
+        "Materiales artificiales con propiedades no presentes normalmente, usados incluso para crear invisibilidad"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Los metamateriales son materiales artificiales disenados para cumplir propiedades muy especificas no presentes normalmente; se usan en telecomunicaciones, optica e ingenieria acustica, e incluso en la creacion de invisibilidad.",
       "fuente": "Tema 7 / Pregunta examen 113"
     },
@@ -1855,12 +1855,12 @@
       "dificultad": "facil",
       "enunciado": "Que son los polimeros autorreparables?",
       "opciones": [
-        "Polimeros que se reparan a si mismos y recuperan su integridad sin intervencion externa",
         "Polimeros que se degradan al instante",
         "Polimeros conductores de electricidad",
-        "Polimeros que cambian de color"
+        "Polimeros que cambian de color",
+        "Polimeros que se reparan a si mismos y recuperan su integridad sin intervencion externa"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Los polimeros autorreparables son materiales polimericos disenados para repararse a si mismos de forma espontanea; contienen mecanismos incorporados que permiten recuperar su integridad estructural sin intervencion externa.",
       "fuente": "Tema 7 / Pregunta examen 114"
     },
@@ -1871,12 +1871,12 @@
       "dificultad": "dificil",
       "enunciado": "Como se clasifican los polimeros autorreparables segun su mecanismo de reparacion?",
       "opciones": [
-        "En autonomos (supramoleculares) y no autonomos (microvasculares y por encapsulacion)",
-        "En rigidos y flexibles",
         "En naturales y sinteticos",
+        "En rigidos y flexibles",
+        "En autonomos (supramoleculares) y no autonomos (microvasculares y por encapsulacion)",
         "En termoplasticos y termoestables"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Segun el mecanismo de reparacion se dividen en autonomos (polimeros supramoleculares) y no autonomos (microvasculares autorreparables y encapsulacion de materiales).",
       "fuente": "Tema 7 / Pregunta examen 106"
     },
@@ -1887,12 +1887,12 @@
       "dificultad": "media",
       "enunciado": "Cual de estas es una propiedad de los materiales usados en impresion 4D?",
       "opciones": [
-        "El autoensamblaje",
         "La nitruracion",
         "El galvanizado",
-        "La grafitizacion"
+        "La grafitizacion",
+        "El autoensamblaje"
       ],
-      "respuesta": 0,
+      "respuesta": 3,
       "explicacion": "Los materiales usados en impresion 4D destacan por su autorreparacion, autoensamblaje, autodeteccion y autoadaptabilidad.",
       "fuente": "Tema 7 / Pregunta examen 110"
     },
@@ -1903,12 +1903,12 @@
       "dificultad": "media",
       "enunciado": "Cual de estas es una aplicacion actual de los materiales inteligentes?",
       "opciones": [
-        "Musculos artificiales y pieles electronicas",
-        "Galvanizado de chapa",
         "Fabricacion de latones",
+        "Galvanizado de chapa",
+        "Musculos artificiales y pieles electronicas",
         "Anodizado de perfiles"
       ],
-      "respuesta": 0,
+      "respuesta": 2,
       "explicacion": "Entre las aplicaciones de los materiales inteligentes estan los dispositivos medicos monitorizados (dispensacion de farmacos, pieles electronicas, grapas autoajustables, musculos artificiales), el soft robotics, el packaging autoplegado y la biomimetica.",
       "fuente": "Tema 7 / Pregunta examen 115"
     },
@@ -1919,12 +1919,12 @@
       "dificultad": "media",
       "enunciado": "Como se usan los materiales inteligentes en la industria alimentaria?",
       "opciones": [
+        "Para aumentar el peso del producto",
         "Para indicar el estado de la comida mediante el pH",
-        "Para endurecer los envases metalicos",
         "Para conducir electricidad en los alimentos",
-        "Para aumentar el peso del producto"
+        "Para endurecer los envases metalicos"
       ],
-      "respuesta": 0,
+      "respuesta": 1,
       "explicacion": "En la industria alimentaria los materiales inteligentes se usan para indicar el estado de la comida a traves del pH.",
       "fuente": "Tema 7 / Pregunta examen 115"
     }
