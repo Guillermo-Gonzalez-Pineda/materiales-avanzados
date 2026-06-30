@@ -233,16 +233,93 @@
       "nombre": "Nanomateriales",
       "icono": "ti-atom-2",
       "resumen": "Carbono, grafeno, nanotubos, fullerenos y nanotubos de boro.",
-      "estado": "pendiente",
-      "secciones": []
+      "estado": "completo",
+      "secciones": [
+        {
+          "id": "nanotecnologia",
+          "titulo": "Nanotecnologia y nanomateriales",
+          "html": "<p>La <strong>nanotecnologia</strong> es una ciencia multidisciplinar que abarca las actividades cientificas y tecnologicas llevadas a cabo a escala atomica y molecular.</p><ul><li><strong>Nanomaterial:</strong> material en el que al menos una de sus dimensiones es menor de 100 nm (la nanoescala va de 1 a 100 nm).</li><li><strong>Nanocompuesto:</strong> aquel en el que al menos una de las fases tiene una dimension del orden de nanometros.</li></ul><p>Tiene aplicaciones en robotica, modificacion superficial, alimentacion, biomedicina, liberacion de medicamentos y conductores.</p>"
+        },
+        {
+          "id": "carbono",
+          "titulo": "El atomo de carbono y sus formas",
+          "html": "<p>El carbono es un no metal de numero atomico 6, con configuracion electronica 1s2 2s2 2p2. Segun su hibridacion da lugar a distintas formas:</p><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><table class=\"tabla\"><thead><tr><th>Hibridacion</th><th>Formas alotropicas (cristalinas)</th></tr></thead><tbody><tr><td>sp</td><td>Carbino</td></tr><tr><td>sp2</td><td>Grafeno, grafito, fullereno, nanotubos de carbono</td></tr><tr><td>sp3</td><td>Diamante</td></tr></tbody></table></div>"
+        },
+        {
+          "id": "grafito-grafeno",
+          "titulo": "Grafito y grafeno",
+          "html": "<h4>Estructura del grafito</h4><p>Capas de atomos dispuestos en un patron hexagonal unidos por enlaces covalentes. Las capas estan apiladas y se mantienen unidas por fuerzas de Van der Waals, mas debiles, lo que permite que se deslicen entre si.</p><h4>Que es el grafeno</h4><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>Una lamina de grafito de un solo atomo de espesor. Es el primer material bidimensional creado por el hombre.</p></div><h4>Propiedades del grafeno</h4><p>Extremadamente ligero, muy resistente, flexible, casi transparente pero muy denso, superconductor, impermeable, inerte quimicamente, no contaminante y biocompatible.</p><h4>Grafeno imperfecto</h4><p>El oxido de grafeno presenta defectos en su estructura que alteran sus propiedades fisicas y electronicas, lo que puede ser beneficioso para sensores, baterias o materiales compuestos.</p>"
+        },
+        {
+          "id": "obtencion-grafeno",
+          "titulo": "Obtencion del grafeno",
+          "html": "<div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><table class=\"tabla\"><thead><tr><th>Metodos descendentes (top-down)</th><th>Metodos ascendentes (bottom-up)</th></tr></thead><tbody><tr><td>Exfoliacion micromecanica, exfoliacion en fase liquida, union anodica y fotoexfoliacion</td><td>Descomposicion termica, crecimiento molecular, CVD (deposicion en fase de vapor), precipitacion de metales y crecimiento epitaxial</td></tr></tbody></table></div>"
+        },
+        {
+          "id": "nanotubos",
+          "titulo": "Nanotubos de carbono",
+          "html": "<p>Son estructuras cilindricas formadas por atomos de carbono organizados en una o varias capas, dispuestos en una red hexagonal.</p><h4>Tipos</h4><p>Nanotubos monocapa y nanotubos multicapa.</p><h4>Metodos de obtencion</h4><p>Arco de descarga, ablacion laser y CVD (deposicion en fase de vapor).</p><h4>Nanotubos de boro</h4><p>Aun en investigacion. El nitruro de boro es un material prometedor por sus excelentes propiedades aislantes y resistentes y por su estructura bidimensional parecida al grafeno.</p>"
+        },
+        {
+          "id": "fullereno",
+          "titulo": "Fullereno",
+          "html": "<p>Forma alotropica del carbono con estructura molecular cerrada, formada por atomos dispuestos en hexagonos y pentagonos. Se le conoce como la molecula mas bella.</p><h4>Fullereno C60</h4><p>El mas conocido, con forma de balon de futbol. En estado natural no conduce la electricidad; al anadir impurezas como el potasio se vuelve conductor, pero si la cantidad de potasio es demasiado elevada vuelve a ser aislante.</p><h4>Tipos</h4><p>Fullerenos cilindricos, nanocebolla, racimos de buckyballs y megatubos.</p><h4>Aplicaciones</h4><p>Antioxidantes, agentes antivirales, entrega de medicamentos y genes, fotosensibilizadores en terapia fotodinamica y gafas de proteccion. Tambien se aprovechan para destruir celulas cancerigenas de forma selectiva, minimizando el dano en tejidos proximos.</p>"
+        },
+        {
+          "id": "otros-nano",
+          "titulo": "Otros nanomateriales y conceptos",
+          "html": "<ul><li><strong>Ferrofluidos:</strong> particulas ferromagneticas suspendidas en un fluido portador (solvente organico o agua); las nanoparticulas se recubren de un surfactante (actua sobre la tension superficial).</li><li><strong>Nanosensores:</strong> dispositivos que usan nanoparticulas, nanotubos o nanocables para detectar y transmitir informacion a nivel nanoscopico (estudio de la angiogenesis, diagnostico y tratamiento del cancer).</li><li><strong>Nanomotores:</strong> convierten energia en movimientos y fuerzas a nivel nanoscopico (liberacion controlada de farmacos, limpieza de residuos).</li><li><strong>Material SLIP</strong> (Slippery Liquid-Infused Porous Surfaces): superficie porosa impregnada con un fluido lubricante que repele liquidos, aceites y bacterias. Inspirado en la planta Nepenthes; es autolimpiante y se usa en arquitectura y dispositivos medicos.</li></ul><h4>Principal riesgo de los nanomateriales</h4><p>Por ingesta, inhalacion o absorcion cutanea pueden tener efectos perjudiciales, no solo en humanos sino en otros seres vivos.</p>"
+        },
+        {
+          "id": "energia",
+          "titulo": "Aplicaciones en energia y actuales",
+          "html": "<h4>Grafeno en el sector de la energia</h4><p>Baterias recargables, paneles solares y supercondensadores.</p><h4>Nanotubos de carbono (aplicaciones actuales)</h4><p>Electrodos para baterias de ion-litio y baterias en dispositivos electronicos y vehiculos electricos.</p>"
+        }
+      ]
     },
     {
       "id": 7,
       "nombre": "Materiales inteligentes",
       "icono": "ti-bulb",
       "resumen": "Impresion 4D, estimulos y polimeros autorreparables.",
-      "estado": "pendiente",
-      "secciones": []
+      "estado": "completo",
+      "secciones": [
+        {
+          "id": "impresion-4d",
+          "titulo": "Impresion 4D",
+          "html": "<div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>La <strong>impresion 4D</strong> es una tecnica de fabricacion digital que permite obtener estructuras capaces de cambiar su color, forma o funcion con el tiempo, en respuesta a un estimulo. La <strong>cuarta dimension es el tiempo</strong>.</p></div><h4>Factores necesarios para dominarla</h4><p>Materiales inteligentes, impresion 3D, estimulos desencadenantes y mecanismos de interaccion.</p><h4>Propiedades de los materiales usados</h4><p>Autorreparacion, autoensamblaje, autodeteccion y autoadaptabilidad.</p>"
+        },
+        {
+          "id": "tecnicas-4d",
+          "titulo": "Tecnicas de impresion 4D",
+          "html": "<table class=\"tabla\"><thead><tr><th>Base</th><th>Tecnicas</th></tr></thead><tbody><tr><td>Solidos</td><td>FDM (modelado por deposicion fundida)</td></tr><tr><td>Liquidos</td><td>SLA (estereolitografia), DLP (procesamiento digital de luz), DIW (direct ink writing), InkJet (material jetting)</td></tr><tr><td>Polvo</td><td>SLS (sinterizado selectivo por laser), SLM (fusion selectiva por laser)</td></tr></tbody></table>"
+        },
+        {
+          "id": "estimulos",
+          "titulo": "Clasificacion de los estimulos",
+          "html": "<table class=\"tabla\"><thead><tr><th>Tipo</th><th>Estimulos</th></tr></thead><tbody><tr><td>Fisicos</td><td>Temperatura, campo electrico, campo magnetico, luz (visible o UV), presion</td></tr><tr><td>Quimicos</td><td>Humedad, pH</td></tr><tr><td>Biologicos</td><td>Glucosa, enzimas</td></tr></tbody></table><p class=\"nota-clase\">Limitacion del estimulo de campo magnetico: el material tiene que ser magnetico.</p>"
+        },
+        {
+          "id": "memoria-forma",
+          "titulo": "Materiales con memoria de forma",
+          "html": "<p>Son materiales inteligentes que pueden transformarse con el tiempo por su reaccion ante un estimulo externo; la transformacion se debe al cambio en sus propiedades fisicoquimicas. Estan constantemente en un estado <strong>metaestable</strong>, pasando de un estado temporal a uno estable o de equilibrio.</p><h4>Etapas del efecto de memoria de forma</h4><p>1. Programacion de la configuracion temporal. &nbsp; 2. Actuacion y recuperacion.</p>"
+        },
+        {
+          "id": "metamateriales",
+          "titulo": "Metamateriales",
+          "html": "<p>Materiales artificiales disenados para cumplir propiedades muy especificas que normalmente no estan presentes en los materiales. Se usan en telecomunicaciones, optica e ingenieria acustica, e incluso en la creacion de invisibilidad.</p>"
+        },
+        {
+          "id": "autorreparables",
+          "titulo": "Polimeros autorreparables",
+          "html": "<p>Materiales polimericos disenados para repararse a si mismos de forma espontanea una vez se produce el dano. Contienen mecanismos incorporados que permiten al material recuperar su integridad estructural sin intervencion externa.</p><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><table class=\"tabla\"><thead><tr><th>Mecanismo</th><th>Tipo</th></tr></thead><tbody><tr><td>Autonomos</td><td>Polimeros supramoleculares</td></tr><tr><td>No autonomos</td><td>Microvasculares autorreparables y encapsulacion de materiales</td></tr></tbody></table></div>"
+        },
+        {
+          "id": "aplicaciones-int",
+          "titulo": "Aplicaciones actuales",
+          "html": "<ul><li>Dispositivos medicos monitorizados: dispensacion de farmacos, pieles electronicas, grapas autoajustables y musculos artificiales.</li><li>Dispositivos electricos y electronicos.</li><li>Soft robotics.</li><li>Packaging autoplegado.</li><li>Biomimetica.</li><li>Industria alimentaria: indicacion del estado de la comida (pH).</li><li>Industria de la joyeria y el calzado.</li></ul>"
+        }
+      ]
     }
   ]
 }

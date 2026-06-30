@@ -1431,6 +1431,502 @@
       "respuesta": 0,
       "explicacion": "Entre las ultimas tendencias estan las bioimpresoras 3D, el ojo artificial con retina 3D, filamentos biodegradables a partir de algas, la lengua biomimetica impresa en 3D y los exoesqueletos de codigo abierto.",
       "fuente": "Tema 5 / Pregunta examen 78"
+    },
+    {
+      "id": "T6-Q01",
+      "tema": 6,
+      "subtema": "Conceptos",
+      "dificultad": "facil",
+      "enunciado": "Cuando se considera que un material es un nanomaterial?",
+      "opciones": [
+        "Cuando al menos una de sus dimensiones es menor de 100 nm",
+        "Cuando pesa menos de 100 g",
+        "Cuando es transparente",
+        "Cuando es un metal puro"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un nanomaterial es aquel en el que al menos una de sus dimensiones es menor de 100 nm (la nanoescala va de 1 a 100 nm).",
+      "fuente": "Tema 6 / Nanomateriales"
+    },
+    {
+      "id": "T6-Q02",
+      "tema": 6,
+      "subtema": "Formas del carbono",
+      "dificultad": "dificil",
+      "enunciado": "A que hibridacion del carbono corresponden el grafeno, el grafito, el fullereno y los nanotubos?",
+      "opciones": [
+        "sp2",
+        "sp",
+        "sp3",
+        "sp3d"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las formas alotropicas cristalinas del carbono por hibridacion son: sp (carbino), sp2 (grafeno, grafito, fullereno y nanotubos de carbono) y sp3 (diamante).",
+      "fuente": "Tema 6 / Pregunta examen 79"
+    },
+    {
+      "id": "T6-Q03",
+      "tema": 6,
+      "subtema": "Grafeno",
+      "dificultad": "facil",
+      "enunciado": "Que es el grafeno?",
+      "opciones": [
+        "Una lamina de grafito de un solo atomo de espesor; el primer material bidimensional creado por el hombre",
+        "Un tubo de carbono de varias capas",
+        "Una forma del diamante",
+        "Un oxido metalico"
+      ],
+      "respuesta": 0,
+      "explicacion": "El grafeno es una lamina de grafito de un solo atomo de espesor y es el primer material bidimensional creado por el hombre.",
+      "fuente": "Tema 6 / Pregunta examen 81"
+    },
+    {
+      "id": "T6-Q04",
+      "tema": 6,
+      "subtema": "Obtencion del grafeno",
+      "dificultad": "dificil",
+      "enunciado": "Cual de los siguientes es un metodo ascendente (bottom-up) de obtencion del grafeno?",
+      "opciones": [
+        "La CVD (deposicion en fase de vapor)",
+        "La exfoliacion micromecanica",
+        "La exfoliacion en fase liquida",
+        "La union anodica"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los metodos descendentes son exfoliacion micromecanica, exfoliacion en fase liquida, union anodica y fotoexfoliacion. La CVD, junto con la descomposicion termica, el crecimiento molecular, la precipitacion de metales y el crecimiento epitaxial, es un metodo ascendente.",
+      "fuente": "Tema 6 / Pregunta examen 82"
+    },
+    {
+      "id": "T6-Q05",
+      "tema": 6,
+      "subtema": "Grafeno",
+      "dificultad": "media",
+      "enunciado": "Cual de estas es una propiedad del grafeno?",
+      "opciones": [
+        "Es impermeable, inerte quimicamente y biocompatible",
+        "Es un buen aislante termico",
+        "Es muy pesado",
+        "Se oxida con facilidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "El grafeno es extremadamente ligero, muy resistente, flexible, casi transparente pero denso, superconductor, impermeable, inerte quimicamente, no contaminante y biocompatible.",
+      "fuente": "Tema 6 / Pregunta examen 83"
+    },
+    {
+      "id": "T6-Q06",
+      "tema": 6,
+      "subtema": "Grafeno",
+      "dificultad": "media",
+      "enunciado": "Que es el grafeno imperfecto?",
+      "opciones": [
+        "El oxido de grafeno, con defectos que alteran sus propiedades y son utiles para sensores o baterias",
+        "Un grafeno de doble capa",
+        "Grafeno sin ningun defecto",
+        "Un nanotubo de carbono"
+      ],
+      "respuesta": 0,
+      "explicacion": "El grafeno imperfecto es el oxido de grafeno: presenta defectos que alteran sus propiedades fisicas y electronicas, lo que puede ser beneficioso para sensores, baterias o materiales compuestos.",
+      "fuente": "Tema 6 / Pregunta examen 84"
+    },
+    {
+      "id": "T6-Q07",
+      "tema": 6,
+      "subtema": "Grafito",
+      "dificultad": "media",
+      "enunciado": "Que fuerzas mantienen unidas las capas del grafito y permiten que se deslicen entre si?",
+      "opciones": [
+        "Las fuerzas de Van der Waals",
+        "Enlaces covalentes",
+        "Enlaces ionicos",
+        "Enlaces metalicos"
+      ],
+      "respuesta": 0,
+      "explicacion": "En el grafito, las capas de atomos (unidos por enlaces covalentes dentro de cada capa) se mantienen unidas por fuerzas de Van der Waals, mas debiles, lo que permite que se deslicen entre si.",
+      "fuente": "Tema 6 / Pregunta examen 80"
+    },
+    {
+      "id": "T6-Q08",
+      "tema": 6,
+      "subtema": "Nanotubos",
+      "dificultad": "facil",
+      "enunciado": "Que son los nanotubos de carbono?",
+      "opciones": [
+        "Estructuras cilindricas de atomos de carbono en una red hexagonal",
+        "Laminas planas de un solo atomo",
+        "Esferas de carbono cerradas",
+        "Cristales de diamante"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los nanotubos de carbono son estructuras cilindricas formadas por atomos de carbono organizados en una o varias capas, dispuestos en una red hexagonal.",
+      "fuente": "Tema 6 / Pregunta examen 85"
+    },
+    {
+      "id": "T6-Q09",
+      "tema": 6,
+      "subtema": "Nanotubos",
+      "dificultad": "media",
+      "enunciado": "Cual de estos es un metodo de obtencion de los nanotubos de carbono?",
+      "opciones": [
+        "El arco de descarga",
+        "La exfoliacion micromecanica",
+        "La union anodica",
+        "La grafitizacion"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los nanotubos de carbono se obtienen por arco de descarga, ablacion laser y CVD (deposicion en fase de vapor).",
+      "fuente": "Tema 6 / Pregunta examen 87"
+    },
+    {
+      "id": "T6-Q10",
+      "tema": 6,
+      "subtema": "Nanotubos de boro",
+      "dificultad": "dificil",
+      "enunciado": "Que destaca del nitruro de boro en nanotecnologia?",
+      "opciones": [
+        "Es un aislante prometedor con estructura bidimensional parecida al grafeno",
+        "Es el mejor conductor electrico conocido",
+        "Es un metal ferromagnetico",
+        "Es un fullereno de gran tamano"
+      ],
+      "respuesta": 0,
+      "explicacion": "El nitruro de boro es un material prometedor por sus excelentes propiedades aislantes y resistentes y por su estructura bidimensional parecida al grafeno.",
+      "fuente": "Tema 6 / Pregunta examen 88"
+    },
+    {
+      "id": "T6-Q11",
+      "tema": 6,
+      "subtema": "Fullereno",
+      "dificultad": "media",
+      "enunciado": "Que es el fullereno?",
+      "opciones": [
+        "Una forma alotropica del carbono de estructura cerrada, con hexagonos y pentagonos",
+        "Una lamina plana de carbono",
+        "Un oxido de grafeno",
+        "Un nanotubo de boro"
+      ],
+      "respuesta": 0,
+      "explicacion": "El fullereno es una forma alotropica del carbono con estructura molecular cerrada, formada por atomos dispuestos en hexagonos y pentagonos; se le conoce como la molecula mas bella.",
+      "fuente": "Tema 6 / Pregunta examen 89"
+    },
+    {
+      "id": "T6-Q12",
+      "tema": 6,
+      "subtema": "Fullereno",
+      "dificultad": "dificil",
+      "enunciado": "Que ocurre con el fullereno C60 al anadirle potasio?",
+      "opciones": [
+        "Se vuelve conductor, pero con demasiado potasio vuelve a ser aislante",
+        "Se vuelve siempre aislante",
+        "Pierde su forma de balon de futbol",
+        "Se convierte en grafeno"
+      ],
+      "respuesta": 0,
+      "explicacion": "El C60 no conduce la electricidad en estado natural; al anadir impurezas como el potasio se vuelve conductor, pero si la cantidad de potasio es demasiado elevada vuelve a ser aislante.",
+      "fuente": "Tema 6 / Pregunta examen 90"
+    },
+    {
+      "id": "T6-Q13",
+      "tema": 6,
+      "subtema": "Ferrofluidos",
+      "dificultad": "media",
+      "enunciado": "Que son los ferrofluidos?",
+      "opciones": [
+        "Particulas ferromagneticas suspendidas en un fluido portador, recubiertas de un surfactante",
+        "Metales liquidos a temperatura ambiente",
+        "Laminas de grafeno en suspension",
+        "Nanotubos disueltos en agua"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los ferrofluidos se componen de particulas ferromagneticas suspendidas en un fluido portador (solvente organico o agua); las nanoparticulas se recubren de un surfactante, que actua sobre la tension superficial.",
+      "fuente": "Tema 6 / Pregunta examen 93"
+    },
+    {
+      "id": "T6-Q14",
+      "tema": 6,
+      "subtema": "Nanosensores",
+      "dificultad": "media",
+      "enunciado": "Que son los nanosensores?",
+      "opciones": [
+        "Dispositivos que usan nanoparticulas, nanotubos o nanocables para detectar y transmitir informacion a nivel nanoscopico",
+        "Sensores de gran tamano para naves espaciales",
+        "Motores que convierten energia en movimiento",
+        "Superficies autolimpiantes"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los nanosensores usan nanoparticulas, nanotubos o nanocables para detectar y transmitir informacion a nivel nanoscopico; se aplican en el estudio de la angiogenesis y en el diagnostico y tratamiento del cancer.",
+      "fuente": "Tema 6 / Pregunta examen 95"
+    },
+    {
+      "id": "T6-Q15",
+      "tema": 6,
+      "subtema": "Material SLIP",
+      "dificultad": "dificil",
+      "enunciado": "Que es el material SLIP (Slippery Liquid-Infused Porous Surfaces)?",
+      "opciones": [
+        "Una superficie porosa impregnada de un fluido lubricante que repele liquidos, aceites y bacterias",
+        "Un nanotubo de carbono multicapa",
+        "Un tipo de fullereno",
+        "Un acero inoxidable nanoestructurado"
+      ],
+      "respuesta": 0,
+      "explicacion": "El material SLIP es una superficie sintetica porosa impregnada con un fluido lubricante que repele liquidos, aceites y bacterias. Esta inspirado en la planta Nepenthes, es autolimpiante y se usa en arquitectura y dispositivos medicos.",
+      "fuente": "Tema 6 / Pregunta examen 98"
+    },
+    {
+      "id": "T6-Q16",
+      "tema": 6,
+      "subtema": "Energia",
+      "dificultad": "facil",
+      "enunciado": "Cual es un uso del grafeno en el sector de la energia?",
+      "opciones": [
+        "Baterias recargables, paneles solares y supercondensadores",
+        "Fabricacion de hormigon",
+        "Relleno de caries",
+        "Lentes de contacto"
+      ],
+      "respuesta": 0,
+      "explicacion": "En el sector de la energia, el grafeno se usa en baterias recargables, paneles solares y supercondensadores.",
+      "fuente": "Tema 6 / Pregunta examen 99"
+    },
+    {
+      "id": "T7-Q01",
+      "tema": 7,
+      "subtema": "Impresion 4D",
+      "dificultad": "facil",
+      "enunciado": "Que es la impresion 4D?",
+      "opciones": [
+        "Una tecnica que permite obtener estructuras capaces de cambiar de color, forma o funcion con el tiempo ante un estimulo",
+        "Una impresion 3D mas rapida",
+        "Una impresion en cuatro colores",
+        "Una tecnica para imprimir metales"
+      ],
+      "respuesta": 0,
+      "explicacion": "La impresion 4D es una tecnica de fabricacion digital que permite obtener estructuras capaces de cambiar su color, forma o funcion con el tiempo, en respuesta a un estimulo.",
+      "fuente": "Tema 7 / Pregunta examen 101"
+    },
+    {
+      "id": "T7-Q02",
+      "tema": 7,
+      "subtema": "Impresion 4D",
+      "dificultad": "facil",
+      "enunciado": "Cual es la cuarta dimension en la impresion 4D?",
+      "opciones": [
+        "El tiempo",
+        "La temperatura",
+        "La masa",
+        "El color"
+      ],
+      "respuesta": 0,
+      "explicacion": "La cuarta dimension que da nombre a la impresion 4D es el tiempo.",
+      "fuente": "Tema 7 / Pregunta examen 102"
+    },
+    {
+      "id": "T7-Q03",
+      "tema": 7,
+      "subtema": "Impresion 4D",
+      "dificultad": "media",
+      "enunciado": "Cual de estos es uno de los factores necesarios para dominar la impresion 4D?",
+      "opciones": [
+        "Los materiales inteligentes",
+        "La nitruracion",
+        "El galvanizado",
+        "La fibra de vidrio"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los factores necesarios para dominar la impresion 4D son: materiales inteligentes, impresion 3D, estimulos desencadenantes y mecanismos de interaccion.",
+      "fuente": "Tema 7 / Pregunta examen 103"
+    },
+    {
+      "id": "T7-Q04",
+      "tema": 7,
+      "subtema": "Tecnicas",
+      "dificultad": "dificil",
+      "enunciado": "La tecnica FDM (modelado por deposicion fundida) se basa en materiales...",
+      "opciones": [
+        "Solidos",
+        "Liquidos",
+        "En polvo",
+        "Gaseosos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Por su base, las tecnicas se agrupan en: solidos (FDM), liquidos (SLA, DLP, DIW, InkJet) y polvo (SLS, SLM). El FDM es la tecnica basada en solidos.",
+      "fuente": "Tema 7 / Pregunta examen 105"
+    },
+    {
+      "id": "T7-Q05",
+      "tema": 7,
+      "subtema": "Tecnicas",
+      "dificultad": "dificil",
+      "enunciado": "A que corresponde la tecnica SLA?",
+      "opciones": [
+        "A la estereolitografia (base liquidos)",
+        "Al sinterizado selectivo por laser",
+        "Al modelado por deposicion fundida",
+        "Al direct ink writing"
+      ],
+      "respuesta": 0,
+      "explicacion": "La SLA es la estereolitografia, una tecnica basada en liquidos. El SLS es el sinterizado selectivo por laser (polvo), el FDM el modelado por deposicion fundida (solidos) y el DIW el direct ink writing (liquidos).",
+      "fuente": "Tema 7 / Pregunta examen 105"
+    },
+    {
+      "id": "T7-Q06",
+      "tema": 7,
+      "subtema": "Estimulos",
+      "dificultad": "media",
+      "enunciado": "Dentro de la clasificacion de los estimulos, la glucosa y las enzimas son estimulos...",
+      "opciones": [
+        "Biologicos",
+        "Fisicos",
+        "Quimicos",
+        "Mecanicos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los estimulos se clasifican en fisicos (temperatura, campo electrico, campo magnetico, luz, presion), quimicos (humedad, pH) y biologicos (glucosa, enzimas).",
+      "fuente": "Tema 7 / Pregunta examen 107"
+    },
+    {
+      "id": "T7-Q07",
+      "tema": 7,
+      "subtema": "Estimulos",
+      "dificultad": "media",
+      "enunciado": "Que limitacion hay que tener en cuenta para usar el estimulo de campo magnetico?",
+      "opciones": [
+        "Que el material tiene que ser magnetico",
+        "Que el material tiene que ser transparente",
+        "Que el material tiene que conducir la electricidad",
+        "Que el material tiene que ser biodegradable"
+      ],
+      "respuesta": 0,
+      "explicacion": "Para poder responder al estimulo de campo magnetico, el material tiene que ser magnetico.",
+      "fuente": "Tema 7 / Pregunta examen 108"
+    },
+    {
+      "id": "T7-Q08",
+      "tema": 7,
+      "subtema": "Memoria de forma",
+      "dificultad": "media",
+      "enunciado": "Que caracteriza a los materiales con memoria de forma?",
+      "opciones": [
+        "Estan en un estado metaestable y se transforman ante un estimulo, cambiando sus propiedades fisicoquimicas",
+        "Son siempre rigidos e inalterables",
+        "No reaccionan a ningun estimulo",
+        "Solo cambian de color"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los materiales con memoria de forma se transforman con el tiempo por su reaccion a un estimulo externo (cambio en sus propiedades fisicoquimicas); estan en un estado metaestable, pasando de un estado temporal a uno estable o de equilibrio.",
+      "fuente": "Tema 7 / Pregunta examen 111"
+    },
+    {
+      "id": "T7-Q09",
+      "tema": 7,
+      "subtema": "Memoria de forma",
+      "dificultad": "dificil",
+      "enunciado": "Cuales son las etapas del efecto de memoria de forma?",
+      "opciones": [
+        "Programacion de la configuracion temporal, y actuacion y recuperacion",
+        "Estabilizacion, carbonizacion y grafitizacion",
+        "Eleccion, diseno y preparacion",
+        "Calentamiento y enfriamiento"
+      ],
+      "respuesta": 0,
+      "explicacion": "El efecto de memoria de forma tiene dos etapas: 1) programacion de la configuracion temporal y 2) actuacion y recuperacion.",
+      "fuente": "Tema 7 / Pregunta examen 112"
+    },
+    {
+      "id": "T7-Q10",
+      "tema": 7,
+      "subtema": "Metamateriales",
+      "dificultad": "media",
+      "enunciado": "Que son los metamateriales?",
+      "opciones": [
+        "Materiales artificiales con propiedades no presentes normalmente, usados incluso para crear invisibilidad",
+        "Materiales naturales muy abundantes",
+        "Polimeros biodegradables",
+        "Aleaciones de aluminio"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los metamateriales son materiales artificiales disenados para cumplir propiedades muy especificas no presentes normalmente; se usan en telecomunicaciones, optica e ingenieria acustica, e incluso en la creacion de invisibilidad.",
+      "fuente": "Tema 7 / Pregunta examen 113"
+    },
+    {
+      "id": "T7-Q11",
+      "tema": 7,
+      "subtema": "Autorreparables",
+      "dificultad": "facil",
+      "enunciado": "Que son los polimeros autorreparables?",
+      "opciones": [
+        "Polimeros que se reparan a si mismos y recuperan su integridad sin intervencion externa",
+        "Polimeros que se degradan al instante",
+        "Polimeros conductores de electricidad",
+        "Polimeros que cambian de color"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los polimeros autorreparables son materiales polimericos disenados para repararse a si mismos de forma espontanea; contienen mecanismos incorporados que permiten recuperar su integridad estructural sin intervencion externa.",
+      "fuente": "Tema 7 / Pregunta examen 114"
+    },
+    {
+      "id": "T7-Q12",
+      "tema": 7,
+      "subtema": "Autorreparables",
+      "dificultad": "dificil",
+      "enunciado": "Como se clasifican los polimeros autorreparables segun su mecanismo de reparacion?",
+      "opciones": [
+        "En autonomos (supramoleculares) y no autonomos (microvasculares y por encapsulacion)",
+        "En rigidos y flexibles",
+        "En naturales y sinteticos",
+        "En termoplasticos y termoestables"
+      ],
+      "respuesta": 0,
+      "explicacion": "Segun el mecanismo de reparacion se dividen en autonomos (polimeros supramoleculares) y no autonomos (microvasculares autorreparables y encapsulacion de materiales).",
+      "fuente": "Tema 7 / Pregunta examen 106"
+    },
+    {
+      "id": "T7-Q13",
+      "tema": 7,
+      "subtema": "Materiales 4D",
+      "dificultad": "media",
+      "enunciado": "Cual de estas es una propiedad de los materiales usados en impresion 4D?",
+      "opciones": [
+        "El autoensamblaje",
+        "La nitruracion",
+        "El galvanizado",
+        "La grafitizacion"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los materiales usados en impresion 4D destacan por su autorreparacion, autoensamblaje, autodeteccion y autoadaptabilidad.",
+      "fuente": "Tema 7 / Pregunta examen 110"
+    },
+    {
+      "id": "T7-Q14",
+      "tema": 7,
+      "subtema": "Aplicaciones",
+      "dificultad": "media",
+      "enunciado": "Cual de estas es una aplicacion actual de los materiales inteligentes?",
+      "opciones": [
+        "Musculos artificiales y pieles electronicas",
+        "Galvanizado de chapa",
+        "Fabricacion de latones",
+        "Anodizado de perfiles"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre las aplicaciones de los materiales inteligentes estan los dispositivos medicos monitorizados (dispensacion de farmacos, pieles electronicas, grapas autoajustables, musculos artificiales), el soft robotics, el packaging autoplegado y la biomimetica.",
+      "fuente": "Tema 7 / Pregunta examen 115"
+    },
+    {
+      "id": "T7-Q15",
+      "tema": 7,
+      "subtema": "Aplicaciones",
+      "dificultad": "media",
+      "enunciado": "Como se usan los materiales inteligentes en la industria alimentaria?",
+      "opciones": [
+        "Para indicar el estado de la comida mediante el pH",
+        "Para endurecer los envases metalicos",
+        "Para conducir electricidad en los alimentos",
+        "Para aumentar el peso del producto"
+      ],
+      "respuesta": 0,
+      "explicacion": "En la industria alimentaria los materiales inteligentes se usan para indicar el estado de la comida a traves del pH.",
+      "fuente": "Tema 7 / Pregunta examen 115"
     }
   ]
 }
