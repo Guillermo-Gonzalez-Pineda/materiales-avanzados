@@ -663,6 +663,774 @@
       "respuesta": 0,
       "explicacion": "Entre los polimeros avanzados en juguetes, el PLA se usa para impresion 3D; el TPE para piezas suaves y flexibles; el PP renovable (Mattel x SABIC); y el PHB (proyecto biotoy).",
       "fuente": "Tema 2 - Juguetes / Pregunta examen 25"
+    },
+    {
+      "id": "T3-Q01",
+      "tema": 3,
+      "subtema": "Teorias de la adhesion",
+      "dificultad": "dificil",
+      "enunciado": "Cual de las teorias de la adhesion corresponde a un fenomeno quimico?",
+      "opciones": [
+        "La adsorcion termodinamica (mojado superficial)",
+        "El modelo de adhesion mecanica",
+        "La teoria de la difusion",
+        "La teoria electrica"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las teorias por fenomenos fisicos son la mecanica, la difusion y la electrica. La adsorcion termodinamica (mojado superficial), basada en angulo de contacto, tension superficial y fuerzas de Van der Waals, es el fenomeno quimico.",
+      "fuente": "Tema 3 / Pregunta examen 31"
+    },
+    {
+      "id": "T3-Q02",
+      "tema": 3,
+      "subtema": "Teorias de la adhesion",
+      "dificultad": "media",
+      "enunciado": "Que teoria de la adhesion, la mas aceptada, relaciona la rugosidad del sustrato con el anclaje del adhesivo?",
+      "opciones": [
+        "El modelo de adhesion mecanica",
+        "La teoria electrica",
+        "La teoria de la difusion",
+        "La adsorcion termodinamica"
+      ],
+      "respuesta": 0,
+      "explicacion": "El modelo de adhesion mecanica relaciona la rugosidad con la adhesion: el adhesivo rellena los valles y crea anclajes. Es la teoria mas aceptada, aunque no explica la adhesion en superficies lisas.",
+      "fuente": "Tema 3 / Teorias de la adhesion"
+    },
+    {
+      "id": "T3-Q03",
+      "tema": 3,
+      "subtema": "Teorias de la adhesion",
+      "dificultad": "media",
+      "enunciado": "Que teoria de la adhesion compara la union con un condensador y es la menos aceptada?",
+      "opciones": [
+        "La teoria electrica",
+        "El modelo mecanico",
+        "La teoria de la difusion",
+        "La adsorcion termodinamica"
+      ],
+      "respuesta": 0,
+      "explicacion": "La teoria electrica asemeja la adhesion a un condensador, donde cargas de signo opuesto se atraen. Es la teoria menos acertada y aceptada.",
+      "fuente": "Tema 3 / Teorias de la adhesion"
+    },
+    {
+      "id": "T3-Q04",
+      "tema": 3,
+      "subtema": "Mojabilidad",
+      "dificultad": "dificil",
+      "enunciado": "Por que el PTFE (teflon) es un mal sustrato para las uniones adhesivas?",
+      "opciones": [
+        "Por su baja mojabilidad: su energia superficial es menor que la tension superficial del adhesivo",
+        "Porque se disuelve con los adhesivos",
+        "Porque conduce la electricidad",
+        "Porque es demasiado rugoso"
+      ],
+      "respuesta": 0,
+      "explicacion": "El PTFE tiene baja mojabilidad porque su energia superficial es menor que la tension superficial del adhesivo, por lo que este no llega a mojar la superficie.",
+      "fuente": "Tema 3 / Pregunta examen 32"
+    },
+    {
+      "id": "T3-Q05",
+      "tema": 3,
+      "subtema": "Adhesivos concretos",
+      "dificultad": "facil",
+      "enunciado": "Cual es el adhesivo mas potente segun resistencia a traccion?",
+      "opciones": [
+        "Los adhesivos epoxi",
+        "Las siliconas",
+        "Los cianoacrilatos",
+        "Los anaerobicos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los adhesivos epoxi son los mas potentes en cuanto a resistencia a traccion.",
+      "fuente": "Tema 3 / Pregunta examen 35"
+    },
+    {
+      "id": "T3-Q06",
+      "tema": 3,
+      "subtema": "Adhesivos concretos",
+      "dificultad": "facil",
+      "enunciado": "Cual se considera el adhesivo mas fuerte del mundo (3 g sostuvieron 17,5 toneladas)?",
+      "opciones": [
+        "El adhesivo DELO",
+        "Un epoxi comun",
+        "El cianoacrilato",
+        "La silicona"
+      ],
+      "respuesta": 0,
+      "explicacion": "El adhesivo DELO levanto una carga de 17,5 toneladas durante 1 hora usando solo 3 g de adhesivo.",
+      "fuente": "Tema 3 / Pregunta examen 29"
+    },
+    {
+      "id": "T3-Q07",
+      "tema": 3,
+      "subtema": "Adhesivos naturales",
+      "dificultad": "media",
+      "enunciado": "Que animal posee el adhesivo natural mas potente del mundo?",
+      "opciones": [
+        "Los percebes",
+        "La arana",
+        "El mejillon",
+        "La lapa"
+      ],
+      "respuesta": 0,
+      "explicacion": "Segun los apuntes, el adhesivo natural mas potente es el de los percebes.",
+      "fuente": "Tema 3 / Pregunta examen 33"
+    },
+    {
+      "id": "T3-Q08",
+      "tema": 3,
+      "subtema": "Adhesivos concretos",
+      "dificultad": "media",
+      "enunciado": "Que familia de adhesivos se usa para fijar roscas?",
+      "opciones": [
+        "Los anaerobicos, que curan en ausencia de aire",
+        "Las siliconas",
+        "Los epoxi",
+        "Los cianoacrilatos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los adhesivos anaerobicos se usan para fijar roscas: al roscarse curan en ausencia de aire y quedan fijos y rigidos.",
+      "fuente": "Tema 3 / Pregunta examen 38"
+    },
+    {
+      "id": "T3-Q09",
+      "tema": 3,
+      "subtema": "Curado",
+      "dificultad": "media",
+      "enunciado": "Por que el superglue (cianoacrilato) no se queda pegado dentro de su propio bote?",
+      "opciones": [
+        "Porque necesita aire (humedad) para curar y dentro del bote no lo tiene",
+        "Porque el bote esta recubierto de teflon",
+        "Porque esta congelado",
+        "Porque es un adhesivo bicomponente"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cianoacrilato necesita aire (humedad) para polimerizar y curar; dentro del bote cerrado no dispone de el. Si se pegan los dedos, se separan con acetona.",
+      "fuente": "Tema 3 / Pregunta examen 37"
+    },
+    {
+      "id": "T3-Q10",
+      "tema": 3,
+      "subtema": "Adhesivos concretos",
+      "dificultad": "facil",
+      "enunciado": "Si se te pegan los dedos con superglue, que se aplica para separarlos?",
+      "opciones": [
+        "Acetona",
+        "Agua caliente",
+        "Alcohol",
+        "Aceite"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los dedos pegados con superglue se separan aplicando acetona.",
+      "fuente": "Tema 3 / Pregunta examen 41"
+    },
+    {
+      "id": "T3-Q11",
+      "tema": 3,
+      "subtema": "Aplicaciones",
+      "dificultad": "media",
+      "enunciado": "Que adhesivo es ideal para pegar las lunas de los automoviles?",
+      "opciones": [
+        "El poliuretano flexible",
+        "La silicona de bano",
+        "El cianoacrilato",
+        "Un epoxi rigido"
+      ],
+      "respuesta": 0,
+      "explicacion": "El adhesivo de poliuretano flexible es ideal para las lunas de automovil por su durabilidad, flexibilidad y resistencia a vibraciones, tensiones, humedad y clima.",
+      "fuente": "Tema 3 / Pregunta examen 43"
+    },
+    {
+      "id": "T3-Q12",
+      "tema": 3,
+      "subtema": "Tipos de rotura",
+      "dificultad": "dificil",
+      "enunciado": "Que tipo de rotura es la mas deseable en una union adhesiva?",
+      "opciones": [
+        "El fallo cohesivo, porque el adhesivo trabaja en las mejores condiciones",
+        "El fallo adhesivo en la interfase",
+        "La rotura del sustrato",
+        "El despegue por pelado"
+      ],
+      "respuesta": 0,
+      "explicacion": "La rotura mas deseable es el fallo cohesivo (el adhesivo rompe por su interior), porque indica que el adhesivo esta trabajando en las mejores condiciones.",
+      "fuente": "Tema 3 / Pregunta examen 40"
+    },
+    {
+      "id": "T3-Q13",
+      "tema": 3,
+      "subtema": "Solicitaciones",
+      "dificultad": "dificil",
+      "enunciado": "En la prueba del post-it, que solicitacion aguanto mas la union?",
+      "opciones": [
+        "La cizalla",
+        "El pelado",
+        "La traccion pura",
+        "La compresion"
+      ],
+      "respuesta": 0,
+      "explicacion": "Se probaron cizalla y pelado, y la union duro mas a cizalla.",
+      "fuente": "Tema 3 / Pregunta examen 39"
+    },
+    {
+      "id": "T3-Q14",
+      "tema": 3,
+      "subtema": "Aplicaciones",
+      "dificultad": "facil",
+      "enunciado": "Que adhesivo se usa en el hogar para sellar juntas e impedir el paso del agua?",
+      "opciones": [
+        "Las siliconas",
+        "Los epoxi",
+        "Los anaerobicos",
+        "El PAN"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las siliconas se usan en las juntas del bano para sellar e impedir que penetre el agua.",
+      "fuente": "Tema 3 / Pregunta examen 36"
+    },
+    {
+      "id": "T3-Q15",
+      "tema": 3,
+      "subtema": "Clasificacion",
+      "dificultad": "dificil",
+      "enunciado": "El curado quimico de un adhesivo puede producirse por...",
+      "opciones": [
+        "Poliadicion o policondensacion",
+        "Evaporacion o congelacion",
+        "Anodizado o granallado",
+        "Cizalla o pelado"
+      ],
+      "respuesta": 0,
+      "explicacion": "Segun el curado, los adhesivos pueden ser de curado fisico o quimico; el quimico se produce por poliadicion o por policondensacion.",
+      "fuente": "Tema 3 / Pregunta examen 42"
+    },
+    {
+      "id": "T3-Q16",
+      "tema": 3,
+      "subtema": "Proceso",
+      "dificultad": "media",
+      "enunciado": "Cual es el orden correcto del proceso previo a la adhesion?",
+      "opciones": [
+        "Eleccion del adhesivo, diseno de la union y preparacion superficial",
+        "Preparacion superficial, eleccion del adhesivo y diseno",
+        "Diseno de la union, preparacion y eleccion del adhesivo",
+        "Preparacion, diseno y curado"
+      ],
+      "respuesta": 0,
+      "explicacion": "El proceso previo a la adhesion sigue tres pasos: 1) eleccion del adhesivo, 2) diseno de la union y 3) preparacion superficial.",
+      "fuente": "Tema 3 / Pregunta examen 48"
+    },
+    {
+      "id": "T4-Q01",
+      "tema": 4,
+      "subtema": "Definicion",
+      "dificultad": "facil",
+      "enunciado": "Que es un material compuesto?",
+      "opciones": [
+        "La union de dos o mas materiales para lograr propiedades que no se obtienen por separado",
+        "Una aleacion metalica de dos metales",
+        "Un material polifasico obtenido por tratamiento termico",
+        "Un metal recubierto de pintura"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un material compuesto se forma por la union de dos o mas materiales para conseguir una combinacion de propiedades imposible de obtener por separado.",
+      "fuente": "Tema 4 / Pregunta examen 49"
+    },
+    {
+      "id": "T4-Q02",
+      "tema": 4,
+      "subtema": "Componentes",
+      "dificultad": "media",
+      "enunciado": "Cual es el papel del refuerzo en un material compuesto?",
+      "opciones": [
+        "Es la fase dispersa cuya geometria define las propiedades mecanicas",
+        "Es la fase continua que da cohesion",
+        "Es la encargada de las propiedades quimicas",
+        "Es un recubrimiento superficial"
+      ],
+      "respuesta": 0,
+      "explicacion": "El refuerzo es la fase de caracter disperso; su geometria es fundamental para definir las propiedades mecanicas del compuesto.",
+      "fuente": "Tema 4 / Pregunta examen 50"
+    },
+    {
+      "id": "T4-Q03",
+      "tema": 4,
+      "subtema": "Componentes",
+      "dificultad": "media",
+      "enunciado": "Que funcion cumple la matriz en un material compuesto?",
+      "opciones": [
+        "Es la fase continua: da cohesion, protege y transmite los esfuerzos al refuerzo",
+        "Es la fase dispersa que aporta la resistencia",
+        "Solo aporta color al material",
+        "Evita que el material conduzca la electricidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "La matriz tiene caracter continuo y es responsable de las propiedades fisicas y quimicas; transmite los esfuerzos al refuerzo, lo protege y da cohesion.",
+      "fuente": "Tema 4 / Pregunta examen 50"
+    },
+    {
+      "id": "T4-Q04",
+      "tema": 4,
+      "subtema": "Fibra de carbono",
+      "dificultad": "facil",
+      "enunciado": "Cual es el precursor mas habitual de la fibra de carbono?",
+      "opciones": [
+        "El PAN",
+        "El PVC",
+        "El SiC",
+        "El Kevlar"
+      ],
+      "respuesta": 0,
+      "explicacion": "El precursor mas habitual de la fibra de carbono es el PAN (poliacrilonitrilo).",
+      "fuente": "Tema 4 / Pregunta examen 52"
+    },
+    {
+      "id": "T4-Q05",
+      "tema": 4,
+      "subtema": "Fibra de carbono",
+      "dificultad": "dificil",
+      "enunciado": "Cual es el orden de las fases de fabricacion de la fibra de carbono?",
+      "opciones": [
+        "Estabilizacion, carbonizacion y grafitizacion",
+        "Carbonizacion, estabilizacion y grafitizacion",
+        "Grafitizacion, carbonizacion y estabilizacion",
+        "Estabilizacion, grafitizacion y carbonizacion"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las fases de fabricacion de la fibra de carbono son, en orden: estabilizacion, carbonizacion y grafitizacion.",
+      "fuente": "Tema 4 / Pregunta examen 55"
+    },
+    {
+      "id": "T4-Q06",
+      "tema": 4,
+      "subtema": "Fibras",
+      "dificultad": "dificil",
+      "enunciado": "Cual es la fibra mas resistente a traccion?",
+      "opciones": [
+        "El Zylon (polimero PBO)",
+        "La fibra de vidrio",
+        "El Kevlar",
+        "La fibra de carbono"
+      ],
+      "respuesta": 0,
+      "explicacion": "La fibra mas resistente a traccion es el Zylon, hecho del polimero PBO. Se uso en Formula 1 en el cable que sujeta la rueda en caso de accidente.",
+      "fuente": "Tema 4 / Pregunta examen 54"
+    },
+    {
+      "id": "T4-Q07",
+      "tema": 4,
+      "subtema": "Whiskers",
+      "dificultad": "media",
+      "enunciado": "Cual es el material mas utilizado para fabricar whiskers?",
+      "opciones": [
+        "El carburo de silicio (SiC)",
+        "El wolframio",
+        "La fibra de vidrio",
+        "El Kevlar"
+      ],
+      "respuesta": 0,
+      "explicacion": "El material mas utilizado para los whiskers es el carburo de silicio (SiC).",
+      "fuente": "Tema 4 / Pregunta examen 56"
+    },
+    {
+      "id": "T4-Q08",
+      "tema": 4,
+      "subtema": "Procesos",
+      "dificultad": "dificil",
+      "enunciado": "Que es el peel-ply?",
+      "opciones": [
+        "Un tejido pelable sobre el que no se adhiere la resina, para dejar un acabado rugoso apto para adhesivos",
+        "Una resina termoestable de alta resistencia",
+        "Un metodo de reciclaje de fibra de carbono",
+        "Un tipo de whisker"
+      ],
+      "respuesta": 0,
+      "explicacion": "El peel-ply es un tejido pelable sintetico muy resistente sobre el que no se adhiere la resina; se usa para conseguir un acabado superficial rugoso, ideal para un posterior adhesivo.",
+      "fuente": "Tema 4 / Pregunta examen 58"
+    },
+    {
+      "id": "T4-Q09",
+      "tema": 4,
+      "subtema": "Procesos",
+      "dificultad": "dificil",
+      "enunciado": "En que consiste el moldeo por compresion de laminas preimpregnadas (SMC)?",
+      "opciones": [
+        "El tejido se vende impregnado con resina que, al calentarse, actua como adhesivo",
+        "Se inyecta resina liquida en un molde cerrado",
+        "Se enrolla el filamento sobre un mandril",
+        "Se aplica resina a mano sobre el molde"
+      ],
+      "respuesta": 0,
+      "explicacion": "En el SMC (sheet molding compound) el tejido se vende impregnado con la resina; al calentarse, esta actua como adhesivo. Es mas caro pero mas practico a grandes niveles industriales.",
+      "fuente": "Tema 4 / Pregunta examen 60"
+    },
+    {
+      "id": "T4-Q10",
+      "tema": 4,
+      "subtema": "Reciclaje",
+      "dificultad": "dificil",
+      "enunciado": "Que se obtiene en el metodo patentado para reciclar el 100% de los residuos de fibra de carbono?",
+      "opciones": [
+        "Un gas rico en hidrogeno, tratando los humos con un segundo reactor",
+        "Fibra de vidrio reutilizable",
+        "Resina epoxi pura",
+        "Carbono en polvo para baterias"
+      ],
+      "respuesta": 0,
+      "explicacion": "El reciclaje aplica calor para descomponer el refuerzo polimerico, generando humos contaminantes. El metodo patentado por Urionabarrenetxea trata esos humos con un segundo reactor y obtiene un gas rico en hidrogeno.",
+      "fuente": "Tema 4 / Pregunta examen 61"
+    },
+    {
+      "id": "T4-Q11",
+      "tema": 4,
+      "subtema": "Aplicaciones",
+      "dificultad": "media",
+      "enunciado": "Cual es una aplicacion curiosa de los materiales compuestos citada en los apuntes?",
+      "opciones": [
+        "Un hidrogel de Kevlar y alcohol polivinilico que imita el cartilago humano",
+        "Una bateria de grafeno flexible",
+        "Un recubrimiento antiadherente para sartenes",
+        "Una espuma aislante para edificios"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una aplicacion curiosa es un hidrogel a base de Kevlar y alcohol polivinilico que imita el cartilago humano.",
+      "fuente": "Tema 4 / Pregunta examen 62"
+    },
+    {
+      "id": "T4-Q12",
+      "tema": 4,
+      "subtema": "Identificacion de fibras",
+      "dificultad": "dificil",
+      "enunciado": "La fibra Innegra es...",
+      "opciones": [
+        "Polipropileno, de tipo polimerico",
+        "Fibra de vidrio, de tipo ceramico",
+        "Aramida, de tipo polimerico",
+        "Fibra de carbono, de tipo ceramico"
+      ],
+      "respuesta": 0,
+      "explicacion": "La Innegra es polipropileno y se clasifica como fibra polimerica. La fibra de vidrio y la de carbono son ceramicas; el Kevlar es una aramida polimerica.",
+      "fuente": "Tema 4 / Pregunta examen 53"
+    },
+    {
+      "id": "T4-Q13",
+      "tema": 4,
+      "subtema": "Conceptos",
+      "dificultad": "facil",
+      "enunciado": "Segun los apuntes, es el hormigon un material compuesto?",
+      "opciones": [
+        "Hay debate sobre ello",
+        "Si, sin ninguna duda",
+        "No, nunca se considera asi",
+        "Solo si lleva fibra de carbono"
+      ],
+      "respuesta": 0,
+      "explicacion": "Sobre si el hormigon es un material compuesto, los apuntes indican que hay debate.",
+      "fuente": "Tema 4 / Pregunta examen 57"
+    },
+    {
+      "id": "T4-Q14",
+      "tema": 4,
+      "subtema": "Aplicaciones",
+      "dificultad": "media",
+      "enunciado": "Con que material compuesto se fabrican habitualmente los kayaks?",
+      "opciones": [
+        "Con Kevlar",
+        "Con fibra de carbono",
+        "Con fibra de vidrio",
+        "Con whiskers de SiC"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre las aplicaciones deportivas, los kayaks se fabrican con Kevlar.",
+      "fuente": "Tema 4 / Pregunta examen 64"
+    },
+    {
+      "id": "T4-Q15",
+      "tema": 4,
+      "subtema": "Matrices ceramicas",
+      "dificultad": "media",
+      "enunciado": "Como es el material compuesto de matriz ceramica C/SiC?",
+      "opciones": [
+        "Duro y resistente al calor y al desgaste, pero fragil",
+        "Blando y muy ductil",
+        "Buen conductor electrico y flexible",
+        "Transparente y ligero"
+      ],
+      "respuesta": 0,
+      "explicacion": "El C/SiC tiene matriz de carburo de silicio: es duro y resistente al calor y al desgaste, pero fragil. Se usa en frenos, discos de embrague, escudos termicos y componentes de motores y turbinas.",
+      "fuente": "Tema 4 / Pregunta examen 66"
+    },
+    {
+      "id": "T4-Q16",
+      "tema": 4,
+      "subtema": "Procesos",
+      "dificultad": "media",
+      "enunciado": "Cual de estos es un metodo de fabricacion propio de las matrices termoplasticas?",
+      "opciones": [
+        "La inyeccion",
+        "El bobinado de filamentos",
+        "El moldeo por contacto a mano",
+        "El moldeo por proyeccion simultanea"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las matrices termoplasticas se fabrican por extrusion, inyeccion y compresion. El bobinado de filamentos, el contacto a mano y la proyeccion simultanea son metodos de las termoestables.",
+      "fuente": "Tema 4 / Pregunta examen 59"
+    },
+    {
+      "id": "T5-Q01",
+      "tema": 5,
+      "subtema": "Clasificacion",
+      "dificultad": "media",
+      "enunciado": "Que base metalica corresponde a los aceros inoxidables como biomaterial?",
+      "opciones": [
+        "Base Fe",
+        "Base Ti",
+        "Base Co",
+        "Base Au"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los biomateriales metalicos se clasifican en base Fe (aceros inoxidables), base Ti (Ti6Al4V), base Co (CoCrMo) y otras bases (nitinol, oro, amalgama).",
+      "fuente": "Tema 5 / Pregunta examen 67"
+    },
+    {
+      "id": "T5-Q02",
+      "tema": 5,
+      "subtema": "Aceros inoxidables",
+      "dificultad": "dificil",
+      "enunciado": "Que contenido de carbono tiene un acero inoxidable martensitico?",
+      "opciones": [
+        "Entre 0,1 y 1,2 %",
+        "Menor o igual a 0,08 %",
+        "Exactamente 2 %",
+        "Mas del 5 %"
+      ],
+      "respuesta": 0,
+      "explicacion": "Por su % de carbono: austenitico y ferritico tienen <= 0,08 % C, mientras que el martensitico tiene entre 0,1 y 1,2 % C.",
+      "fuente": "Tema 5 / Pregunta examen 67"
+    },
+    {
+      "id": "T5-Q03",
+      "tema": 5,
+      "subtema": "Titanio",
+      "dificultad": "media",
+      "enunciado": "Cual es la composicion del Ti6Al4V (norma F136), el biomaterial de titanio mas usado?",
+      "opciones": [
+        "90% titanio, 6% aluminio y 4% vanadio",
+        "60% titanio, 30% aluminio y 10% vanadio",
+        "80% titanio y 20% aluminio",
+        "50% titanio, 25% aluminio y 25% vanadio"
+      ],
+      "respuesta": 0,
+      "explicacion": "El biomaterial de titanio mas utilizado es el Ti6Al4V (F136): 90% titanio (Ti), 6% aluminio (Al) y 4% vanadio (V).",
+      "fuente": "Tema 5 / Pregunta examen 68"
+    },
+    {
+      "id": "T5-Q04",
+      "tema": 5,
+      "subtema": "Nitinol",
+      "dificultad": "facil",
+      "enunciado": "De que material se hacen los stents coronarios y por que?",
+      "opciones": [
+        "De nitinol, por su memoria de forma",
+        "De oro, por su inercia quimica",
+        "De alumina, por su dureza",
+        "De PHEMA, por su elasticidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los stents coronarios se hacen de nitinol: ademas de ser un biomaterial, se usan por su memoria de forma.",
+      "fuente": "Tema 5 / Pregunta examen 69"
+    },
+    {
+      "id": "T5-Q05",
+      "tema": 5,
+      "subtema": "Amalgamas",
+      "dificultad": "media",
+      "enunciado": "Cual es la composicion de la amalgama usada para rellenar caries?",
+      "opciones": [
+        "50% Hg, 35% Ag y 15% Sn",
+        "90% Hg y 10% Ag",
+        "50% Ag, 35% Sn y 15% Hg",
+        "100% mercurio"
+      ],
+      "respuesta": 0,
+      "explicacion": "La amalgama empleada para rellenar caries tiene 50% de mercurio (Hg), 35% de plata (Ag) y 15% de estano (Sn).",
+      "fuente": "Tema 5 / Pregunta examen 71"
+    },
+    {
+      "id": "T5-Q06",
+      "tema": 5,
+      "subtema": "Alumina",
+      "dificultad": "media",
+      "enunciado": "Cual es una aplicacion de la alumina como biomaterial?",
+      "opciones": [
+        "Protesis de cabeza de femur, tornillos y placas de hueso, coronas y puentes",
+        "Lentes de contacto",
+        "Stents coronarios",
+        "Cemento oseo"
+      ],
+      "respuesta": 0,
+      "explicacion": "La alumina, ceramica fuerte, se usa en protesis de cabeza de femur, tornillos y placas de hueso, coronas y puentes.",
+      "fuente": "Tema 5 / Pregunta examen 72"
+    },
+    {
+      "id": "T5-Q07",
+      "tema": 5,
+      "subtema": "Hidroxiapatita",
+      "dificultad": "media",
+      "enunciado": "Para que se utiliza la hidroxiapatita como biomaterial?",
+      "opciones": [
+        "Recubrimientos porosos y relleno de hueso",
+        "Stents coronarios",
+        "Lentes de contacto",
+        "Recubrimiento de nervios"
+      ],
+      "respuesta": 0,
+      "explicacion": "La hidroxiapatita, ceramica reabsorbible, se usa en recubrimientos porosos y relleno de hueso.",
+      "fuente": "Tema 5 / Pregunta examen 73"
+    },
+    {
+      "id": "T5-Q08",
+      "tema": 5,
+      "subtema": "Bioglass",
+      "dificultad": "dificil",
+      "enunciado": "Que es el bioglass?",
+      "opciones": [
+        "Un material bioactivo que interactua con los tejidos y promueve la regeneracion osea",
+        "Un acero inoxidable de alta resistencia",
+        "Un hidrogel para lentes de contacto",
+        "Un polimero biodegradable"
+      ],
+      "respuesta": 0,
+      "explicacion": "El bioglass es un material bioactivo conocido por interactuar con los tejidos biologicos y promover la regeneracion osea. Su composicion es 25% Na2O, 24% CaO, 6% MgO-P2O5 y 45% SiO2.",
+      "fuente": "Tema 5 / Pregunta examen 74"
+    },
+    {
+      "id": "T5-Q09",
+      "tema": 5,
+      "subtema": "Hidrogeles",
+      "dificultad": "facil",
+      "enunciado": "De que material estan hechas las lentes de contacto y por que?",
+      "opciones": [
+        "De hidrogeles como el PHEMA, por su hidrofilicidad, tacto suave y elasticidad",
+        "De alumina, por su dureza",
+        "De nitinol, por su memoria de forma",
+        "De PTFE, por su antiadherencia"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las lentes de contacto se hacen de hidrogeles como el PHEMA, por su gran hidrofilicidad, tacto suave y consistencia elastica.",
+      "fuente": "Tema 5 / Pregunta examen 76"
+    },
+    {
+      "id": "T5-Q10",
+      "tema": 5,
+      "subtema": "Polimeros biodegradables",
+      "dificultad": "media",
+      "enunciado": "Que polimero biodegradable es el hermano del PLA?",
+      "opciones": [
+        "El PGA (acido poliglicolico)",
+        "El PVC",
+        "El PET",
+        "El PHEMA"
+      ],
+      "respuesta": 0,
+      "explicacion": "El polimero biodegradable hermano del PLA (acido polilactico) es el PGA (acido poliglicolico).",
+      "fuente": "Tema 5 / Pregunta examen 77"
+    },
+    {
+      "id": "T5-Q11",
+      "tema": 5,
+      "subtema": "Oro",
+      "dificultad": "facil",
+      "enunciado": "Cual de estas es una aplicacion de las aleaciones de oro como biomaterial?",
+      "opciones": [
+        "Odontologia, medicamentos contra celulas cancerigenas y radioterapia",
+        "Stents coronarios",
+        "Lentes de contacto",
+        "Cemento oseo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las aleaciones de oro se aplican en odontologia, en medicamentos contra celulas cancerigenas y en radioterapia.",
+      "fuente": "Tema 5 / Pregunta examen 70"
+    },
+    {
+      "id": "T5-Q12",
+      "tema": 5,
+      "subtema": "PTFE",
+      "dificultad": "dificil",
+      "enunciado": "Cual es un ejemplo de aplicacion medica del PTFE como biomaterial?",
+      "opciones": [
+        "Recubrimiento de nervios para evitar conexiones no deseadas",
+        "Relleno de caries",
+        "Fabricacion de stents",
+        "Cemento oseo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Como biomaterial, el PTFE se usa para recubrir nervios y evitar la conexion no deseada.",
+      "fuente": "Tema 5 / Pregunta examen 75"
+    },
+    {
+      "id": "T5-Q13",
+      "tema": 5,
+      "subtema": "Ceramicos",
+      "dificultad": "dificil",
+      "enunciado": "Cual de estos biomateriales ceramicos es reabsorbible?",
+      "opciones": [
+        "La hidroxiapatita",
+        "La alumina",
+        "La circona",
+        "El carbon pirolitico"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los ceramicos fuertes (inertes) son alumina, circona, carbon pirolitico y porcelana. Entre los reabsorbibles esta la hidroxiapatita (tambien el coral y el fosfato tricalcico).",
+      "fuente": "Tema 5 / Clasificacion / Pregunta examen 67"
+    },
+    {
+      "id": "T5-Q14",
+      "tema": 5,
+      "subtema": "Polimericos",
+      "dificultad": "media",
+      "enunciado": "Dentro de los biomateriales polimericos, que es un ejemplo de bioestable rigido?",
+      "opciones": [
+        "El PET",
+        "El PLA",
+        "El PGA",
+        "El poliuretano"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los polimericos bioestables rigidos son PET, PTFE, UHMWPE y PVC. El PLA y el PGA son biodegradables, y el poliuretano es un elastomero.",
+      "fuente": "Tema 5 / Clasificacion"
+    },
+    {
+      "id": "T5-Q15",
+      "tema": 5,
+      "subtema": "Cobalto",
+      "dificultad": "media",
+      "enunciado": "Que aleacion corresponde a los biomateriales metalicos de base cobalto?",
+      "opciones": [
+        "CoCrMo",
+        "Ti6Al4V",
+        "Nitinol",
+        "Acero inoxidable"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre los biomateriales metalicos, la base cobalto corresponde al CoCrMo, empleado en protesis.",
+      "fuente": "Tema 5 / Clasificacion / Pregunta examen 67"
+    },
+    {
+      "id": "T5-Q16",
+      "tema": 5,
+      "subtema": "Tendencias",
+      "dificultad": "facil",
+      "enunciado": "Cual de estas es una de las ultimas tendencias en el uso de biomateriales?",
+      "opciones": [
+        "Las bioimpresoras 3D",
+        "La nitruracion del titanio",
+        "El galvanizado del acero",
+        "La fabricacion de latones"
+      ],
+      "respuesta": 0,
+      "explicacion": "Entre las ultimas tendencias estan las bioimpresoras 3D, el ojo artificial con retina 3D, filamentos biodegradables a partir de algas, la lengua biomimetica impresa en 3D y los exoesqueletos de codigo abierto.",
+      "fuente": "Tema 5 / Pregunta examen 78"
     }
   ]
 }

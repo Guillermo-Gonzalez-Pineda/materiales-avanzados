@@ -106,24 +106,127 @@
       "nombre": "Adhesivos",
       "icono": "ti-droplet",
       "resumen": "Teorias de la adhesion, tipos de uniones y pretratamiento superficial.",
-      "estado": "pendiente",
-      "secciones": []
+      "estado": "completo",
+      "secciones": [
+        {
+          "id": "ventajas-desventajas",
+          "titulo": "Ventajas y desventajas de los adhesivos",
+          "html": "<h4>Ventajas</h4><ul><li>Distribuyen las tensiones de forma uniforme en la union.</li><li>Permiten uniones selladas, aislamiento y reduccion del numero de componentes.</li><li>Mejoran el aspecto del producto y permiten uniones hibridas.</li></ul><h4>Desventajas</h4><ul><li>Necesidad de preparacion superficial.</li><li>Hay que esperar los tiempos de curado.</li><li>Dificultad de desmontaje.</li><li>Resistencia mecanica limitada.</li><li>La temperatura y la humedad son factores clave.</li><li>Inexistencia de ensayos no destructivos fiables.</li></ul>"
+        },
+        {
+          "id": "teorias",
+          "titulo": "Teorias de la adhesion",
+          "html": "<div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>Se agrupan en fenomenos <strong>fisicos</strong> (mecanica, difusion y electrica) y <strong>quimicos</strong> (adsorcion termodinamica).</p></div><h4>Modelo de adhesion mecanica</h4><p>Relaciona la rugosidad del sustrato con la adhesion: el adhesivo penetra y rellena los valles creando zonas de anclaje. Es la teoria <strong>mas aceptada</strong>, pero no explica la adhesion en superficies lisas.</p><h4>Teoria de la difusion</h4><p>Explica la adhesion por la compatibilidad entre polimeros y el movimiento de las cadenas. Las cadenas cortas (menor peso molecular) tienen mas movilidad y penetran antes. Sirve para explicar la adhesion entre materiales polimericos.</p><h4>Teoria electrica</h4><p>Compara la union con un condensador: cargas electrostaticas de signo opuesto se atraen. Es la teoria <strong>menos aceptada</strong>.</p><h4>Adsorcion termodinamica (mojado superficial)</h4><p>Es el fenomeno quimico. Usa conceptos como angulo de contacto, tension superficial y fuerzas de Van der Waals. Cuando la tension superficial del adhesivo es menor que la energia superficial del sustrato, el adhesivo moja la superficie (angulo &lt; 90 grados) y se genera la adhesion, sin necesidad de penetracion.</p>"
+        },
+        {
+          "id": "ptfe-mojabilidad",
+          "titulo": "El PTFE y la mojabilidad",
+          "html": "<div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>El <strong>PTFE (teflon)</strong> es un pesimo sustrato para las uniones adhesivas por su <strong>baja mojabilidad</strong>: su energia superficial es menor que la tension superficial del adhesivo, asi que este no llega a mojar la superficie.</p></div>"
+        },
+        {
+          "id": "clasificacion-adh",
+          "titulo": "Clasificacion de los adhesivos",
+          "html": "<table class=\"tabla\"><thead><tr><th>Criterio</th><th>Tipos</th></tr></thead><tbody><tr><td>Origen</td><td>Naturales / Sinteticos</td></tr><tr><td>N de componentes</td><td>Monocomponentes / Bicomponentes</td></tr><tr><td>Estado</td><td>Solidos / Liquidos</td></tr><tr><td>Curado</td><td>Fisico / Quimico (poliadicion o policondensacion)</td></tr><tr><td>Estructura</td><td>Termoplasticos / Termoestables / Elastomeros</td></tr></tbody></table>"
+        },
+        {
+          "id": "roturas",
+          "titulo": "Tipos de rotura y comportamiento de la union",
+          "html": "<p>Una union adhesiva se ensaya sobre todo a <strong>cizalla</strong> y a <strong>pelado</strong>; en la prueba del post-it la union aguanta mas a <strong>cizalla</strong> que a pelado.</p><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>La rotura mas deseable es el <strong>fallo cohesivo</strong> (el adhesivo rompe por su interior), porque significa que el adhesivo esta trabajando en las mejores condiciones.</p></div>"
+        },
+        {
+          "id": "adhesivos-concretos",
+          "titulo": "Adhesivos concretos y aplicaciones",
+          "html": "<ul><li><strong>Mas fuerte del mundo:</strong> el adhesivo DELO (sostuvo 17,5 toneladas con solo 3 g).</li><li><strong>Mas potente a traccion:</strong> los adhesivos epoxi.</li><li><strong>Adhesivo natural mas potente:</strong> el de los percebes.</li><li><strong>Sellado en el hogar (juntas del bano):</strong> siliconas.</li><li><strong>Fijar roscas:</strong> adhesivos anaerobicos (curan en ausencia de aire, quedan fijos y rigidos).</li><li><strong>Lunas de automovil:</strong> poliuretano flexible (durabilidad, flexibilidad y resistencia a vibraciones, humedad y clima).</li><li><strong>Reparacion de hormigon:</strong> resinas epoxi y adhesivos de poliuretano.</li><li><strong>Deporte:</strong> kinesiotape (fisioterapia), policloropreno (neopreno), pegamento de esqui de travesia.</li><li><strong>Bioadhesivos actuales:</strong> cianoacrilato (cerrar heridas), fibrina (cirugia), cinta de doble cara poliacrilica (desgarros).</li></ul><h4>Bioinspiracion</h4><p>Es el estudio de la naturaleza para investigar y aplicar soluciones a los adhesivos en el sector medico y sanitario.</p><h4>Por que el superglue no se pega en su bote</h4><p>Porque el cianoacrilato necesita <strong>aire (humedad)</strong> para curar; dentro del bote no lo tiene. Si se te pegan los dedos, se separan aplicando <strong>acetona</strong>.</p>"
+        },
+        {
+          "id": "pretratamiento",
+          "titulo": "Pretratamiento superficial y proceso previo",
+          "html": "<p>El <strong>proceso previo a la adhesion</strong> sigue tres pasos:</p><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>1. Eleccion del adhesivo &nbsp; 2. Diseno de la union &nbsp; 3. Preparacion superficial.</p></div><p>La preparacion superficial incluye limpieza (desengrasado, ultrasonidos, frotado o spray) y tratamientos <strong>mecanicos</strong> (granallado, peel-ply, SiC), <strong>quimicos</strong> (disolventes, acidos-bases, anodizado, imprimaciones) y <strong>fisicos</strong> (llama, corona, plasma, laser excimer). Las imprimaciones (primer) no contribuyen al curado: son promotoras de la adhesion.</p>"
+        }
+      ]
     },
     {
       "id": 4,
       "nombre": "Materiales compuestos",
       "icono": "ti-layers-subtract",
       "resumen": "Refuerzos y matrices; fibras de vidrio, carbono y aramida.",
-      "estado": "pendiente",
-      "secciones": []
+      "estado": "completo",
+      "secciones": [
+        {
+          "id": "definicion-comp",
+          "titulo": "Definicion y componentes",
+          "html": "<p>Un <strong>material compuesto</strong> se forma por la union de dos o mas materiales para conseguir una combinacion de propiedades que no es posible obtener por separado.</p><div class=\"cuadro\"><div class=\"cuadro__col\"><h5>Refuerzo</h5><p>Fase de caracter disperso. Su geometria es fundamental para definir las propiedades mecanicas.</p></div><div class=\"cuadro__col\"><h5>Matriz</h5><p>Fase continua. Responsable de las propiedades fisicas y quimicas; transmite los esfuerzos al refuerzo, lo protege y da cohesion.</p></div></div>"
+        },
+        {
+          "id": "ventajas-inconv",
+          "titulo": "Ventajas e inconvenientes",
+          "html": "<h4>Ventajas</h4><ul><li>Alta resistencia y rigidez especificas.</li><li>Bajo peso.</li><li>Materiales a la carta y multifuncionales.</li><li>Diseno de formas complejas.</li></ul><h4>Inconvenientes</h4><ul><li>Alto coste y dificultad de fabricacion.</li><li>Pandeo y posible incompatibilidad entre materiales.</li><li>Reduccion de la ductilidad.</li><li>Mecanismos de fractura complejos.</li></ul>"
+        },
+        {
+          "id": "refuerzos",
+          "titulo": "Clasificacion de los refuerzos",
+          "html": "<h4>Segun su origen</h4><table class=\"tabla\"><thead><tr><th>Naturales</th><th>Artificiales</th></tr></thead><tbody><tr><td>Mineral: amianto<br>Vegetal: celulosa, algodon, lino<br>Animal: seda, lana, colageno, seda de arana</td><td>Polimericas: aramida (Kevlar), PP (Innegra)<br>Ceramicas: SiC, Al2O3, fibra de vidrio, fibra de carbono<br>Metalicas: wolframio, acero inoxidable</td></tr></tbody></table><h4>Segun su forma</h4><p>Particulas, fibras cortas, fibras largas (laminado unidireccional, multidireccional o tejido) y whiskers.</p>"
+        },
+        {
+          "id": "fibras",
+          "titulo": "Fibras principales",
+          "html": "<h4>Identificacion de fibras</h4><ul><li>Fibra de vidrio: ceramica.</li><li>Fibra de carbono: ceramica.</li><li>Kevlar (aramida): polimerica.</li><li>Innegra (polipropileno): polimerica.</li></ul><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>La fibra <strong>mas resistente a traccion</strong> es el <strong>Zylon</strong> (polimero PBO). Se uso en Formula 1 en el cable que sujeta la rueda por seguridad en caso de accidente.</p></div>"
+        },
+        {
+          "id": "fabricacion-fc",
+          "titulo": "Fabricacion y reciclaje de la fibra de carbono",
+          "html": "<div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>Fases de fabricacion: 1. Estabilizacion &nbsp; 2. Carbonizacion &nbsp; 3. Grafitizacion. El precursor mas habitual es el PAN.</p></div><h4>Reciclaje</h4><p>Consiste en aplicar calor para descomponer el refuerzo polimerico, lo que genera humos muy contaminantes y dificiles de gestionar. Urionabarrenetxea patento un metodo para reciclar el 100% de los residuos: trata los humos con un segundo reactor y obtiene un gas rico en hidrogeno.</p>"
+        },
+        {
+          "id": "whiskers",
+          "titulo": "Whiskers",
+          "html": "<p>Los <strong>whiskers</strong> son monocristales con muy alta resistencia mecanica. El material mas utilizado es el <strong>carburo de silicio (SiC)</strong>.</p><h4>Tipos</h4><p>Carburo de silicio, estano, grafito, alumina y carbonato de calcio.</p><h4>Aplicaciones</h4><ul><li>Industria espacial: motores de reaccion y frenos.</li><li>Herramientas de corte: SiC, por su resistencia al desgaste.</li><li>Automoviles: pastillas de freno y discos de embrague.</li><li>Componentes medicos: protesis.</li></ul>"
+        },
+        {
+          "id": "matrices-metodos",
+          "titulo": "Matrices y metodos de fabricacion",
+          "html": "<table class=\"tabla\"><thead><tr><th>Termoestables</th><th>Termoplasticos</th></tr></thead><tbody><tr><td>Moldeo por contacto a mano, por proyeccion simultanea, por vacio, bobinado de filamentos y moldeo por compresion de laminas preimpregnadas (SMC)</td><td>Extrusion, inyeccion y compresion</td></tr></tbody></table><h4>Peel-ply</h4><p>Tejido pelable sintetico muy resistente sobre el que no se adhiere la resina. Sirve para conseguir un acabado superficial rugoso, ideal para un posterior adhesivo.</p><h4>SMC (sheet molding compound)</h4><p>El tejido se vende impregnado con la resina; al calentarse, la resina actua como adhesivo. Es mas caro pero mas practico a grandes niveles industriales.</p><h4>Matriz ceramica C/SiC</h4><p>Material compuesto con matriz de carburo de silicio: duro y resistente al calor y al desgaste, pero fragil. Se usa en frenos y discos de embrague, escudos termicos y componentes de motores y turbinas.</p>"
+        },
+        {
+          "id": "aplicaciones-comp",
+          "titulo": "Aplicaciones",
+          "html": "<h4>Deporte</h4><ul><li>Raquetas de tenis y badminton: fibra de carbono.</li><li>Kayaks: Kevlar.</li><li>Canas de pescar: fibra de carbono.</li><li>Esqui alpino y de fondo: resinas con fibra de vidrio, carbono y Kevlar.</li></ul><h4>Preimpregnados</h4><p>Reducen peso en aeroespacial, automovilismo, articulos deportivos, vehiculos militares y recipientes a presion.</p><p class=\"nota-clase\">Aplicacion curiosa: un hidrogel a base de Kevlar y alcohol polivinilico que imita el cartilago humano. Sobre si el hormigon es un material compuesto, hay debate.</p>"
+        }
+      ]
     },
     {
       "id": 5,
       "nombre": "Biomateriales",
       "icono": "ti-heartbeat",
       "resumen": "Biomateriales metalicos, ceramicos y polimericos.",
-      "estado": "pendiente",
-      "secciones": []
+      "estado": "completo",
+      "secciones": [
+        {
+          "id": "clasif-bio",
+          "titulo": "Clasificacion de los biomateriales",
+          "html": "<p>Se dividen en <strong>naturales</strong> (gelatina, quitina y quitosano, colageno, matriz...) y <strong>artificiales</strong>: metalicos, ceramicos, polimericos y compuestos.</p><table class=\"tabla\"><thead><tr><th>Familia</th><th>Ejemplos</th></tr></thead><tbody><tr><td>Metalicos</td><td>Base Fe (aceros inox), Base Ti (Ti6Al4V), Base Co (CoCrMo), otras bases (nitinol, oro, amalgama)</td></tr><tr><td>Ceramicos</td><td>Fuertes (alumina, circona, carbon pirolitico, porcelana), bioactivos (bioglass), reabsorbibles (hidroxiapatita, coral, fosfato tricalcico)</td></tr><tr><td>Polimericos</td><td>Cemento oseo, biodegradables (PLA, PGA), bioestables (rigidos, elastomeros, hidrogeles)</td></tr></tbody></table>"
+        },
+        {
+          "id": "metalicos",
+          "titulo": "Biomateriales metalicos",
+          "html": "<p>Aportan componente estructural para soportar cargas, buenas propiedades mecanicas y resistencia a la corrosion en el organismo, y facil conformado.</p><h4>Aceros inoxidables (base Fe)</h4><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><table class=\"tabla\"><thead><tr><th>Tipo</th><th>% de carbono</th></tr></thead><tbody><tr><td>Austenitico</td><td>&le; 0,08 %</td></tr><tr><td>Ferritico</td><td>&le; 0,08 %</td></tr><tr><td>Martensitico</td><td>0,1 - 1,2 %</td></tr></tbody></table></div><h4>Titanio (base Ti)</h4><p>El biomaterial de titanio mas utilizado es el <strong>Ti6Al4V (norma F136)</strong>: 90% titanio, 6% aluminio y 4% vanadio. Se usa en protesis e implantes dentales.</p><h4>Otras bases</h4><ul><li><strong>Nitinol:</strong> stents coronarios, por su memoria de forma.</li><li><strong>Oro:</strong> odontologia, medicamentos contra celulas cancerigenas y radioterapia.</li><li><strong>Amalgama:</strong> relleno de caries; composicion 50% Hg, 35% Ag, 15% Sn.</li></ul>"
+        },
+        {
+          "id": "ceramicos",
+          "titulo": "Biomateriales ceramicos",
+          "html": "<h4>Fuertes (inertes)</h4><p>Alumina (Al2O3), circona, carbon pirolitico y porcelana. La <strong>alumina</strong> se usa en protesis de cabeza de femur, tornillos y placas de hueso, coronas y puentes.</p><h4>Bioactivos</h4><p>El <strong>bioglass</strong> es un material bioactivo que interactua con los tejidos y promueve la regeneracion osea. Composicion: 25% Na2O, 24% CaO, 6% MgO-P2O5 y 45% SiO2. Se usa en implantes dentales, protesis oseas y recubrimientos de implantes metalicos.</p><h4>Reabsorbibles</h4><p>La <strong>hidroxiapatita</strong> se usa en recubrimientos porosos y relleno de hueso; el fosfato tricalcico es precursor de la hidroxiapatita; tambien se emplea el coral.</p>"
+        },
+        {
+          "id": "polimericos-bio",
+          "titulo": "Biomateriales polimericos",
+          "html": "<ul><li><strong>Cemento oseo.</strong></li><li><strong>Biodegradables:</strong> acido polilactico (PLA) y su hermano, el acido poliglicolico (PGA).</li><li><strong>Bioestables rigidos:</strong> PET, PTFE, UHMWPE, PVC.</li><li><strong>Elastomeros:</strong> poliuretano y silicona.</li><li><strong>Hidrogeles:</strong> PHEMA.</li></ul><div class=\"caja-examen\"><span class=\"caja-examen__tag\">Suele caer</span><p>Las <strong>lentes de contacto</strong> se hacen de hidrogeles como el <strong>PHEMA</strong>, por su gran hidrofilicidad, tacto suave y consistencia elastica. El <strong>PTFE</strong> como biomaterial se usa para recubrir nervios y evitar conexiones no deseadas.</p></div>"
+        },
+        {
+          "id": "tendencias-bio",
+          "titulo": "Tendencias actuales",
+          "html": "<ul><li>Bioimpresoras 3D.</li><li>Primer ojo artificial esferico del mundo con retina 3D.</li><li>Filamento biodegradable para impresion 3D a partir de un componente presente en las algas.</li><li>Primera superficie de lengua biomimetica impresa en 3D para investigacion bucal.</li><li>Exoesqueletos de rehabilitacion de codigo abierto.</li></ul>"
+        }
+      ]
     },
     {
       "id": 6,
